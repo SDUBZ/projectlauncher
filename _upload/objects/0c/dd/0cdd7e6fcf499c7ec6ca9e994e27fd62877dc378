@@ -1,0 +1,92 @@
+[{
+  "type": "forge:ore_shaped",
+  "group": "json.recipes",
+  "result": { "item": "earthworks:block_thatch" },
+  "pattern": [
+    "xxx",
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": { 
+	  "item": "minecraft:wheat" }
+  }
+}, {
+  "type": "forge:ore_shaped",
+  "group": "json.recipes",
+  "result": { "item": "minecraft:cactus", "data": 0, "count": 2 },
+  "pattern": [
+    "   ",
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": { 
+	  "item": "quark:reed_block", "data": 0 }
+  }
+}, {
+  "type": "forge:ore_shaped",
+  "group": "json.recipes",
+  "result": { "item": "eggs:item_food_eggs_fried", "data": 0, "count": 2 },
+  "pattern": [
+    "   ",
+    " x ",
+    "   "
+  ],
+  "key": {
+    "x": { 
+	  "item": "birdsfoods:cooked_egg", "data": 0 }
+  }
+}, {
+  "type": "forge:ore_shaped",
+  "group": "json.recipes",
+  "result": { "item": "solidxp:solidxp", "data": 0, "count": 4 },
+  "pattern": [
+    "   ",
+    "   ",
+    " x "
+  ],
+  "key": {
+    "x": { "item": "actuallyadditions:item_solidified_experience", "data": 0 
+	}
+  }
+}, {
+  "type": "forge:ore_shaped",
+  "group": "json.recipes",
+  "result": { "item": "thermalfoundation:material", "data": 2051 },
+  "pattern": [
+    "   ",
+    "   ",
+    " x "
+  ],
+  "key": {
+    "x": { "item": "minecraft:blaze_powder", "data": 0 
+	}
+  }
+}, {
+  "type": "forge:ore_shaped",
+  "group": "json.recipes",
+  "result": { "item": "nex:block_glass_soul", "data": 0 },
+  "pattern": [
+    "   ",
+    " x ",
+    "   "
+  ],
+  "key": {
+    "x": { 
+	  "item": "minecraft:soul_sand", "data": 0 }
+  }
+}, { 	
+  "type": "forge:ore_shaped",
+  "group": "json.recipes",
+  "result": { "item": "nex:item_dust_wither", "data": 0, "count": 2 },
+  "pattern": [
+    "   ",
+    "  x",
+    "  x"
+  ],
+  "key": {
+    "x": { 
+	  "item": "darkutils:material", "data": 0 }
+  }
+}]

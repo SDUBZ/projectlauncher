@@ -1,0 +1,9 @@
+# Configuration file
+
+swh65458 {
+    B:AutoAdd=false
+    S:"Blacklisted Items" <
+     >
+}
+
+

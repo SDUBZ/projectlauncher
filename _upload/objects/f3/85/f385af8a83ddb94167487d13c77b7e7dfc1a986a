@@ -1,0 +1,8 @@
+# Configuration file
+
+recipes {
+    # Enable hard recipe. [default: false]
+    B:EnableHardRecipe=false
+}
+
+

@@ -1,0 +1,27 @@
+{ 
+  "when": "init",
+  "remove": [
+    { "item": "stevescarts:modulecomponents", "data": 43    }
+  ],
+  "add": [
+    {
+      "type": "forge:ore_shaped",
+      "group": "json.recipes",
+      "result": {
+        "comment": "(item output)",
+        "item": "stevescarts:modulecomponents", "data": 43, "count": 12
+      },
+      "pattern": [
+        " x ",
+        " x ",
+        "   "
+      ],
+      "comment": "(ingredient used for crafting)",
+      "key": {
+        "x": {
+          "item": "minecraft:string"
+        }
+      }
+    }
+  ]
+}

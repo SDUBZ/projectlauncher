@@ -1,0 +1,14 @@
+# Configuration file
+
+client {
+    # Command blocks are available in redstone creative tab. [default: true]
+    B:commandBlockCreativeTab=false
+
+    #  [default: true]
+    B:energyConfigHint=false
+
+    #  [default: true]
+    B:showEnergy=false
+}
+
+

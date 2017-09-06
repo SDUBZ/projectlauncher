@@ -1,0 +1,71 @@
+# Configuration file
+
+camera {
+    # Allows you to rebind camera command's name (requires game reload to take effect) [default: camera]
+    S:camera_command_name=camera
+
+    # Write ticks to the log during camera playback [default: false]
+    B:camera_debug_ticks=false
+
+    # What is default duration of the camera fixture (in ticks) [range: 1 ~ 1000, default: 30]
+    I:camera_duration=30
+
+    # What is default step to use when adding or reducing duration of the camera fixture (in ticks) [range: 1 ~ 100, default: 10]
+    I:camera_duration_step=10
+
+    # Interpolate target based camera fixtures (follow and look) outcome [default: false]
+    B:camera_interpolate_target=false
+
+    # Interpolation value for target based camera fixture interpolation [range: 0.0 ~ 1.0, default: 0.5]
+    S:camera_interpolate_target_value=0.5
+
+    # Activate Minema recording on camera start and deactivate on camera stop [default: false]
+    B:camera_minema=false
+
+    # Default interpolation method for path fixture [default: linear]
+    S:camera_path_default_interp=linear
+
+    # Camera rotate factor for rotate keys [range: 0.0 ~ 10.0, default: 0.1]
+    S:camera_rotate_factor=0.1
+
+    # Simulate player's velocity during camera playback (see legs in perspective) [default: false]
+    B:camera_simulate_velocity=false
+
+    # Switch to spectator mode when starting camera playback [default: true]
+    B:camera_spectator=true
+
+    # Camera step factor for step keys [range: 0.0 ~ 10.0, default: 0.01]
+    S:camera_step_factor=0.01
+
+    # Render a custom mouse pointer in GUIs [default: false]
+    B:gui_render_mouse=false
+}
+
+
+smooth {
+    # Clip smooth camera's pitch between -90 and 90 degrees range? [default: true]
+    B:camera_smooth_clamp=true
+
+    # FOV acceleration friction (how fast it slows down) [range: 0.0 ~ 0.99999, default: 0.985]
+    S:fov_friction=0.985
+
+    # FOV acceleration speed [range: 0.0 ~ 10.0, default: 0.075]
+    S:fov_speed=0.075
+
+    # Smooth mouse X friction [range: 0.0 ~ 1.0, default: 0.92]
+    S:mouse_x_friction=0.92
+
+    # Smooth mouse Y friction [range: 0.0 ~ 1.0, default: 0.92]
+    S:mouse_y_friction=0.92
+
+    # Roll acceleration friction (how fast it slows down) [range: 0.0 ~ 0.99999, default: 0.985]
+    S:roll_friction=0.985
+
+    # Roll acceleration speed [range: 0.0 ~ 10.0, default: 0.01]
+    S:roll_speed=0.01
+
+    # Enable smooth camera [default: false]
+    B:smooth_enabled=false
+}
+
+
