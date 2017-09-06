@@ -1,0 +1,23 @@
+# Configuration file
+
+debug {
+    # Setting to false will cause no trees to generate.
+    B:shouldGenTrees=true
+
+    # Setting to true will cause all land hexes to generated stripped.
+    B:shouldStripChunks=false
+}
+
+
+engine {
+    # Maximum number of neighboring islands that can be pregenerated at once. Setting this higher may reduce performance.
+    I:maxThreadsForIslandGen=1
+}
+
+
+game {
+    # This is how many in-game hours torches will last before burning out. Set to 0 for infinitely burning torches.
+    I:torchBurnTime=48
+}
+
+

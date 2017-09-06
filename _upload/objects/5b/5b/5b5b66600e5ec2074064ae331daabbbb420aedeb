@@ -1,0 +1,12 @@
+# Configuration file
+
+general {
+    # If true, the prismarine torch will not break when placed in water.
+    B:"Prismarine Works Underwater"=true
+
+    # If true, the light level of the vanilla torch will be set to 12 from 14.
+    # This setting also affects the light level of the stone torch.
+    B:"Reduce Default Torch Light"=true
+}
+
+

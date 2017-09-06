@@ -1,0 +1,5 @@
+# CREATED USING EXTERNAL TWEAKER
+recipes.removeShaped(<projecte:relay_mk3>);
+recipes.removeShaped(<projecte:relay_mk2>);
+recipes.removeShaped(<projecte:relay_mk1>);
+

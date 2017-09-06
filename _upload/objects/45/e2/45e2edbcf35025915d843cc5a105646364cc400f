@@ -1,0 +1,62 @@
+# Configuration file
+
+##########################################################################################################
+# blacklist for blocks
+#--------------------------------------------------------------------------------------------------------#
+# Terms for blacklisting blocks from receiving torches
+##########################################################################################################
+
+"blacklist for blocks" {
+    # List of terms that, if found in the registry name of the block you are clicking on, will not allow torch placement on the block when right clicking [default: anvil,bed,bench,chest,door,furnace,gate,shelf,table,wood]
+    S:blockTerms=anvil,bed,bench,door,gate,shelf,table,wood
+}
+
+
+##########################################################################################################
+# blacklist for dirt tools
+#--------------------------------------------------------------------------------------------------------#
+# Terms for blacklisting tools that mine dirt blocks from placing torches
+##########################################################################################################
+
+"blacklist for dirt tools" {
+    # List terms separated by comma that, if found in the registry name of a tool, will disable torch placement on dirt blocks [default: excavator,hammer,hoe,mattock,scythe,shovel,spade]
+    S:dirtTools=excavator,hammer,hoe,mattock,scythe,shovel,spade
+}
+
+
+##########################################################################################################
+# blacklist for tool items
+#--------------------------------------------------------------------------------------------------------#
+# Terms for blacklisting tools from placing torches
+##########################################################################################################
+
+"blacklist for tool items" {
+    # List of terms that, if found in the registry name of the item you are clicking with, will disable the item from placing a torch when right clicking [default: clock,compass,flint,label,shears,rod,tag]
+    S:itemTerms=clock,compass,flint,label,shears,rod,tag
+}
+
+
+##########################################################################################################
+# debug mode
+#--------------------------------------------------------------------------------------------------------#
+# Set to true to see debug log messages
+##########################################################################################################
+
+"debug mode" {
+    # Set to true to see debug log messages, false to hide them [default: false]
+    B:debug=false
+}
+
+
+##########################################################################################################
+# mod enabled
+#--------------------------------------------------------------------------------------------------------#
+# Change this to enable/disable the mod
+##########################################################################################################
+
+"mod enabled" {
+    # True to enable mod, false to disable mod [default: true]
+    B:enabled=true
+}
+
+

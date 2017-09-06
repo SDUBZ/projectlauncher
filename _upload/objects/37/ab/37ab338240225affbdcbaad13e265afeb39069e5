@@ -1,0 +1,9 @@
+# Configuration file
+
+general {
+    # List of dimension seeds. [default: ]
+    S:dimension_seeds <
+     >
+}
+
+

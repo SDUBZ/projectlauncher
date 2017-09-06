@@ -1,0 +1,92 @@
+{
+  "entries": [
+    {
+      "item": "earthworks:block_slate|0",
+      "emc": 64
+    },
+    {
+      "item": "earthworks:block_slate_purple|0",
+      "emc": 64
+    },
+    {
+      "item": "chisel:marble2|7",
+      "emc": 64
+    },
+    {
+      "item": "chisel:limestone2|7",
+      "emc": 64
+    },
+    {
+      "item": "earthworks:block_slate_green|0",
+      "emc": 64
+    },
+    {
+      "item": "floricraft:dust_salt|0",
+      "emc": 64
+    },
+    {
+      "item": "chisel:basalt2|7",
+      "emc": 64
+    },
+    {
+      "item": "rustic:slate|0",
+      "emc": 64
+    },
+    {
+      "item": "stupidthings:hidden_light|0",
+      "emc": 64
+    },
+    {
+      "item": "plants:cosmetic_2|12",
+      "emc": 64
+    },
+    {
+      "item": "plants:cosmetic_4|4",
+      "emc": 64
+    },
+    {
+      "item": "floricraft:seed_hemp|0",
+      "emc": 64
+    },
+    {
+      "item": "earthworks:item_chalk|0",
+      "emc": 64
+    },
+    {
+      "item": "rustic:chili_pepper_seeds|0",
+      "emc": 64
+    },
+    {
+      "item": "plants:cosmetic_5|0",
+      "emc": 64
+    },
+    {
+      "item": "biomesoplenty:gem|7",
+      "emc": 64
+    },
+    {
+      "item": "randomthings:beans|0",
+      "emc": 64
+    },
+    {
+      "item": "biomesoplenty:gem|3",
+      "emc": 128
+    },
+    {
+      "item": "biomesoplenty:gem|4",
+      "emc": 128
+    },
+    {
+      "item": "quark:crystal|6",
+      "emc": 128
+    },
+    {
+      "item": "quark:crystal|7",
+      "emc": 128
+    },
+    {
+      "item": "biomesoplenty:stone_formations|0",
+      "emc": 64
+    }
+  ]
+}

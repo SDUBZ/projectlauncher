@@ -1,0 +1,40 @@
+# Configuration file
+
+general {
+    D:DropChance=0.01
+    B:DropStatues=false
+
+    ##########################################################################################################
+    # general
+    #--------------------------------------------------------------------------------------------------------#
+    # General settings
+    ##########################################################################################################
+
+    general {
+        # Setting this to false disables the tier 3 and 4 recipes. (Default: true)
+        B:CraftableInteraction=true
+
+        # The amount of time [in seconds] that you have to wait before being able to interact with the statues (tier 2 and higher)(Default: 60)
+        I:InteractionTimer=60
+
+        # Tier 1 needs to be crafted with Statue Core (Default: true)Disabling this makes tier1 statues drop from mobs.
+        B:NewSystem=true
+
+        # The drop chance of statues when statue drops is true (Default: 0.01) [This option only takes effect when NewSystem is false]
+        D:OldDropChance=0.01
+    }
+
+    ##########################################################################################################
+    # othersettings
+    #--------------------------------------------------------------------------------------------------------#
+    # Other settings
+    ##########################################################################################################
+
+    othersettings {
+        # Changing this changes the stacksize of the mushroom soup (Default: 8)
+        I:SoupStack=8
+    }
+
+}
+
+

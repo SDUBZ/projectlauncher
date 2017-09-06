@@ -1,0 +1,62 @@
+# Configuration file
+
+"config for use with other mods that have biomes" {
+    I:forestBiomes <
+     >
+    I:cricketBiomes <
+     >
+    I:stormBiomes <
+     >
+    I:beachBiomes <
+     >
+    I:moddedJungle <
+     >
+    I:netherDimension <
+     >
+    I:endDimension <
+     >
+    I:overworldDimension <
+     >
+}
+
+
+"genral settings" {
+    B:forceMusic=true
+    B:mode2=false
+    B:useFoliage=true
+}
+
+
+"server settings" {
+    B:useServer=true
+    B:useBlackList=true
+    S:blackListedServers <
+     >
+}
+
+
+"sounds that are enabled" {
+    B:isForestSound=true
+    B:isBeachSound=true
+    B:isJungle=true
+    B:isFireSound=true
+    B:isCricketSound=true
+    B:isWindSound=true
+    B:isForestStormSound=true
+    B:isHellSound=false
+    B:isEndDragon=true
+    B:isWither=true
+    B:isEnd=true
+    B:isShulkerEnd=true
+    B:isEndCity=true
+    B:isStronghold=true
+}
+
+
+volume {
+    I:vboss=100.0
+    I:vpiarate=100.0
+    I:vhell=100.0
+}
+
+

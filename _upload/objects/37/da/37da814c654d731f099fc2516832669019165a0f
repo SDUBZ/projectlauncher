@@ -1,0 +1,23 @@
+# Configuration file
+
+##########################################################################################################
+# general
+#--------------------------------------------------------------------------------------------------------#
+# General configuration for the Enderfuge mod.
+##########################################################################################################
+
+general {
+    # How many ticks an End Crystal will fuel the Enderfuge. [range: 1 ~ 65655, default: 25000]
+    I:"End Crystal Fuel Length"=25000
+
+    # How many ticks an Ender Pearl will fuel the Enderfuge. [range: 1 ~ 65655, default: 1600]
+    I:"Ender Pearl Fuel Length"=1600
+
+    # How many ticks an Eye of Ender will fuel the Enderfuge. [range: 1 ~ 65655, default: 5600]
+    I:"Eye of Ender Fuel Length"=5600
+
+    # How many ticks between a successful smelt. [range: 1 ~ 65655, default: 400]
+    I:"Smelting Time"=400
+}
+
+

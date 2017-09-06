@@ -1,0 +1,89 @@
+	# Configuration file
+
+##########################################################################################################
+# cobblestoneblocks
+#--------------------------------------------------------------------------------------------------------#
+# blocks and there chance to generate on cobblestone-generator
+# D:"block;meta"=chance --> example: D:"lucky:lucky_block;0=3.0" ;)
+# chance of every entry must be different!
+##########################################################################################################
+
+cobblestoneblocks {
+    D:"minecraft:coal_ore;0"=8.0
+    D:"minecraft:diamond_ore;0"=2.2
+    D:"minecraft:emerald_ore;0"=0.5
+    D:"minecraft:glowstone;0"=2.0
+    D:"minecraft:gold_ore;0"=4.0
+    D:"minecraft:iron_ore;0"=2.1
+    D:"minecraft:lapis_ore;0"=3.0
+    D:"minecraft:quartz_ore;0"=2.5
+    D:"minecraft:redstone_ore;0"=5.0
+	D:"minecraft:obsidian;0"=10.0
+	D:"thermalfoundation:ore;0"=6.6
+	D:"thermalfoundation:ore;1"=6.2
+	D:"thermalfoundation:ore;2"=6.1
+	D:"thermalfoundation:ore;3"=6.3
+	D:"thermalfoundation:ore;4"=6.4
+	D:"thermalfoundation:ore;5"=6.5
+	D:"thermalfoundation:ore;8"=6.7
+	D:"thermalfoundation:ore;6"=6.8
+	D:"thermalfoundation:ore;7"=11.2
+	D:"bigreactors:brore;0"=16.9
+	D:"funores:mobore;0"=6.9
+	D:"funores:mobore;1"=7.0
+	D:"funores:mobore;2"=7.1
+	D:"funores:mobore;3"=7.3
+	D:"funores:mobore;4"=7.4
+	D:"funores:mobore;5"=7.5
+	D:"funores:mobore;6"=7.6
+	D:"funores:mobore;7"=7.7
+	D:"funores:mobore;8"=7.8
+	D:"funores:mobore;9"=7.9
+	D:"funores:mobore;10"=11.1
+	D:"funores:mobore;11"=8.1
+	D:"funores:mobore;12"=8.2
+	D:"funores:meatore;0"=9.0
+	D:"funores:meatore;1"=9.1
+	D:"funores:meatore;2"=9.2
+	D:"funores:meatore;3"=9.3
+	D:"funores:meatore;4"=9.4
+	D:"funores:meatore;5"=9.5
+	D:"actuallyadditions:block_misc;3"=11.0
+    D:"quark:reed_block;0"=2.6
+	D:"biomesoplenty:gem_ore;1"=12.0
+	D:"biomesoplenty:gem_ore;2"=12.1
+	D:"biomesoplenty:gem_ore;3"=12.2
+	D:"biomesoplenty:gem_ore;4"=12.3
+	D:"biomesoplenty:gem_ore;5"=12.4
+	D:"biomesoplenty:gem_ore;6"=12.5
+	D:"biomesoplenty:gem_ore;7"=12.6
+	D:"mysticalagriculture:prosperity_;0"=12.8
+}
+
+
+##########################################################################################################
+# stoneblocks
+#--------------------------------------------------------------------------------------------------------#
+# blocks and there chance to generate on stone-generator
+# D:"block;meta"=chance --> example: D:"lucky:lucky_block;0=3.0" ;)
+# chance of every entry must be different!
+##########################################################################################################
+
+stoneblocks {
+    D:"minecraft:clay;0"=10.4
+    D:"minecraft:dirt;2"=10.2
+    D:"minecraft:end_stone;0"=12.9
+    D:"minecraft:grass;0"=10.3
+    D:"minecraft:gravel;0"=10.5
+    D:"minecraft:mossy_cobblestone;0"=75.3
+    D:"minecraft:mycelium;0"=10.1
+    D:"minecraft:netherrack;0"=5.2
+    D:"minecraft:red_sandstone;0"=50.0
+    D:"minecraft:sand;0"=10.9
+    D:"minecraft:sandstone;0"=50.5
+    D:"minecraft:soul_sand;0"=5.1
+    D:"minecraft:stone;1"=75.2
+    D:"minecraft:stone;3"=75.1
+    D:"minecraft:stone;5"=75.0
+}
+

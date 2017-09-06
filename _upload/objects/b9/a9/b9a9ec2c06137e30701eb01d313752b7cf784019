@@ -1,0 +1,156 @@
+{
+  "remove": [
+    { "item": "actuallyadditions:item_wings_of_the_bats", "data": 0    },
+	{ "item": "extrautils2:goldenlasso", "data": 1    },
+	{ "item": "extrautils2:goldenlasso", "data": 0    },
+	{ "item": "extrautils2:angelring", "data": 0    },
+	{ "item": "earthworks:tool_stone_hammer", "meta": 0    },
+	{ "item": "earthworks:tool_iron_hammer", "meta": 0    }
+  ],
+  "add": [
+	{
+      "type": "forge:ore_shaped",
+      "group": "json.recipes",
+      "result": { "item": "actuallyadditions:item_wings_of_the_bats", "data": 0    },
+      "pattern": [
+        "x x",
+        "xxx",
+        " x "
+      ],
+      "key": {
+        "x": { 
+	      "item": "actuallyadditions:item_misc", "data": 15    
+		}
+      }
+    },
+	{
+      "type": "forge:ore_shaped",
+      "group": "json.recipes",
+      "result": { 
+        "comment": "(item output)",
+        "item": "extrautils2:goldenlasso", "data": 0    },
+      "pattern": [
+        " x ",
+        "x x",
+        " x "
+      ],
+      "comment": "(ingredient used for crafting)",
+      "key": {
+        "x": {
+          "item": "minecraft:gold_ingot"
+        }
+      }
+    },
+    {
+      "type": "forge:ore_shaped",
+      "group": "json.recipes",
+      "result": { 
+        "comment": "(item output)",
+        "item": "extrautils2:goldenlasso", "data": 1    },
+      "pattern": [
+        " y ",
+        "yxy",
+        " y "
+      ],
+      "comment": "(ingredient used for crafting)",
+      "key": {
+        "x": {
+          "item": "extrautils2:goldenlasso", "data": 0    },
+		"y": {
+		  "item": "minecraft:coal_block", "data": 0
+        }
+      }
+    },
+	{
+      "type": "forge:ore_shaped",
+      "group": "json.recipes",
+      "result": { 
+        "comment": "(item output)",
+        "item": "doggytalents:doggy_charm", "data": 0    },
+
+      "pattern": [
+        "yyy",
+        "yxy",
+        "yyy"
+      ],
+      "comment": "(ingredient used for crafting)",
+      "key": {
+        "x": {
+          "item": "minecraft:wool", "data": 0    },
+		"y": {
+		  "item": "minecraft:gold_ingot", "data": 0
+        }
+      }
+    },
+	{
+      "type": "forge:ore_shaped",
+      "group": "json.recipes",
+      "result": { 
+        "comment": "(item output)",
+        "item": "earthworks:tool_stone_hammer", "meta": 0    },
+
+      "pattern": [
+        "yyy",
+        "yxy",
+        " x "
+      ],
+      "comment": "(ingredient used for crafting)",
+      "key": {
+        "x": {
+          "item": "minecraft:planks", "data": 0    },
+		"y": {
+		  "item": "minecraft:cobblestone", "data": 0
+        }
+      }
+    },
+	{
+      "type": "forge:ore_shaped",
+      "group": "json.recipes",
+      "result": { 
+        "comment": "(item output)",
+        "item": "earthworks:tool_iron_hammer", "meta": 0    },
+
+      "pattern": [
+        "yyy",
+        "yxy",
+        " x "
+      ],
+      "comment": "(ingredient used for crafting)",
+      "key": {
+        "x": {
+          "item": "minecraft:planks", "data": 0    },
+		"y": {
+		  "item": "minecraft:iron_ingot", "data": 0
+        }
+      }
+    },
+    {
+      "type": "forge:ore_shaped",
+      "group": "json.recipes",
+      "result": { 
+        "comment": "(item output)",
+        "item": "extrautils2:angelring", "data": 0    },
+      "pattern": [
+        " w ",
+        "a l",
+        "xfy"
+      ],
+      "comment": "(ingredient used for crafting)",
+      "key": {
+        "x": {
+          "item": "extrautils2:goldenlasso", "data": 0    },
+		"y": {
+		  "item": "extrautils2:goldenlasso", "data": 1    },
+		"w": {
+		  "item": "extrautils2:passivegenerator", "data": 3    },
+		"l": {
+		  "item": "extrautils2:passivegenerator", "data": 2    },
+		"a": {
+		  "item": "extrautils2:passivegenerator", "data": 4    },
+		"f": {
+		  "item": "extrautils2:passivegenerator", "data": 5
+        }
+      }
+    }
+  ]
+}

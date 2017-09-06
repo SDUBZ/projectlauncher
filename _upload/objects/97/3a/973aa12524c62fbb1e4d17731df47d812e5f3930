@@ -1,0 +1,10 @@
+# Configuration file
+
+general {
+    # Valid values:
+    # DEFAULT
+    # STEVE
+    S:emoji_set=DEFAULT
+}
+
+

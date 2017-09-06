@@ -1,0 +1,20 @@
+# Configuration file
+
+"###{> blocks <]###" {
+    # Should FAMM Centered HalfBlocks be enabled? [default: true]
+    B:enable_centered_half_blocks=true
+
+    # Should default FAMM Blocks be enabled? [default: true]
+    B:enable_default_blocks=true
+
+    # Should FAMM HalfBlocks be enabled?. [default: true]
+    B:enable_half_blocks=true
+
+    # Should FAMM Slabs be enabled? [default: true]
+    B:enable_slabs=true
+
+    # Should FAMM Tiles be enabled? [default: true]
+    B:enable_tiles=true
+}
+
+

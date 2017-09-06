@@ -1,0 +1,29 @@
+# Configuration file
+
+~CONFIG_VERSION: 1.4.8
+
+general {
+    # Allow commands [default: true]
+    B:allowCommand=true
+
+    # Allow recycler sounds [default: true]
+    B:allowSound=true
+
+    # Chance of only recovery half [range: 0 ~ 100, default: 0]
+    I:chanceLoss=0
+    B:enchantedBooks=true
+
+    # Only use your custom recycling recipes [default: false]
+    B:onlyUserRecipes=false
+
+    # Separate an enchanted book into several books [default: true]
+    B:recycleEnchantedBook=true
+
+    # Extract enchantments from items into an enchanted book [default: true]
+    B:recycleMagicItem=true
+
+    # Add unbalanced recycling recipes [default: false]
+    B:unbalancedRecipes=true
+}
+
+

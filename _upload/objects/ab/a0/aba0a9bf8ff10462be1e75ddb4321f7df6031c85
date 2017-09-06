@@ -1,0 +1,20 @@
+# Configuration file
+
+##########################################################################################################
+# general
+#--------------------------------------------------------------------------------------------------------#
+# General configuration for the CTD Paint mod.
+##########################################################################################################
+
+general {
+    # Set to false if you do not want your paint brushes to run out of paint after a random amount of time. [default: true]
+    B:DoPaintBrushBreak=true
+
+    # If set to false, you won't be notified of an update when you log into a server. [default: true]
+    B:NotifiyUpdate=true
+
+    # How long should it take for your brush to empty? [range: 1 ~ 65655, default: 1024]
+    I:"Paint Brush Durability"=1024
+}
+
+
