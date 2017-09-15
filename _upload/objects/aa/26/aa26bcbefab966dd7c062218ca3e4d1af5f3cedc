@@ -1,0 +1,11 @@
+# Configuration file
+
+general {
+    # Players in this radius will get charged [range: 1 ~ 10000, default: 40]
+    I:Range=10000
+
+    # Energy transfer rate per item [range: 1 ~ 1000000000, default: 30000]
+    I:TransferRate=30000
+}
+
+
