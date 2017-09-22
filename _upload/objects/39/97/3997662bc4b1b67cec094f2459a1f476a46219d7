@@ -1,0 +1,12 @@
+{
+  "entries": [
+    {
+      "item": "minecraft:lava_bucket|0",
+      "emc": 768
+    },
+    {
+      "item": "minecraft:diamond|0",
+      "emc": 8190
+    }
+  ]
+}

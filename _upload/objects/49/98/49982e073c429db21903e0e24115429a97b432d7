@@ -1,0 +1,26 @@
+{
+  "type": "biome_ocean",
+  "domain": "biomesoplenty",
+  "id": 99,
+  "temperature": {
+    "max": 1
+  },
+  "precipitation": 2,
+  "erosion": {
+    "min": 1,
+    "max": 2
+  },
+  "volcanism": {
+    "min": 1,
+    "max": 2
+  },
+  "uplift": {
+    "max": 1
+  },
+  "era": {
+    "max": 1
+  },
+  "elevation": {
+    "max": 1
+  }
+}

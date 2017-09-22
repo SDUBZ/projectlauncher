@@ -1,0 +1,18 @@
+{
+  "type": "biome",
+  "domain": "abyssalcraft",
+  "temperature": 2,
+  "erosion": {
+    "min": 2
+  },
+  "uplift": 1,
+  "volcanism": {
+    "min": 2
+  },
+  "era": {
+    "max": 1
+  },
+  "density": {
+    "min": 2
+  }
+}
