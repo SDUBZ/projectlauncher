@@ -1,0 +1,49 @@
+# Configuration file
+
+~CONFIG_VERSION: 0.1.0
+
+world-1032217947 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=sword
+    B:overlayEnabled=true
+}
+
+
+world1269131565 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=ore
+    B:overlayEnabled=true
+}
+
+
+world2044688 {
+    # Give items instead of showing the recipe.
+    B:cheatItemsEnabled=false
+
+    # Hide and unhide items by clicking them in the item list.
+    B:editEnabled=false
+    S:filterText=last
+
+    # Show the list of items next to open guis.
+    B:overlayEnabled=true
+}
+
+
+world2052702359 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=lead
+    B:overlayEnabled=true
+}
+
+
+world3029776 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=marble
+    B:overlayEnabled=true
+}
+
+
