@@ -1,0 +1,19 @@
+# Configuration file
+
+general {
+    # Items, that get sorted out by the Filtered Quarry [default: [minecraft:cobblestone/*], [minecraft:dirt/*], [minecraft:sand/*], [minecraft:gravel/*], [minecraft:flint/*], [minecraft:sandstone/*], [minecraft:stone/*]]
+    S:filtered <
+        minecraft:cobblestone/*
+        minecraft:dirt/*
+        minecraft:sand/*
+        minecraft:gravel/*
+        minecraft:flint/*
+        minecraft:sandstone/*
+        minecraft:stone/*
+     >
+
+    # Very hard recipes, only for hard men! [default: false]
+    B:hardmode_recipes=false
+}
+
+

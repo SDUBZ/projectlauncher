@@ -1,0 +1,23 @@
+# Configuration file
+
+##########################################################################################################
+# general
+#--------------------------------------------------------------------------------------------------------#
+# General Settings
+##########################################################################################################
+
+general {
+    # Do parrots party when they're flying? [default: true]
+    B:partyWhenFlying=true
+
+    # Do parrots party when they're on your shoulder? [default: true]
+    B:partyWhenOnShoulder=true
+
+    # Do parrots party when they're sitting? [default: false]
+    B:partyWhenSitting=false
+
+    # Do parrots party when they're standing? [default: true]
+    B:partyWhenStill=true
+}
+
+

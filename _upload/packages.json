@@ -2,6 +2,13 @@
   "minimumVersion" : 1,
   "packages" : [
     {
+      "title" : "BUILDTECH LTE 2",
+      "name" : "BUILDTECH LTE 2",
+      "version" : "0.1",
+      "location" : "buildtech-lte-2.json",
+      "priority" : 6
+    },
+    {
       "title" : "A Tuna In A Can Pack 1.12.1(full)",
       "name" : "A Tuna In A Can Pack 1.12.1(full)",
       "version" : "3.7",
