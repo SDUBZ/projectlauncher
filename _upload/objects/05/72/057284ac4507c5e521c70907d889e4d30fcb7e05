@@ -1,0 +1,20 @@
+# Configuration file
+
+general {
+    # Chance for an animal to become a baby animal (default: 50.0)
+    D:chance=50.0
+
+    # Maximum random value to set the baby animals age (default: 24000)
+    I:max_age_ticks=24000
+
+    # Minium random value to set the baby animals age (default: 6000)
+    I:min_age_ticks=6000
+}
+
+
+mod_support {
+    # Whenever the Zombie Chicken should be made baby in the Baby Mobs mod (default: false)
+    B:baby_mobs=false
+}
+
+

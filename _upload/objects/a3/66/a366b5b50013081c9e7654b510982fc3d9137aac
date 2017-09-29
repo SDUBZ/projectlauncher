@@ -1,0 +1,62 @@
+# Configuration file
+
+colors {
+    # Alpha value of the inner tooltip rectangle
+    I:innerA=240
+
+    # Red value of the inner tooltip rectangle
+    I:innerR=16
+
+    # Green value of the inner tooltip rectangle
+    I:innerG=0
+
+    # Blue value of the inner tooltip rectangle
+    I:innerB=16
+
+    # Alpha value of the tooltip border
+    I:outerA=80
+
+    # Red value of the tooltip border
+    I:outerR=80
+
+    # Green value of the tooltip border
+    I:outerG=0
+
+    # Blue value of the tooltip border
+    I:outerB=255
+}
+
+
+keybinds {
+    # Keycode for showing the dragged item
+    I:kDragged=42
+
+    # Keycode for showing the held item
+    I:kHeld=29
+
+    # Keycode for showing the hovered item
+    I:kHovered=56
+}
+
+
+misc {
+    # The max distance between player and item
+    I:reachDistance=6
+}
+
+
+positioning {
+    # Custom X-Position of the tooltip, -1 to disable, -2 to center [range: -2 ~ 5000, default: -1]
+    I:posX=2
+
+    # Custom Y-Position of the tooltip, -1 to disable, -2 to center [range: -2 ~ 5000, default: -1]
+    I:posY=40
+
+    # When true X-Position will count from the left [default: false]
+    B:rightToLeft=false
+
+    # When true Y-Position will count from the bottom [default: false]
+    B:bottomToTop=true
+}
+
+
