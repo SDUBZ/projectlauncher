@@ -1,0 +1,25 @@
+# Configuration file
+
+general {
+    # Tiers for apples
+    S:appleTiers <
+        {"oreName":"blockIron","entry":{"itemLimit":3200,"fluidLimit":32000}}
+        {"oreName":"blockGold","entry":{"itemLimit":25600,"fluidLimit":256000}}
+        {"oreName":"blockDiamond","entry":{"itemLimit":102400,"fluidLimit":1024000}}
+        {"oreName":"netherStar","entry":{"itemLimit":2000000,"fluidLimit":20000000}}
+     >
+
+    # Fluid capacity at the beginning [range: 0 ~ 2147483647, default: 20000]
+    I:fluidCapacity=20000
+
+    # Enable infinite inventory. [default: false]
+    B:infiniteSpace=false
+
+    # Item capacity at the beginning [range: 0 ~ 2147483647, default: 2000]
+    I:itemCapacity=2000
+
+    # Enable remote item to access your inventory without pressing a key. [default: false]
+    B:remote=false
+}
+
+

@@ -1,0 +1,672 @@
+{
+  "entries": [
+    {
+      "item": "minecraft:lava_bucket|0",
+      "emc": 768
+    },
+    {
+      "item": "minecraft:diamond|0",
+      "emc": 8190
+    },
+    {
+      "item": "thermaldynamics:duct_0|2",
+      "emc": 586
+    },
+    {
+      "item": "extrautils2:decorativesolid|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:marble2|7",
+      "emc": 1
+    },
+    {
+      "item": "extrautils2:chunkloader|0",
+      "emc": 20000
+    },
+    {
+      "item": "draconicevolution:draconium_ingot|0",
+      "emc": 100000
+    },
+    {
+      "item": "botania:livingrock|0",
+      "emc": 4
+    },
+    {
+      "item": "botania:manaresource|1",
+      "emc": 1048
+    },
+    {
+      "item": "botania:manaresource|2",
+      "emc": 8200
+    },
+    {
+      "item": "thermalfoundation:material|2049",
+      "emc": 65
+    },
+    {
+      "item": "thermalfoundation:material|772",
+      "emc": 65
+    },
+    {
+      "item": "thermalfoundation:material|1025",
+      "emc": 195
+    },
+    {
+      "item": "thermalfoundation:material|1024",
+      "emc": 928
+    },
+    {
+      "item": "chisel:basalt2|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:limestone2|7",
+      "emc": 1
+    },
+    {
+      "item": "actuallyadditions:item_misc|5",
+      "emc": 64
+    },
+    {
+      "item": "appliedenergistics2:material|10",
+      "emc": 640
+    },
+    {
+      "item": "appliedenergistics2:material|12",
+      "emc": 640
+    },
+    {
+      "item": "appliedenergistics2:material|17",
+      "emc": 8200
+    },
+    {
+      "item": "appliedenergistics2:material|16",
+      "emc": 1024
+    },
+    {
+      "item": "appliedenergistics2:material|20",
+      "emc": 200
+    },
+    {
+      "item": "appliedenergistics2:material|24",
+      "emc": 8464
+    },
+    {
+      "item": "appliedenergistics2:material|18",
+      "emc": 2200
+    },
+    {
+      "item": "appliedenergistics2:material|22",
+      "emc": 2464
+    },
+    {
+      "item": "appliedenergistics2:material|23",
+      "emc": 1288
+    },
+    {
+      "item": "appliedenergistics2:smooth_sky_stone_block|0",
+      "emc": 64
+    },
+    {
+      "item": "extrautils2:ingredients|9",
+      "emc": 4800
+    },
+    {
+      "item": "actuallyadditions:item_solidified_experience|0",
+      "emc": 1000
+    },
+    {
+      "item": "extrautils2:decorativesolidwood|1",
+      "emc": 2800
+    },
+    {
+      "item": "extrautils2:goldenlasso|0",
+      "emc": 19804
+    },
+    {
+      "item": "mekanism:enrichedalloy|0",
+      "emc": 320
+    },
+    {
+      "item": "actuallyadditions:item_crystal|3",
+      "emc": 128
+    },
+    {
+      "item": "actuallyadditions:item_crystal|1",
+      "emc": 864
+    },
+    {
+      "item": "actuallyadditions:item_crystal|2",
+      "emc": 8190
+    },
+    {
+      "item": "actuallyadditions:item_crystal|5",
+      "emc": 256
+    },
+    {
+      "item": "actuallyadditions:item_crystal|4",
+      "emc": 16384
+    },
+    {
+      "item": "thermaldynamics:duct_0|5",
+      "emc": 7958
+    },
+    {
+      "item": "mekanism:salt|0",
+      "emc": 64
+    },
+    {
+      "item": "environmentaltech:erodium_crystal|0",
+      "emc": 8100
+    },
+    {
+      "item": "animania:salt|0",
+      "emc": 64
+    },
+    {
+      "item": "natura:overworld_seeds|0",
+      "emc": 16
+    },
+    {
+      "item": "natura:overworld_seeds|1",
+      "emc": 16
+    },
+    {
+      "item": "environmentaltech:kyronite_crystal|0",
+      "emc": 32000
+    },
+    {
+      "item": "environmentaltech:pladium_crystal|0",
+      "emc": 48600
+    },
+    {
+      "item": "actuallyadditions:item_crystal_empowered|3",
+      "emc": 177
+    },
+    {
+      "item": "actuallyadditions:item_crystal_empowered|2",
+      "emc": 8302
+    },
+    {
+      "item": "actuallyadditions:item_crystal_empowered|1",
+      "emc": 2068
+    },
+    {
+      "item": "actuallyadditions:item_crystal|0",
+      "emc": 64
+    },
+    {
+      "item": "actuallyadditions:item_crystal_empowered|0",
+      "emc": 161
+    },
+    {
+      "item": "mekanism:reinforcedalloy|0",
+      "emc": 8510
+    },
+    {
+      "item": "mekanism:otherdust|5",
+      "emc": 8254
+    },
+    {
+      "item": "mekanism:atomicalloy|0",
+      "emc": 16764
+    },
+    {
+      "item": "mekanism:controlcircuit|0",
+      "emc": 576
+    },
+    {
+      "item": "mekanism:enrichediron|0",
+      "emc": 384
+    },
+    {
+      "item": "mekanism:ingot|4",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|160",
+      "emc": 512
+    },
+    {
+      "item": "armorplus:steel_ingot|0",
+      "emc": 512
+    },
+    {
+      "item": "mekanism:ingot|0",
+      "emc": 8766
+    },
+    {
+      "item": "mekanism:ingot|3",
+      "emc": 896
+    },
+    {
+      "item": "harvestcraft:soybeanitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:silkentofuitem|0",
+      "emc": 32
+    },
+    {
+      "item": "harvestcraft:firmtofuitem|0",
+      "emc": 64
+    },
+    {
+      "item": "harvestcraft:chilipepperitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:blackpepperitem|0",
+      "emc": 32
+    },
+    {
+      "item": "harvestcraft:peppercornitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:blackberryitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:blueberryitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:candleberryitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:raspberryitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:strawberryitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:cactusfruititem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:asparagusitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:barleyitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:oatsitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:ryeitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:cornitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:bambooshootitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:cantaloupeitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:cucumberitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:wintersquashitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:zucchiniitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:beetitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:onionitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:parsnipitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:peanutitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:radishitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:rutabagaitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:sweetpotatoitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:turnipitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:rhubarbitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:celeryitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:garlicitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:gingeritem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:leekitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:caulifloweritem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:broccoliitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:mustardseedsitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:coffeebeanitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:tealeafitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:spiceleafitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:lettuceitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:scallionitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:artichokeitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:brusselsproutitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:cabbageitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:spinachitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:whitemushroomitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:beanitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:bellpepperitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:eggplantitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:okraitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:peasitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:tomatoitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:cottonitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:pineappleitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:grapeitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:papayaitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:cranberryitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:riceitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:seaweeditem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:curryleafitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:sesameseedsitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:waterchestnutitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:dateitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:kiwiitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:cherryitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:figitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:dragonfruititem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:pamapple|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:lemonitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:pearitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:oliveitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:grapefruititem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:pomegranateitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:cashewitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:vanillabeanitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:gooseberryitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:starfruititem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:bananaitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:plumitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:avocadoitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:pecanitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:pistachioitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:limeitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:almonditem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:peachitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:chestnutitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:coconutitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:mangoitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:apricotitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:orangeitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:walnutitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:persimmonitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:nutmegitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:durianitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:cinnamonitem|0",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:maplesyrupitem|0",
+      "emc": 64
+    },
+    {
+      "item": "harvestcraft:freshmilkitem|0",
+      "emc": 200
+    },
+    {
+      "item": "minecraft:milk_bucket|0",
+      "emc": 800
+    },
+    {
+      "item": "harvestcraft:soymilkitem|0",
+      "emc": 200
+    },
+    {
+      "item": "minecraft:potion|0",
+      "emc": 792
+    },
+    {
+      "item": "minecraft:dragon_breath|0",
+      "emc": 32000
+    },
+    {
+      "item": "botania:manaresource|15",
+      "emc": 32000
+    },
+    {
+      "item": "environmentaltech:ionite_crystal|0",
+      "emc": 194400
+    },
+    {
+      "item": "environmentaltech:aethium_crystal|0",
+      "emc": 1944000
+    },
+    {
+      "item": "chiselsandbits:bit_bag|0",
+      "emc": 384
+    }
+  ]
+}
