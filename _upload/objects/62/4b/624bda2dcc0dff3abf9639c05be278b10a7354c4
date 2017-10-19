@@ -1,0 +1,21 @@
+#Name : stevecart.zs
+#Author: FTB for conduit only!
+#Co-Author : TrilexCom
+
+recipes.remove(<stevescarts:modulecomponents:1>);
+recipes.addShaped(<stevescarts:modulecomponents:1>,
+ [[null, <ic2:plate:3>, null],
+  [<ic2:plate:3>, <teslacorelib:gear_stone>, <ic2:plate:3>],
+  [null, <ic2:plate:3>, null]]);
+  
+recipes.remove(<stevescarts:blockcartassembler>);
+recipes.addShaped(<stevescarts:blockcartassembler>,
+ [[<ic2:plate:7>, <extratrees:hammer>, <ic2:plate:7>],
+  [<ic2:plate:7>, <ic2:resource:12>, <ic2:plate:7>],
+  [<stevescarts:modulecomponents:9>, <ic2:crafting:6>, <stevescarts:modulecomponents:9>]]); 
+
+recipes.remove(<stevescarts:cartmodule:38>);
+recipes.addShaped(<stevescarts:cartmodule:38>,
+ [[<ic2:plate:7>, null, <ic2:plate:7>],
+  [<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>],
+  [<stevescarts:modulecomponents:1>, null, <stevescarts:modulecomponents:1>]]);   

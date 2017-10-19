@@ -1,0 +1,60 @@
+#Name : ie.zs
+#Author : TrilexCom
+
+mods.immersiveengineering.AlloySmelter.addRecipe(<ic2:crafting>, <ic2:misc_resource:4>, <magneticraft:crafting>, 40);
+
+
+recipes.remove(<immersiveengineering:material:8>);
+recipes.remove(<immersiveengineering:material:9>);
+recipes.remove(<immersiveengineering:material:27>);
+recipes.remove(<immersiveengineering:bullet>);
+
+#disable all plates recipes
+recipes.remove(<immersiveengineering:metal:32>);
+recipes.remove(<immersiveengineering:metal:30>);
+recipes.remove(<immersiveengineering:metal:39>);
+recipes.remove(<immersiveengineering:metal:38>);
+recipes.remove(<immersiveengineering:metal:40>);
+recipes.remove(<immersiveengineering:metal:33>);
+recipes.remove(<immersiveengineering:metal:35>);
+recipes.remove(<immersiveengineering:metal:34>);
+recipes.remove(<immersiveengineering:metal:36>);
+recipes.remove(<immersiveengineering:metal:37>);
+
+recipes.remove(<immersiveengineering:wooden_device1>);
+recipes.addShaped(<immersiveengineering:wooden_device1>,
+ [[null,<immersiveengineering:material:10>, null],
+  [<immersiveengineering:material:10>, <ic2:crafting:30>, <immersiveengineering:material:10>],
+  [null, <immersiveengineering:material:10>, null]]);
+  
+recipes.remove(<immersiveengineering:wooden_device1:1>);
+recipes.addShaped(<immersiveengineering:wooden_device1:1>,
+ [[null,<immersiveengineering:material:11>, null],
+  [<immersiveengineering:material:11>, <ic2:crafting:29>, <immersiveengineering:material:11>],
+  [null, <immersiveengineering:material:11>, null]]);
+
+# changing IE Blast furance recipe 
+recipes.remove(<immersiveengineering:stone_decoration:1>);
+recipes.addShaped(<immersiveengineering:stone_decoration:1> *3,
+ [[<minecraft:netherbrick>,<ic2:te:46>, <minecraft:netherbrick>],
+  [<ic2:te:46>, <ic2:misc_resource:5>, <ic2:te:46>],
+  [<minecraft:netherbrick>, <ic2:te:46>, <minecraft:netherbrick>]]);
+    
+#coke oven recipe change
+  
+recipes.remove(<immersiveengineering:stone_decoration>);  
+recipes.addShaped(<immersiveengineering:stone_decoration> *3,
+ [[<forestry:ash_brick>,<minecraft:furnace>, <forestry:ash_brick>],
+  [<minecraft:furnace>, <ore:sandstone>, <minecraft:furnace>],
+  [<forestry:ash_brick>, <minecraft:furnace>, <forestry:ash_brick>]]);
+
+#Remove concrete recipe so people have to use mixer to make concrete
+recipes.remove(<immersiveengineering:stone_decoration:5>);
+
+#Kiln new recipe
+recipes.remove(<immersiveengineering:stone_decoration:10>);
+recipes.addShaped(<immersiveengineering:stone_decoration:10> *2,
+ [[<tconstruct:firewood>,<ore:sandstone>, <tconstruct:firewood>],
+  [<minecraft:brick>, <minecraft:furnace>, <minecraft:brick>],
+  [<tconstruct:firewood>, <ore:sandstone>, <tconstruct:firewood>]]);
+  

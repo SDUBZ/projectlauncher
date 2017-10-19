@@ -1,0 +1,30 @@
+#Name : pm.zs
+#Author: FTB for conduit only!
+#Co-Author : TrilexCom
+
+recipes.addShapeless(<primal:planks:7> * 2, [<primal:logs:1>]);
+recipes.addShapeless(<primal:planks:6> * 2, [<primal:logs>]);
+
+recipes.remove(<primal:wheat_ground>);
+
+#removing all primal plates
+
+recipes.remove(<primal:iron_plate>);
+recipes.remove(<primal:gold_plate>);
+recipes.remove(<primal:pigiron_plate>);
+recipes.remove(<primal:lead_plate>);
+recipes.remove(<primal:silver_plate>);
+recipes.remove(<primal:zinc_plate>);
+recipes.remove(<primal:tamahagane_plate>);
+recipes.remove(<primal:carbon_plate>);
+recipes.remove(<primal:steel_plate>);
+recipes.remove(<primal:vanadium_plate>);
+recipes.remove(<primal:bronze_plate>);
+recipes.remove(<primal:tin_plate>);
+recipes.remove(<primal:copper_plate>);
+recipes.remove(<primal:brass_plate>);
+recipes.remove(<primal:obsidian_shard>);
+  
+
+    
+  

@@ -1,0 +1,39 @@
+#Name : tr.zs
+#Author : TrilexCom
+
+recipes.remove(<techreborn:machine_frame>);
+
+recipes.remove(<techreborn:part:30>);
+recipes.remove(<techreborn:part:29>);
+
+val trcontrolcircuit = <ore:circuitAdvanced>;  
+trcontrolcircuit.remove(<techreborn:part:30>);
+
+val trcontrolcircuits = <ore:circuitBasic>;  
+trcontrolcircuits.remove(<techreborn:part:29>);
+
+val trbasicmachineframe = <ore:machineBlockBasic>;  
+trbasicmachineframe.remove(<techreborn:machine_frame>);
+
+val trrebattery = <ore:reBattery>;  
+trrebattery.remove(<techreborn:rebattery>);
+
+recipes.remove(<techreborn:rebattery>);
+
+recipes.remove(<techreborn:refined_iron_fence>);
+
+val trenergycrystal = <ore:energyCrystal>;  
+trenergycrystal.remove(<techreborn:energycrystal>);
+
+val trenergycrystal1 = <ore:lapotronCrystal>;  
+trenergycrystal1.remove(<techreborn:lapotroncrystal>);
+
+recipes.remove(<techreborn:grinder>);
+recipes.addShaped(<techreborn:grinder>,
+ [[<minecraft:flint>, <ic2:block_cutting_blade:2>, <minecraft:flint>],
+  [<ore:cobblestone>, <ic2:resource:12>, <ore:cobblestone>],
+  [null, <ic2:crafting:1>, null]]); 
+
+
+
+

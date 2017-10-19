@@ -1,0 +1,9 @@
+#Name : gendustry.zs
+#Author: FTB for conduit only!
+#Co-Author : TrilexCom
+
+recipes.remove(<gendustry:power_module>);
+recipes.addShaped(<gendustry:power_module>,
+ [[<ore:gearBronze>, <ic2:plate:2>, <ore:gearBronze>],
+  [<minecraft:piston>, <minecraft:redstone>, <minecraft:piston>],
+  [<ore:gearBronze>, <forestry:royal_jelly>, <ore:gearBronze>]]);

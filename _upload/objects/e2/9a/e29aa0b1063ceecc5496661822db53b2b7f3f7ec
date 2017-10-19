@@ -1,0 +1,19 @@
+#Name : hc.zs
+#Author : TrilexCom
+
+recipes.remove(<storagenetwork:master>);
+recipes.addShaped(<storagenetwork:master>,
+ [[<actuallyadditions:block_testifi_bucks_white_wall>,<storagenetwork:kabel>, <actuallyadditions:block_testifi_bucks_white_wall>],
+  [<storagenetwork:kabel>, <forestry:thermionic_tubes:5>, <storagenetwork:kabel>],
+  [<actuallyadditions:block_testifi_bucks_white_wall>, <storagenetwork:kabel>, <actuallyadditions:block_testifi_bucks_white_wall>]]);
+  
+recipes.remove(<storagenetwork:kabel>);
+recipes.addShaped(<storagenetwork:kabel> *3,
+ [[<minecraft:stone_slab>,<minecraft:stone_slab>, <minecraft:stone_slab>],
+  [<actuallyadditions:item_crystal>, <minecraft:iron_ingot>, <actuallyadditions:item_crystal>],
+  [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]]);
+  
+  
+  
+  
+  

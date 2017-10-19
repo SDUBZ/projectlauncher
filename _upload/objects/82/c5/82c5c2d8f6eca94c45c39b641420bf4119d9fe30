@@ -1,0 +1,15 @@
+#Name : pam.zs
+#Author: FTB for conduit only!
+#Co-Author : TrilexCom
+
+recipes.remove(<harvestcraft:wovencottonitem>);
+recipes.addShaped(<harvestcraft:wovencottonitem>,
+ [[<minecraft:string>, <natura:materials:3>, <minecraft:string>],
+  [<natura:materials:3>, <minecraft:string>, <natura:materials:3>],
+  [<minecraft:string>, <natura:materials:3>, <minecraft:string>]]);
+  
+recipes.remove(<harvestcraft:presser>);
+recipes.addShaped(<harvestcraft:presser>,
+ [[<ic2:plate:7>, <minecraft:sticky_piston>, <ic2:plate:7>],
+  [<ic2:plate:7>, null, <ic2:plate:7>],
+  [<ic2:plate:7>, <minecraft:piston>, <ic2:plate:7>]]);  

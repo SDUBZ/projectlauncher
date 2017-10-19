@@ -1,0 +1,12 @@
+#Name : hc.zs
+#Author : TrilexCom
+
+recipes.remove(<hammercore:iron_gear>);
+recipes.addShaped(<hammercore:iron_gear>,
+ [[null,<ic2:plate:3>, null],
+  [<ic2:plate:3>, <ore:gearStone>, <ic2:plate:3>],
+  [null, <ic2:plate:3>, null]]);
+
+  
+  
+  

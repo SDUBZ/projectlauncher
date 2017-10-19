@@ -1,0 +1,41 @@
+# Configuration file
+
+~CONFIG_VERSION: 0.1.0
+
+world-1336863310 {
+    # Give items instead of showing the recipe.
+    B:cheatItemsEnabled=false
+
+    # Hide and unhide items by clicking them in the item list.
+    B:editEnabled=false
+    S:filterText=coke
+
+    # Show the list of items next to open guis.
+    B:overlayEnabled=true
+}
+
+
+world-1589146311 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=@tinker
+    B:overlayEnabled=true
+}
+
+
+world-592073958 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=bucket
+    B:overlayEnabled=true
+}
+
+
+world-78688046 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=wolf
+    B:overlayEnabled=true
+}
+
+

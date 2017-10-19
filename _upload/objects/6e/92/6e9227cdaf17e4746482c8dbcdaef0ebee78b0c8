@@ -1,0 +1,11 @@
+#Name : teslacore.zs
+#Author : TrilexCom
+
+recipes.remove(<teslacorelib:machine_case>);
+recipes.addShaped(<teslacorelib:machine_case>,
+ [[<ic2:plate:3>, <ore:plankWood>, <ic2:plate:3>],
+  [<ore:plankWood>, <thermalexpansion:frame>, <ore:plankWood>],
+  [<ic2:plate:3>, <ore:plankWood>, <ic2:plate:3>]]);
+  
+  
+

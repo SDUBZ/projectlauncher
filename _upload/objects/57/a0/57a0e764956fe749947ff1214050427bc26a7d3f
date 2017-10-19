@@ -1,0 +1,12 @@
+#Name : eu.zs
+#Author : TrilexCom
+
+recipes.remove(<enderutilities:enderpart>);
+recipes.remove(<enderutilities:enderpart:1>);
+recipes.remove(<enderutilities:enderpart:20>);
+
+recipes.remove(<enderutilities:dolly>);
+recipes.addShaped(<enderutilities:dolly>,
+ [[null, null, <enderutilities:enderpart:20>],
+  [null, null, <enderutilities:enderpart:20>],
+  [<minecraft:heavy_weighted_pressure_plate>, <minecraft:heavy_weighted_pressure_plate>, <stevescarts:modulecomponents:23>]]);    

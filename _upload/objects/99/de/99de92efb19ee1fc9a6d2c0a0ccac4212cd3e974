@@ -1,0 +1,15 @@
+#Name : tio.zs
+#Author: FTB for conduit only!
+#Co-Author : TrilexCom
+
+recipes.remove(<tinker_io:smart_output>);
+recipes.addShaped(<tinker_io:smart_output>,
+ [[<tconstruct:seared>, <immersiveengineering:metal_device1:6>, <tconstruct:seared>],
+  [<ore:gearAluminum>, <tconstruct:casting:1>, <ore:gearAluminum>],
+  [<tconstruct:seared>, <immersiveengineering:metal_device1:6>, <tconstruct:seared>]]);
+  
+recipes.remove(<tinker_io:fuel_input_machine>);
+recipes.addShaped(<tinker_io:fuel_input_machine>,
+ [[<tconstruct:seared>, <tconstruct:seared>, <tconstruct:seared>],
+  [<tconstruct:seared>, <ic2:crafting:7>, <tconstruct:seared>],
+  [<tconstruct:seared>, <minecraft:furnace>, <tconstruct:seared>]]);  

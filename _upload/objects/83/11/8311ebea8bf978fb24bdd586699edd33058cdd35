@@ -1,0 +1,82 @@
+#Name : ironchest.zs
+#Author: FTB
+#Co-Author: TrilexCom
+
+#Removal of orginal ironchest recipe
+recipes.remove(<ironchest:iron_chest>);
+recipes.remove(<ironchest:iron_chest:1>);
+#recipes.remove(<ironchest:iron_chest:2>);
+recipes.remove(<ironchest:iron_chest:3>);
+recipes.remove(<ironchest:iron_chest:6>);
+recipes.remove(<ironchest:iron_chest:7>);
+
+#New Recipe for Ironchest
+ recipes.addShaped(<ironchest:iron_chest>,
+ [[<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>],
+ [<ic2:plate:3>, <ore:chest>, <ic2:plate:3>],
+ [<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>]]);
+  
+recipes.addShaped(<ironchest:iron_chest:1>,
+ [[<ic2:plate:2>, <ic2:plate:2>, <ic2:plate:2>],
+  [<ic2:plate:2>, <ironchest:iron_chest>, <ic2:plate:2>],
+  [<ic2:plate:2>, <ic2:plate:2>, <ic2:plate:2>]]);
+  
+recipes.addShaped(<ironchest:iron_chest:3>,
+ [[<ic2:plate:1>, <ic2:plate:1>, <ic2:plate:1>],
+ [<ic2:plate:1>, <ore:chest>, <ic2:plate:1>],
+ [<ic2:plate:1>, <ic2:plate:1>, <ic2:plate:1>]]);
+ 
+recipes.addShaped(<ironchest:iron_chest:6>,
+ [[<ic2:plate:6>, <ic2:plate:6>, <ic2:plate:6>],
+ [<ic2:plate:6>, <ironchest:iron_chest:2>, <ic2:plate:6>],
+ [<ic2:plate:6>, <ic2:plate:6>, <ic2:plate:6>]]);
+ 
+ 
+#Iron Chest Upgrade orginal Recipe removal
+recipes.remove(<ironchest:iron_gold_chest_upgrade>);
+recipes.remove(<ironchest:copper_silver_chest_upgrade>);
+recipes.remove(<ironchest:silver_gold_chest_upgrade>);
+recipes.remove(<ironchest:diamond_obsidian_chest_upgrade>);
+recipes.remove(<ironchest:wood_iron_chest_upgrade>);
+recipes.remove(<ironchest:silver_gold_chest_upgrade>);
+recipes.remove(<ironchest:wood_copper_chest_upgrade>);
+recipes.remove(<ironchest:copper_iron_chest_upgrade>);
+
+#New Recipe for Ironchest Upgrade
+recipes.addShaped(<ironchest:wood_iron_chest_upgrade>,
+[[<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>],
+ [<ic2:plate:3>, <ore:plankWood>, <ic2:plate:3>],
+ [<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>]]);
+  
+recipes.addShaped(<ironchest:wood_copper_chest_upgrade>,
+ [[<ic2:plate:1>, <ic2:plate:1>, <ic2:plate:1>],
+ [<ic2:plate:1>, <ore:plankWood>, <ic2:plate:1>],
+  [<ic2:plate:1>, <ic2:plate:1>, <ic2:plate:1>]]);
+  
+recipes.addShaped(<ironchest:diamond_obsidian_chest_upgrade>,
+ [[<ic2:plate:6>, <ic2:plate:6>, <ic2:plate:6>],
+ [<ic2:plate:6>, <ore:gemDiamond>, <ic2:plate:6>],
+ [<ic2:plate:6>, <ic2:plate:6>, <ic2:plate:6>]]);
+ 
+recipes.addShaped(<ironchest:iron_gold_chest_upgrade>,
+ [[<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>],
+ [<ic2:plate:3>, <ic2:plate:2>, <ic2:plate:3>],
+ [<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>]]);
+ 
+recipes.addShaped(<ironchest:copper_silver_chest_upgrade>,
+ [[<immersiveengineering:metal:33>, <immersiveengineering:metal:33>, <immersiveengineering:metal:33>],
+ [<immersiveengineering:metal:33>, <ic2:plate:1>, <immersiveengineering:metal:33>],
+ [<immersiveengineering:metal:33>, <immersiveengineering:metal:33>, <immersiveengineering:metal:33>]]); 
+ 
+recipes.addShaped(<ironchest:silver_gold_chest_upgrade>,
+ [[<immersiveengineering:metal:33>, <immersiveengineering:metal:33>, <immersiveengineering:metal:33>],
+ [<immersiveengineering:metal:33>, <ic2:plate:2>, <immersiveengineering:metal:33>],
+ [<immersiveengineering:metal:33>, <immersiveengineering:metal:33>, <immersiveengineering:metal:33>]]);
+
+recipes.addShaped(<ironchest:copper_iron_chest_upgrade>,
+ [[<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>],
+ [<ic2:plate:3>, <ic2:plate:1>, <ic2:plate:3>],
+ [<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>]]);   
+
+
+

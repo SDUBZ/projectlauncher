@@ -1,0 +1,47 @@
+#Name : te.zs
+#Author : TrilexCom
+
+#Thermal induction recipes for all mods
+
+mods.thermalexpansion.InductionSmelter.addRecipe(<enderutilities:enderpart>, <minecraft:iron_ingot> *4, <minecraft:ender_pearl>, 1500, <thermalfoundation:material>, 20);
+
+mods.thermalexpansion.InductionSmelter.addRecipe(<enderutilities:enderpart:1>, <minecraft:gold_ingot> *4, <minecraft:ender_pearl>, 1500, <thermalfoundation:material:1>, 20);
+
+mods.thermalexpansion.InductionSmelter.addRecipe(<enderutilities:enderpart:20>, <minecraft:stick> *4, <minecraft:ender_pearl>, 1500, <thermalfoundation:material:800>, 20);
+
+mods.thermalexpansion.InductionSmelter.addRecipe(<extrautils2:decorativesolidwood:1>, <minecraft:gold_ingot> *4, <minecraft:bookshelf>, 10000, <thermalfoundation:material:800>, 20);
+
+mods.thermalexpansion.InductionSmelter.addRecipe(<environmentaltech:litherite_crystal>, <minecraft:diamond>, <actuallyadditions:item_misc:5> *4, 5000, <actuallyadditions:item_dust:7>, 20);
+
+recipes.remove(<thermalexpansion:dynamo>);
+recipes.addShaped(<thermalexpansion:dynamo>,
+ [[null, <thermalfoundation:material:514>, null],
+  [<ore:gearCopper>, <ic2:crafting:35>, <ore:gearCopper>],
+  [<ic2:plate:3>, <actuallyadditions:item_crystal>, <ic2:plate:3>]]);  
+
+recipes.remove(<thermalexpansion:dynamo:3>);
+recipes.addShaped(<thermalexpansion:dynamo:3>,
+ [[null, <thermalfoundation:material:514>, null],
+  [<ore:gearLead>, <ic2:nuclear:2>, <ore:gearLead>],
+  [<ic2:plate:3>, <actuallyadditions:item_crystal>, <ic2:plate:3>]]);
+
+recipes.remove(<thermalexpansion:dynamo:5>);
+recipes.addShaped(<thermalexpansion:dynamo:5>,
+ [[null, <thermalfoundation:material:514>, null],
+  [<ore:gearConstantan>, <thermalfoundation:coin>, <ore:gearConstantan>],
+  [<ic2:plate:3>, <actuallyadditions:item_crystal>, <ic2:plate:3>]]);
+
+recipes.remove(<thermalexpansion:dynamo:4>);
+recipes.addShaped(<thermalexpansion:dynamo:4>,
+ [[null, <thermalfoundation:material:514>, null],
+  [<ore:gearElectrum>, <ic2:energy_crystal:26>, <ore:gearElectrum>],
+  [<ic2:plate:3>, <actuallyadditions:item_crystal>, <ic2:plate:3>]]);
+
+recipes.remove(<thermalexpansion:dynamo:2>);
+recipes.addShaped(<thermalexpansion:dynamo:2>,
+ [[null, <thermalfoundation:material:514>, null],
+  [<ore:gearTin>, <ic2:fluid_cell>, <ore:gearTin>],
+  [<ic2:plate:3>, <actuallyadditions:item_crystal>, <ic2:plate:3>]]);
+
+#Disable any laval power!
+recipes.remove(<thermalexpansion:dynamo:1>);  

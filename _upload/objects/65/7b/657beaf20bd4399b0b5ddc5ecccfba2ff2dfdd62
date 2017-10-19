@@ -1,0 +1,11 @@
+#Name : hc.zs
+#Author : TrilexCom
+
+recipes.remove(<industrialforegoing:dryrubber>);
+
+recipes.addShaped(<industrialforegoing:dryrubber>,
+ [[<industrialforegoing:tinydryrubber>, <thermalfoundation:material:801>, <industrialforegoing:tinydryrubber>],
+ [<industrialforegoing:tinydryrubber>, <forge:bucketfilled>.withTag({FluidName: "tree_oil", Amount: 1000}), <industrialforegoing:tinydryrubber>],
+ [<industrialforegoing:tinydryrubber>, <thermalfoundation:material:801>, <industrialforegoing:tinydryrubber>]]);
+  
+  

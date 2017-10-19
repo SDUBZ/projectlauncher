@@ -1,0 +1,38 @@
+#Name : bigreactors.zs
+#Author: FTB
+#Co-Author: TrilexCOm
+
+recipes.remove(<bigreactors:reactorfuelrod>);
+recipes.addShaped(<bigreactors:reactorfuelrod>,
+ [[<ic2:plate:7>, <ore:ingotGraphite>, <ic2:plate:7>],
+  [<ic2:plate:7>, <ic2:nuclear:10>, <ic2:plate:7>],
+  [<ic2:plate:7>, <ore:ingotGraphite>, <ic2:plate:7>]]);
+  
+recipes.remove(<bigreactors:reactorcasing>);
+recipes.addShaped(<bigreactors:reactorcasing>,
+ [[<ic2:plate:7>, <ore:ingotGraphite>, <ic2:plate:7>],
+  [<ore:ingotGraphite>, <bigreactors:reactorcasingcores>, <ore:ingotGraphite>],
+  [<ic2:plate:7>, <ore:ingotGraphite>, <ic2:plate:7>]]);
+  
+recipes.remove(<bigreactors:turbinerotorshaft>);
+recipes.addShaped(<bigreactors:turbinerotorshaft>,
+ [[null, null, null],
+  [<ore:ingotIridium>, <ore:ingotCyanite>, <ore:ingotIridium>],
+  [null, null, null]]);
+  
+recipes.remove(<bigreactors:turbinerotorblade>);
+recipes.addShaped(<bigreactors:turbinerotorblade>,
+ [[null, null, null],
+  [<ore:ingotCyanite>, <ore:ingotIridium>, <ore:ingotIridium>],
+  [null, null, null]]);
+  
+recipes.remove(<bigreactors:reactorcontroller>);
+recipes.addShaped(<bigreactors:reactorcontroller>,
+ [[<bigreactors:reactorcasing>, <techreborn:computer_cube>, <bigreactors:reactorcasing>],
+  [<ore:ingotUranium>, <ore:gemDiamond>, <ore:ingotUranium>],
+  [<bigreactors:reactorcasing>, <ore:ingotGraphite>, <bigreactors:reactorcasing>]]);
+  
+val bgblue = <ore:ingotPlutonium>;  
+bgblue.remove(<bigreactors:ingotmetals:3>);
+
+ 

@@ -1,0 +1,80 @@
+#Name : ae.zs
+#Author : TrilexCom
+
+mods.techreborn.rollingMachine.addShaped(<appliedenergistics2:material:19>, [[<immersiveengineering:metal:31>, <ore:itemSilicon>, <immersiveengineering:metal:31>],
+  [<ore:itemSilicon>, <ic2:crafting:4>, <ore:itemSilicon>],
+  [<immersiveengineering:metal:31>, <ore:itemSilicon>, <immersiveengineering:metal:31>]]); 
+
+mods.techreborn.rollingMachine.addShaped(<appliedenergistics2:material:13>,  [[<immersiveengineering:metal:31>, <appliedenergistics2:material:10>, <immersiveengineering:metal:31>],
+  [<appliedenergistics2:material:10>, <ic2:crafting:4>, <appliedenergistics2:material:10>],
+  [<immersiveengineering:metal:31>, <appliedenergistics2:material:10>, <immersiveengineering:metal:31>]]);
+  
+mods.techreborn.rollingMachine.addShaped(<appliedenergistics2:material:14>,
+ [[<immersiveengineering:metal:31>, <ore:dustDiamond>, <immersiveengineering:metal:31>],
+  [<ore:dustDiamond>, <ic2:crafting:4>, <ore:dustDiamond>],
+  [<immersiveengineering:metal:31>, <ore:dustDiamond>, <immersiveengineering:metal:31>]]);  
+  
+mods.techreborn.rollingMachine.addShaped(<appliedenergistics2:material:15>,
+ [[<immersiveengineering:metal:31>, <ic2:plate:2>, <immersiveengineering:metal:31>],
+  [<ic2:plate:2>, <ic2:crafting:4>, <ic2:plate:2>],
+  [<immersiveengineering:metal:31>, <ic2:plate:2>, <immersiveengineering:metal:31>]]);
+
+recipes.addShaped(<appliedenergistics2:sky_stone_block>*6,
+ [[<minecraft:obsidian>, <chisel:basalt2:7>, <minecraft:obsidian>],
+  [<minecraft:coal_block>, <extrautils2:compressedcobblestone:1>, <minecraft:coal_block>],
+  [<minecraft:obsidian>, <chisel:basalt2:7>, <minecraft:obsidian>]]);   
+  
+recipes.remove(<appliedenergistics2:material:19>);
+recipes.remove(<appliedenergistics2:material:13>);
+recipes.remove(<appliedenergistics2:material:14>);
+recipes.remove(<appliedenergistics2:material:15>);
+
+furnace.remove(<appliedenergistics2:material:5>);
+
+#wrench
+recipes.remove(<appliedenergistics2:nether_quartz_wrench>);
+recipes.remove(<appliedenergistics2:certus_quartz_wrench>);
+recipes.addShaped(<appliedenergistics2:certus_quartz_wrench>,
+ [[<stevescarts:modulecomponents:49>, <techreborn:part:17>, <stevescarts:modulecomponents:49>],
+  [null, <techreborn:plates:19>, null],
+  [null, <techreborn:plates:19>, null]]);
+
+  
+#energy acceptor/controller
+recipes.remove(<appliedenergistics2:energy_acceptor>);
+recipes.remove(<appliedenergistics2:controller>);
+recipes.addShaped(<appliedenergistics2:energy_acceptor>, [[<ore:ingotIron>, <appliedenergistics2:quartz_glass>, <ore:ingotIron>], [<appliedenergistics2:quartz_glass>, <appliedenergistics2:certus_quartz_wrench>.giveBack(<appliedenergistics2:certus_quartz_wrench>), <appliedenergistics2:quartz_glass>], [<ore:ingotIron>, <appliedenergistics2:quartz_glass>, <ore:ingotIron>]]);
+recipes.addShaped(<appliedenergistics2:controller>, [[<appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:material:12>, <appliedenergistics2:smooth_sky_stone_block>], [<appliedenergistics2:material:24>, <appliedenergistics2:certus_quartz_wrench>.giveBack(<appliedenergistics2:certus_quartz_wrench>), <appliedenergistics2:material:24>], [<appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:material:12>, <appliedenergistics2:smooth_sky_stone_block>]]);
+
+#energy cells
+recipes.remove(<appliedenergistics2:energy_cell>);
+recipes.addShaped(<appliedenergistics2:energy_cell>, [[<appliedenergistics2:material>, <ore:dustFluix>, <ore:crystalCertusQuartz>], [<ore:dustFluix>, <appliedenergistics2:certus_quartz_wrench>.giveBack(<appliedenergistics2:certus_quartz_wrench>), <ore:dustFluix>], [<ore:crystalCertusQuartz>, <ore:dustFluix>, <ore:crystalCertusQuartz>]]);
+
+#me chest
+recipes.remove(<appliedenergistics2:chest>);
+recipes.addShaped(<appliedenergistics2:chest>, [[<ore:glass>, <appliedenergistics2:part:380>, <ore:glass>], [<appliedenergistics2:part:16>, <appliedenergistics2:certus_quartz_wrench>.giveBack(<appliedenergistics2:certus_quartz_wrench>), <appliedenergistics2:part:16>], [<ore:ingotIron>, <appliedenergistics2:material:12>, <ore:ingotIron>]]);
+
+#me network wrench
+recipes.remove(<appliedenergistics2:network_tool>);
+recipes.addShaped(<appliedenergistics2:network_tool>,
+ [[<appliedenergistics2:certus_quartz_wrench>.giveBack(<appliedenergistics2:certus_quartz_wrench>), <ore:itemIlluminatedPanel>, null],
+  [<appliedenergistics2:material:23>, <ore:chest>, null],
+  [null, null, null]]);
+  
+recipes.remove(<appliedenergistics2:grindstone>);
+recipes.addShaped(<appliedenergistics2:grindstone>,
+ [[<ore:stone>, <ore:gearIron>, <ore:stone>],
+  [<ore:crystalCertusQuartz>, <minecraft:hopper>, <ore:crystalCertusQuartz>],
+  [<ore:cobblestone>, <ore:crystalCertusQuartz>, <ore:cobblestone>]]);  
+  
+recipes.remove(<appliedenergistics2:crank>);
+recipes.addShaped(<appliedenergistics2:crank>,
+ [[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>],
+  [null, null, <immersiveengineering:material>],
+  [null, null, <immersiveengineering:material>]]);
+
+recipes.remove(<appliedenergistics2:inscriber>);
+recipes.addShaped(<appliedenergistics2:inscriber>,
+ [[<minecraft:iron_ingot>, <ic2:upgrade>, <minecraft:iron_ingot>],
+  [<appliedenergistics2:material:12>, <thermalexpansion:frame:132>, <minecraft:iron_ingot>],
+  [<minecraft:iron_ingot>, <minecraft:sticky_piston>, <minecraft:iron_ingot>]]);  

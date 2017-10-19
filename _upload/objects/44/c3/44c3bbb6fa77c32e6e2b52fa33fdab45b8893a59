@@ -1,0 +1,128 @@
+#Name : ic2.zs
+#Author : TrilexCom
+
+recipes.remove(<ic2:forge_hammer>);
+recipes.addShaped(<ic2:forge_hammer>,
+ [[null,<ore:ingotIron>, <ore:ingotIron>],
+  [<immersiveengineering:material>, <immersiveengineering:material>, <ore:ingotIron>],
+  [null, <ore:ingotIron>, <ore:ingotIron>]]);
+  
+recipes.remove(<ic2:crafting:2>);
+recipes.addShaped(<ic2:crafting:2>,
+[[<minecraft:redstone>,<forestry:thermionic_tubes:11>, <minecraft:redstone>],
+[<opencomputers:material:7>, <ic2:crafting:1>, <opencomputers:material:7>],
+[<minecraft:redstone>, <forestry:thermionic_tubes:11>, <minecraft:redstone>]]);
+
+recipes.remove(<ic2:re_battery>);
+
+recipes.remove(<ic2:re_battery:26>);
+recipes.addShaped(<ic2:re_battery:26>,
+[[null,<ic2:cable:4>.withTag({type:4 as byte, insulation:1 as byte}), null],
+[<ic2:casing:6>, <ore:dustSulfur>, <ic2:casing:6>],
+[<ic2:casing:6>, <ore:dustLead>, <ic2:casing:6>]]);  
+
+#Removes ic2 Bronze Dust
+recipes.remove(<ic2:dust>);
+
+furnace.remove(<ic2:misc_resource:4>);
+furnace.remove(<ic2:crafting>);
+
+recipes.remove(<ic2:treetap>);
+recipes.addShaped(<ic2:treetap>,
+ [[null,<immersiveengineering:material>, null],
+  [<immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>],
+  [<immersiveengineering:treated_wood>, null, null]]);
+
+recipes.remove(<ic2:nuclear:10>);
+recipes.addShaped(<ic2:nuclear:10>,
+[[<ic2:plate:12>,<ic2:nuclear:3>, <ic2:plate:12>],
+[<ic2:plate:12>, <ic2:nuclear:3>, <ic2:plate:12>],
+[<ic2:plate:12>, <ic2:nuclear:3>, <ic2:plate:12>]]);
+
+
+recipes.remove(<ic2:plate:3>);
+recipes.addShapeless(<ic2:plate:3>, [<ore:craftingToolForgeHammer>, <ore:ingotIron>, <ore:ingotIron>]);
+
+recipes.remove(<ic2:plate:2>);
+recipes.addShapeless(<ic2:plate:2>, [<ore:craftingToolForgeHammer>, <ore:ingotGold>, <ore:ingotGold>]);
+
+recipes.remove(<ic2:plate:1>);
+recipes.addShapeless(<ic2:plate:1>, [<ore:craftingToolForgeHammer>, <ore:ingotCopper>, <ore:ingotCopper>]);
+
+recipes.remove(<ic2:plate:8>);
+recipes.addShapeless(<ic2:plate:8>, [<ore:craftingToolForgeHammer>, <ore:ingotTin>, <ore:ingotTin>]);
+
+recipes.remove(<ic2:plate:5>);
+recipes.addShapeless(<ic2:plate:5>, [<ore:craftingToolForgeHammer>, <ore:ingotLead>, <ore:ingotLead>]);
+
+recipes.remove(<ic2:plate>);
+recipes.addShapeless(<ic2:plate>, [<ore:craftingToolForgeHammer>, <ore:ingotBronze>, <ore:ingotBronze>]);
+
+
+recipes.remove(<ic2:resource:12>);
+recipes.addShaped(<ic2:resource:12>,
+ [[<ic2:plate:3>, <minecraft:piston>, <ic2:plate:3>],
+  [<ore:gearIron>, <magneticraft:crafting:2>, <ore:gearIron>],
+  [<ic2:plate:3>, <minecraft:piston>, <ic2:plate:3>]]);
+
+recipes.addShaped(<ic2:dust:6> *9,
+ [[<minecraft:redstone>, <techreborn:dust:43>, <minecraft:redstone>],
+  [<techreborn:dust:43>, <minecraft:redstone>, <techreborn:dust:43>],
+  [<minecraft:redstone>, <techreborn:dust:43>, <minecraft:redstone>]]);
+
+  
+recipes.remove(<ic2:te:47>);
+recipes.addShaped(<ic2:te:47>,
+ [[<minecraft:flint>, <ic2:block_cutting_blade:2>, <minecraft:flint>],
+  [<ore:cobblestone>, <ic2:resource:12>, <ore:cobblestone>],
+  [null, <ic2:crafting:1>, null]]);  
+
+recipes.remove(<ic2:bronze_pickaxe>);
+recipes.addShaped(<ic2:bronze_pickaxe>,
+ [[<ic2:plate>, <ic2:plate>, <ore:ingotBronze>],
+  [null, <ore:stickWood>, null],
+  [null, <ore:stickWood>, null]]);
+  
+recipes.remove(<ic2:bronze_shovel>);
+recipes.addShaped(<ic2:bronze_shovel>,
+ [[null, <ic2:plate>, null],
+  [null, <ore:stickWood>, null],
+  [null, <ore:stickWood>, null]]); 
+
+recipes.remove(<ic2:bronze_axe>);
+recipes.addShaped(<ic2:bronze_axe>,
+ [[<ic2:plate>, <ore:ingotBronze>, null],
+  [<ic2:plate>, <ore:stickWood>, null],
+  [null, <ore:stickWood>, null]]);
+
+recipes.remove(<ic2:bronze_sword>);
+recipes.addShaped(<ic2:bronze_sword>,
+ [[null, <ic2:plate>, null],
+  [null, <ic2:plate>, null],
+  [null, <ore:stickWood>, null]]);  
+
+recipes.remove(<ic2:bronze_hoe>);
+recipes.addShaped(<ic2:bronze_hoe>,
+ [[<ic2:plate>, <ore:ingotBronze>, null],
+  [null, <ore:stickWood>, null],
+  [null, <ore:stickWood>, null]]);
+
+recipes.remove(<ic2:bronze_boots>);
+recipes.remove(<ic2:bronze_leggings>);  
+recipes.remove(<ic2:bronze_chestplate>);
+recipes.remove(<ic2:bronze_helmet>);
+  
+recipes.addShaped(<ic2:bronze_boots>, [[<ic2:plate>, null, <ic2:plate>], [<ic2:plate>, <harvestcraft:hardenedleatherbootsitem>, <ic2:plate>]]);
+recipes.addShaped(<ic2:bronze_leggings>, [[<ic2:plate>, <ic2:plate>, <ic2:plate>], [<ic2:plate>, <harvestcraft:hardenedleatherleggingsitem>, <ic2:plate>], [<ic2:plate>, null, <ic2:plate>]]);
+recipes.addShaped(<ic2:bronze_chestplate>, [[<ic2:plate>, <harvestcraft:hardenedleatherchestitem>, <ic2:plate>], [<ic2:plate>, <ic2:plate>, <ic2:plate>], [<ic2:plate>, <ic2:plate>, <ic2:plate>]]);
+recipes.addShaped(<ic2:bronze_helmet>, [[<ic2:plate>, <ic2:plate>, <ic2:plate>], [<ic2:plate>, <harvestcraft:hardenedleatherhelmitem>, <ic2:plate>]]);
+
+furnace.addRecipe(<appliedenergistics2:material:5>, <ic2:dust:13>);
+
+recipes.remove(<ic2:te:45>);
+recipes.addShaped(<ic2:te:45>,
+ [[null, null, null],
+  [<ic2:treetap>, <ic2:resource:13>, <ic2:treetap>],
+  [<ic2:treetap>, <ic2:crafting:2>, <ic2:treetap>]]);
+  
+  

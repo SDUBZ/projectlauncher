@@ -1,0 +1,411 @@
+#Name: vanilla.zs
+#Author: FTB
+#Secondary_Author: TrilexCom
+
+import crafttweaker.item.IIngredient as IIngredient;
+import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.oredict.IOreDict as IOreDict;
+import crafttweaker.oredict.IOreDictEntry as IOreDictEntry;
+
+#Bucket New Recipe
+recipes.remove(<minecraft:bucket>);
+recipes.addShaped(<minecraft:bucket>, [[<ic2:plate:3>, null, <ic2:plate:3>], [null, <ic2:plate:3>, null]]);
+
+#Custom Craftable armor pieces
+recipes.remove(<minecraft:iron_boots>);
+recipes.remove(<minecraft:iron_leggings>);
+recipes.remove(<minecraft:iron_chestplate>);
+recipes.remove(<minecraft:iron_helmet>);
+recipes.remove(<minecraft:golden_boots>);
+recipes.remove(<minecraft:golden_leggings>);
+recipes.remove(<minecraft:golden_chestplate>);
+recipes.remove(<minecraft:golden_helmet>);
+recipes.remove(<minecraft:diamond_helmet>);
+recipes.remove(<minecraft:diamond_chestplate>);
+recipes.remove(<minecraft:diamond_leggings>);
+recipes.remove(<minecraft:diamond_boots>);
+recipes.remove(<minecraft:leather_boots>);
+recipes.remove(<minecraft:leather_boots>);
+recipes.remove(<minecraft:ladder>);
+recipes.remove(<minecraft:bread>);
+recipes.remove(<minecraft:bowl>);
+recipes.addShaped(<minecraft:bowl>, [[<ore:slabWood>, null, <ore:slabWood>], [null, <ore:slabWood>, null]]);
+#recipes.addShaped(<minecraft:torch> * 8,[[null, <forestry:beeswax>, null],[null, <forestry:beeswax>, null],[null, <ore:stickWood>, null]]);
+recipes.addShaped(<minecraft:diamond_boots>, [[<minecraft:diamond>, null, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:iron_boots>, <minecraft:diamond>]]);
+recipes.addShaped(<minecraft:diamond_leggings>, [[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:iron_leggings>, <minecraft:diamond>], [<minecraft:diamond>, null, <minecraft:diamond>]]);
+recipes.addShaped(<minecraft:diamond_chestplate>, [[<minecraft:diamond>, <minecraft:iron_chestplate>, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]]);
+recipes.addShaped(<minecraft:diamond_helmet>, [[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:iron_helmet>, <minecraft:diamond>]]);
+recipes.addShaped(<minecraft:golden_boots>, [[<ic2:plate:2>, null, <ic2:plate:2>], [<ic2:plate:2>, <harvestcraft:hardenedleatherbootsitem>, <ic2:plate:2>]]);
+recipes.addShaped(<minecraft:golden_leggings>, [[<ic2:plate:2>, <ic2:plate:2>, <ic2:plate:2>], [<ic2:plate:2>, <harvestcraft:hardenedleatherleggingsitem>, <ic2:plate:2>], [<ic2:plate:2>, null, <ic2:plate:2>]]);
+recipes.addShaped(<minecraft:golden_chestplate>, [[<ic2:plate:2>, <harvestcraft:hardenedleatherchestitem>, <ic2:plate:2>], [<ic2:plate:2>, <ic2:plate:2>, <ic2:plate:2>], [<ic2:plate:2>, <ic2:plate:2>, <ic2:plate:2>]]);
+recipes.addShaped(<minecraft:golden_helmet>, [[<ic2:plate:2>, <ic2:plate:2>, <ic2:plate:2>], [<ic2:plate:2>, <harvestcraft:hardenedleatherhelmitem>, <ic2:plate:2>]]);
+recipes.addShaped(<minecraft:iron_boots>, [[<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, <harvestcraft:hardenedleatherbootsitem>, <ore:plateIron>]]);
+recipes.addShaped(<minecraft:iron_leggings>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <harvestcraft:hardenedleatherleggingsitem>, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>]]);
+recipes.addShaped(<minecraft:iron_chestplate>, [[<ore:plateIron>, <harvestcraft:hardenedleatherchestitem>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<minecraft:iron_helmet>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <harvestcraft:hardenedleatherhelmitem>, <ore:plateIron>]]);
+
+#Vanilla Tool nerf
+<minecraft:golden_axe>.maxDamage = 1;
+<minecraft:golden_shovel>.maxDamage = 1;
+<minecraft:golden_hoe>.maxDamage = 1;
+<minecraft:diamond_hoe>.maxDamage = 1;
+<minecraft:diamond_sword>.maxDamage = 1;
+<minecraft:diamond_shovel>.maxDamage = 1;
+<minecraft:diamond_axe>.maxDamage = 1;
+<minecraft:diamond_pickaxe>.maxDamage = 1;
+<minecraft:golden_pickaxe>.maxDamage = 1;
+<minecraft:iron_shovel>.maxDamage = 64;
+<minecraft:iron_axe>.maxDamage = 64;
+<minecraft:iron_pickaxe>.maxDamage = 64;
+<minecraft:iron_sword>.maxDamage = 64;
+<minecraft:wooden_pickaxe>.maxDamage = 5;
+<minecraft:stone_pickaxe>.maxDamage = 32;
+<minecraft:stone_axe>.maxDamage = 32;
+<minecraft:stone_shovel>.maxDamage = 32;
+<minecraft:wooden_sword>.maxDamage = 1;
+<minecraft:stone_sword>.maxDamage = 1;
+<minecraft:wooden_hoe>.maxDamage = 1;
+<minecraft:stone_hoe>.maxDamage = 5;
+<minecraft:iron_hoe>.maxDamage = 1;
+
+
+
+
+
+#Vanilla Nerf Wood
+recipes.remove(<minecraft:stick>);
+recipes.addShapeless(<minecraft:stick> * 2, [<ore:plankWood>, <ore:plankWood>]);
+recipes.remove(<ore:plankWood>);
+recipes.addShapeless(<minecraft:planks>, [<minecraft:wooden_slab>, <minecraft:wooden_slab>]);
+recipes.addShapeless(<minecraft:planks:1>, [<minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>]);
+recipes.addShapeless(<minecraft:planks:2>, [<minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>]);
+recipes.addShapeless(<minecraft:planks:3>, [<minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>]);
+recipes.addShapeless(<minecraft:planks:4>, [<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>]);
+recipes.addShapeless(<minecraft:planks:5>, [<minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>]);
+recipes.addShapeless(<minecraft:planks> * 2, [<minecraft:log>]);
+recipes.addShapeless(<minecraft:planks:4> * 2, [<minecraft:log2>]);
+recipes.addShapeless(<minecraft:planks:5> * 2, [<minecraft:log2:1>]);
+recipes.addShapeless(<minecraft:planks:3> * 2, [<minecraft:log:3>]);
+recipes.addShapeless(<minecraft:planks:2> * 2, [<minecraft:log:2>]);
+recipes.addShapeless(<minecraft:planks:1> * 2, [<minecraft:log:1>]);
+
+recipes.addShaped(<minecraft:leather_boots>, [[<ore:itemLeather>, null, <ore:itemLeather>], [<ore:itemLeather>, null, <ore:itemLeather>], [<ore:itemRubber>, null, <ore:itemRubber>]]);
+recipes.addShaped(<minecraft:leather_boots>, [[<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>], [<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>], [<ore:itemRubber>, null, <ore:itemRubber>]]);
+
+#Vanilla furance recipe
+recipes.remove(<minecraft:furnace>);
+recipes.addShaped(<minecraft:furnace>,
+ [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
+  [<minecraft:flint>, <immcraft:rock>, <minecraft:flint>],
+  [<ore:stone>, <ore:stone>, <ore:stone>]]);
+   
+#Vanilla chest recipe
+recipes.remove(<minecraft:chest>);
+recipes.addShaped(<minecraft:chest>,
+ [[<ore:plankWood>, <ore:logWood>, <ore:plankWood>],
+  [<ore:logWood>, <minecraft:flint>, <ore:logWood>],
+  [<ore:plankWood>, <ore:logWood>, <ore:plankWood>]]); 
+
+#Vanilla Cauldron Recipe
+recipes.remove(<minecraft:cauldron>);
+recipes.addShaped(<minecraft:cauldron>,
+ [[<ic2:plate:3>, null, <ic2:plate:3>],
+  [<ic2:plate:3>, null, <ic2:plate:3>],
+  [<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>]]);
+
+recipes.remove(<minecraft:paper>);
+recipes.remove(<minecraft:ender_eye>);
+recipes.remove(<minecraft:iron_bars>);
+furnace.remove(<minecraft:coal:1>);
+recipes.remove(<minecraft:dye:15>);
+recipes.remove(<minecraft:blaze_powder>);
+
+
+recipes.remove(<minecraft:hopper>);
+recipes.addShaped(<minecraft:hopper>,
+ [[<ic2:plate:3>, <ore:chest>, <ic2:plate:3>],
+  [<ic2:plate:3>, <ore:gearIron>, <ic2:plate:3>],
+  [null, <ic2:plate:3>, null]]);
+
+recipes.remove(<minecraft:iron_door>);
+
+recipes.remove(<minecraft:iron_trapdoor>);
+recipes.addShaped(<minecraft:iron_trapdoor>,
+ [[<ic2:plate:3>, <ic2:plate:3>, null],
+  [<ic2:plate:3>, <ic2:plate:3>, null],
+  [null, null, null]]);
+  
+furnace.addRecipe(<minecraft:bread>, <harvestcraft:doughitem>);
+recipes.remove(<minecraft:heavy_weighted_pressure_plate>);
+recipes.remove(<minecraft:tripwire_hook>);
+recipes.remove(<minecraft:light_weighted_pressure_plate>);
+
+recipes.remove(<minecraft:golden_rail>);
+recipes.remove(<minecraft:detector_rail>);
+recipes.remove(<minecraft:rail>);
+recipes.remove(<minecraft:activator_rail>);
+
+recipes.remove(<minecraft:iron_trapdoor>);
+recipes.addShaped(<minecraft:iron_trapdoor>,
+ [[<ic2:plate:3>, <ic2:plate:3>, null],
+  [<ic2:plate:3>, <ic2:plate:3>, null],
+  [null, null, null]]);
+
+
+recipes.remove(<minecraft:iron_pickaxe>);
+recipes.addShaped(<minecraft:iron_pickaxe>,
+ [[<ic2:plate:3>, <ic2:plate:3>, <minecraft:iron_ingot>],
+  [null, <ore:stickWood>, null],
+  [null, <ore:stickWood>, null]]);
+  
+recipes.remove(<minecraft:piston>);
+recipes.addShaped(<minecraft:piston>,
+ [[<ic2:scaffold>, <ic2:scaffold>, <ic2:scaffold>],
+  [<ore:fenceWood>, <ic2:plate:3>, <ore:fenceWood>],
+  [<ore:cobblestone>, <minecraft:redstone>, <ore:cobblestone>]]);  
+  
+recipes.remove(<minecraft:minecart>);
+  
+recipes.remove(<minecraft:iron_shovel>);
+recipes.addShaped(<minecraft:iron_shovel>,
+ [[null, <ic2:plate:3>, null],
+  [null, <ore:stickWood>, null],
+  [null, <ore:stickWood>, null]]); 
+
+recipes.remove(<minecraft:iron_sword>);
+recipes.addShaped(<minecraft:iron_sword>,
+ [[null, <ic2:plate:3>, null],
+  [null, <ic2:plate:3>, null],
+  [null, <ore:stickWood>, null]]);   
+  
+recipes.remove(<minecraft:iron_axe>);
+recipes.addShaped(<minecraft:iron_axe>,
+ [[<ic2:plate:3>, <minecraft:iron_ingot>, null],
+  [<ic2:plate:3>, <ore:stickWood>, null],
+  [null, <ore:stickWood>, null]]);
+
+recipes.remove(<minecraft:iron_hoe>);
+recipes.addShaped(<minecraft:iron_hoe>,
+ [[<ic2:plate:3>, <minecraft:iron_ingot>, null],
+  [null, <ore:stickWood>, null],
+  [null, <ore:stickWood>, null]]); 
+  
+recipes.remove(<minecraft:golden_pickaxe>);
+recipes.addShaped(<minecraft:golden_pickaxe>,
+ [[<ic2:plate:2>, <ic2:plate:2>, <minecraft:gold_ingot>],
+  [null, <ore:stickWood>, null],
+  [null, <ore:stickWood>, null]]);
+  
+recipes.remove(<minecraft:golden_shovel>);
+recipes.addShaped(<minecraft:golden_shovel>,
+ [[null, <ic2:plate:2>, null],
+  [null, <ore:stickWood>, null],
+  [null, <ore:stickWood>, null]]);  
+  
+recipes.remove(<minecraft:golden_axe>);
+recipes.addShaped(<minecraft:golden_axe>,
+ [[<ic2:plate:2>, <minecraft:gold_ingot>, null],
+  [<ic2:plate:2>, <ore:stickWood>, null],
+  [null, <ore:stickWood>, null]]);
+
+recipes.remove(<minecraft:golden_hoe>);
+recipes.addShaped(<minecraft:golden_hoe>,
+ [[<ic2:plate:2>, <minecraft:gold_ingot>, null],
+  [null, <ore:stickWood>, null],
+  [null, <ore:stickWood>, null]]);
+
+recipes.remove(<minecraft:golden_sword>);
+recipes.addShaped(<minecraft:golden_sword>,
+ [[null, <ic2:plate:2>, null],
+  [null, <ic2:plate:2>, null],
+  [null, <ore:stickWood>, null]]);    
+   
+recipes.remove(<minecraft:string>);
+recipes.addShaped(<minecraft:string>,
+ [[<natura:materials:3>, <natura:materials:3>, <natura:materials:3>],
+  [null, null, null],
+  [null, null, null]]);  
+  
+#disable vanilla bed
+recipes.remove(<minecraft:bed>);
+recipes.remove(<minecraft:bed:1>);
+recipes.remove(<minecraft:bed:2>);
+recipes.remove(<minecraft:bed:3>);
+recipes.remove(<minecraft:bed:4>); 
+recipes.remove(<minecraft:bed:5>);
+recipes.remove(<minecraft:bed:6>);
+recipes.remove(<minecraft:bed:7>);
+recipes.remove(<minecraft:bed:8>);
+recipes.remove(<minecraft:bed:9>);
+recipes.remove(<minecraft:bed:10>);
+recipes.remove(<minecraft:bed:11>);
+recipes.remove(<minecraft:bed:12>);
+recipes.remove(<minecraft:bed:13>);
+recipes.remove(<minecraft:bed:14>);
+recipes.remove(<minecraft:bed:15>);
+
+#removing few vanilla items due to techreborn chemical reactor
+
+recipes.remove(<minecraft:magma_cream>);
+recipes.remove(<minecraft:golden_apple>);
+recipes.remove(<minecraft:golden_carrot>);
+recipes.remove(<minecraft:speckled_melon>);
+
+#adding a new recipe for mc carpet
+
+recipes.remove(<minecraft:carpet>);
+recipes.addShaped(<minecraft:carpet> *2 , [
+    [<primal:flint_saw>.anyDamage()],
+    [<minecraft:wool>],
+    ]);
+	
+recipes.remove(<minecraft:carpet:1>);
+recipes.addShaped(<minecraft:carpet:1> *2 , [
+    [<primal:flint_saw>.anyDamage()],
+    [<minecraft:wool:1>],
+    ]);	
+
+recipes.remove(<minecraft:carpet:2>);
+recipes.addShaped(<minecraft:carpet:2> *2 , [
+    [<primal:flint_saw>.anyDamage()],
+    [<minecraft:wool:2>],
+    ]);		
+	
+recipes.remove(<minecraft:carpet:3>);
+recipes.addShaped(<minecraft:carpet:3> *2 , [
+    [<primal:flint_saw>.anyDamage()],
+    [<minecraft:wool:3>],
+    ]);	 
+ 
+recipes.remove(<minecraft:carpet:4>);
+recipes.addShaped(<minecraft:carpet:4> *2 , [
+    [<primal:flint_saw>.anyDamage()],
+    [<minecraft:wool:4>],
+    ]);	  
+ 
+recipes.remove(<minecraft:carpet:5>);
+recipes.addShaped(<minecraft:carpet:5> *2 , [
+    [<primal:flint_saw>.anyDamage()],
+    [<minecraft:wool:5>],
+    ]);	  
+
+recipes.remove(<minecraft:carpet:6>);
+recipes.addShaped(<minecraft:carpet:6> *2 , [
+    [<primal:flint_saw>.anyDamage()],
+    [<minecraft:wool:6>],
+    ]);
+
+recipes.remove(<minecraft:carpet:7>);
+recipes.addShaped(<minecraft:carpet:7> *2 , [
+    [<primal:flint_saw>.anyDamage()],
+    [<minecraft:wool:7>],
+    ]);	 
+
+recipes.remove(<minecraft:carpet:8>);
+recipes.addShaped(<minecraft:carpet:8> *2 , [
+    [<primal:flint_saw>.anyDamage()],
+    [<minecraft:wool:8>],
+    ]);		
+ 
+recipes.remove(<minecraft:carpet:9>);
+recipes.addShaped(<minecraft:carpet:9> *2 , [
+    [<primal:flint_saw>.anyDamage()],
+    [<minecraft:wool:9>],
+    ]);	 
+recipes.remove(<minecraft:carpet:10>);
+recipes.addShaped(<minecraft:carpet:10> *2 , [
+    [<primal:flint_saw>.anyDamage()],
+    [<minecraft:wool:10>],
+    ]);	
+
+recipes.remove(<minecraft:carpet:11>);
+recipes.addShaped(<minecraft:carpet:11> *2 , [
+    [<primal:flint_saw>.anyDamage()],
+    [<minecraft:wool:11>],
+    ]);
+
+recipes.remove(<minecraft:carpet:12>);
+recipes.addShaped(<minecraft:carpet:12> *2 , [
+    [<primal:flint_saw>.anyDamage()],
+    [<minecraft:wool:12>],
+    ]);
+
+recipes.remove(<minecraft:carpet:13>);
+recipes.addShaped(<minecraft:carpet:13> *2 , [
+    [<primal:flint_saw>.anyDamage()],
+    [<minecraft:wool:13>],
+    ]);
+
+recipes.remove(<minecraft:carpet:14>);
+recipes.addShaped(<minecraft:carpet:14> *2 , [
+    [<primal:flint_saw>.anyDamage()],
+    [<minecraft:wool:14>],
+    ]);
+
+recipes.remove(<minecraft:carpet:15>);
+recipes.addShaped(<minecraft:carpet:15> *2 , [
+    [<primal:flint_saw>.anyDamage()],
+    [<minecraft:wool:15>],
+    ]);
+
+ 
+//====== Unify wood stuff in oredicts =======
+// made by Ordinator 2017-JUL-08
+
+
+//====== Variables ======
+//
+	var Chest = <ore:chest>;
+	var ChestWood = <ore:chestWood>;
+	var ChestTrapped = <ore:chestTrapped>;
+	var Trapdoor = <ore:trapdoorWood>;
+	var Door = <ore:doorWood>;
+	var Bed = <ore:bed>;
+	var Log = <ore:logWood>;
+	var Plank = <ore:plankWood>;
+	var WoodSlab = <ore:slabWood>;
+	var WoodStair = <ore:stairWood>;
+	var Stick = <ore:stickWood>;
+	var Fence = <ore:fenceWood>;
+	var Gate = <ore:fenceGateWood>;
+
+
+//====== Crafting Tables ======
+//
+	var TablesToAdd = [
+		<actuallyadditions:item_crafter_on_a_stick>,
+		<minecraft:crafting_table>
+	] as IItemStack[];
+	
+	<ore:craftingTableWood>.addItems(TablesToAdd);
+	<ore:crafterWood>.addItems(TablesToAdd);
+	
+//======Add to chest======
+//
+	var ChestsToAdd = [
+		<minecraft:chest>,
+		<minecraft:ender_chest>,
+		<minecraft:trapped_chest>,
+	] as IItemStack[];
+	
+	Chest.addItems(ChestsToAdd);
+	
+//======Add to chestWood======
+//
+	var WoodChestToAdd = [
+		<minecraft:chest>,
+		<minecraft:trapped_chest>,
+	] as IItemStack[];
+	
+	ChestWood.addItems(WoodChestToAdd);
+
+//======Add to Door======
+	var DoorToAdd = [
+		<minecraft:acacia_door>,
+		<minecraft:jungle_door>,
+		<minecraft:birch_door>,
+		<minecraft:spruce_door>,
+		<minecraft:dark_oak_door>
+	] as IItemStack[];
+	
+	Door.addItems(DoorToAdd);		

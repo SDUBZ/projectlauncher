@@ -1,0 +1,25 @@
+#Name : rftools.zs
+#Author : TrilexCom
+
+recipes.remove(<rftools:shape_card:2>);
+recipes.addShaped(<rftools:shape_card:2>,
+ [[<ic2:crafting:4>, <environmentaltech:void_botanic_miner_cont_3>, <ic2:crafting:4>],
+  [<ic2:te:39>, <enderutilities:endertool>, <ic2:te:39>],
+  [<ic2:crafting:4>, <industrialforegoing:laser_drill>, <ic2:crafting:4>]]);
+  
+recipes.remove(<rftools:machine_frame>);
+recipes.addShaped(<rftools:machine_frame>,
+ [[<ic2:plate:5>, <actuallyadditions:item_crystal_empowered>, <ic2:plate:5>],
+  [<ore:gearGold>, <thermalexpansion:frame:132>, <ore:gearGold>],
+  [<ic2:plate:5>, <actuallyadditions:item_crystal_empowered>, <ic2:plate:5>]]); 
+
+  
+recipes.remove(<rftools:machine_base>);
+recipes.addShaped(<rftools:machine_base>,
+ [[null, null, null],
+  [<ore:gearGold>, <thermalexpansion:frame:132>, <ore:gearGold>],
+  [<ic2:plate:5>, <actuallyadditions:item_crystal_empowered>, <ic2:plate:5>]]); 
+  
+  
+
+  

@@ -1,0 +1,111 @@
+#Name: ad.zs
+#Author: All the mods
+#Co-Author: TrilexCom
+
+import crafttweaker.item.IIngredient as IIngredient;
+import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.oredict.IOreDict as IOreDict;
+import crafttweaker.oredict.IOreDictEntry as IOreDictEntry;
+
+//====== Unify wood stuff in oredicts =======
+// made by Ordinator 2017-JUL-08
+
+
+//====== Variables ======
+//
+	var Chest = <ore:chest>;
+	var ChestWood = <ore:chestWood>;
+	var ChestTrapped = <ore:chestTrapped>;
+	var Trapdoor = <ore:trapdoorWood>;
+	var Door = <ore:doorWood>;
+	var Bed = <ore:bed>;
+	var Log = <ore:logWood>;
+	var Plank = <ore:plankWood>;
+	var WoodSlab = <ore:slabWood>;
+	var WoodStair = <ore:stairWood>;
+	var Stick = <ore:stickWood>;
+	var Fence = <ore:fenceWood>;
+	var Gate = <ore:fenceGateWood>;
+
+
+//======Add to chest======
+//
+	var ChestsToAdd = [
+		<actuallyadditions:block_treasure_chest>,
+	] as IItemStack[];
+	
+	Chest.addItems(ChestsToAdd);
+	
+recipes.remove(<thermalexpansion:frame>);
+recipes.remove(<thermalexpansion:frame:128>);
+recipes.remove(<thermalexpansion:frame:64>);
+recipes.remove(<thermalexpansion:frame:132>);	
+	
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<minecraft:prismarine_shard>);	
+
+mods.actuallyadditions.Empowerer.addRecipe(<thermalexpansion:frame>, <forestry:gear_tin>, <ic2:plate:16>,
+<ic2:plate:6>, <forestry:chipsets>.withTag({T: 0 as short}), <forestry:thermionic_tubes:3>, 1000000,500);
+
+#thermal expansion resonant machine frame
+
+mods.actuallyadditions.Empowerer.addRecipe(<thermalexpansion:frame:132>, <thermalfoundation:material:295>, <techreborn:plates:19>,
+<actuallyadditions:item_crystal_empowered:4>, <forestry:chipsets:3>.withTag({T: 3 as short}), <forestry:thermionic_tubes:9>, 25000000,500);
+
+mods.actuallyadditions.Empowerer.addRecipe(<thermalexpansion:frame:128>, <forestry:thermionic_tubes:5>, <opencomputers:material:9>,
+<ic2:plate:7>, <minecraft:glass>, <ic2:crafting:1>, 100000,500);
+
+mods.actuallyadditions.Empowerer.addRecipe(<thermalexpansion:frame:64>, <forestry:gear_copper>, <opencomputers:material:7>,
+<ic2:plate:7>, <forestry:chipsets:2>.withTag({T: 2 as short}), <ic2:crafting:1>, 100000,500);
+
+
+
+#Drill Core Recipe
+
+recipes.remove(<actuallyadditions:item_misc:16>);
+recipes.addShaped(<actuallyadditions:item_misc:16>,
+ [[<ic2:plate:16>, <actuallyadditions:item_misc:7>, <ic2:plate:16>],
+  [<actuallyadditions:item_misc:7>, <ic2:crafting:12>, <actuallyadditions:item_misc:7>],
+  [<ic2:plate:16>, <actuallyadditions:item_misc:7>, <ic2:plate:16>]]);  
+
+#iron Casing recipes
+
+recipes.remove(<actuallyadditions:block_misc:9>);
+recipes.addShaped(<actuallyadditions:block_misc:9>,
+ [[<ic2:casing:3>, <immersiveengineering:material:9>, <ic2:casing:3>],
+  [<immersiveengineering:material:9>, <actuallyadditions:item_misc:5>, <immersiveengineering:material:9>],
+  [<ic2:casing:3>, <immersiveengineering:material:9>, <ic2:casing:3>]]);
+
+#Atomic Reconstructore recipes
+
+recipes.remove(<actuallyadditions:block_atomic_reconstructor>);
+recipes.addShaped(<actuallyadditions:block_atomic_reconstructor>,
+ [[<ic2:casing:3>, <forestry:thermionic_tubes:5>, <ic2:casing:3>],
+  [<forestry:chipsets:3>.withTag({T: 3 as short}), <actuallyadditions:block_misc:9>, <forestry:chipsets:3>.withTag({T: 3 as short})],
+  [<ic2:casing:3>, <minecraft:redstone>, <ic2:casing:3>]]); 
+  
+#Crate Recipe change
+
+recipes.remove(<actuallyadditions:block_giant_chest>);
+recipes.addShaped(<actuallyadditions:block_giant_chest>,
+ [[<ironchest:iron_chest:3>, <ore:plankWood>, <ironchest:iron_chest:3>],
+  [<ore:plankWood>, <actuallyadditions:block_misc:4>, <ore:plankWood>],
+  [<ironchest:iron_chest:3>, <ore:plankWood>, <ironchest:iron_chest:3>]]); 
+
+#Wood Casing Recipe change
+
+recipes.remove(<actuallyadditions:block_misc:4>);
+recipes.addShaped(<actuallyadditions:block_misc:4>,
+ [[<ore:plateWood>, <ore:stickWood>, <ore:plateWood>],
+  [<ore:stickWood>, <ore:gearWood>, <ore:stickWood>],
+  [<ore:plateWood>, <ore:stickWood>, <ore:plateWood>]]);
+
+recipes.remove(<actuallyadditions:item_misc:4>); 
+recipes.addShaped(<actuallyadditions:item_misc:4>,
+ [[<harvestcraft:doughitem>,<harvestcraft:doughitem>],
+  [null, null]]); 
+  
+recipes.remove(<actuallyadditions:block_miner>);
+recipes.addShaped(<actuallyadditions:block_miner>,
+ [[<actuallyadditions:block_misc:9>, <actuallyadditions:block_giant_chest_large>, <actuallyadditions:block_misc:9>],
+  [<actuallyadditions:block_crystal_empowered>, <actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal_empowered>],
+  [<actuallyadditions:block_misc:9>, <actuallyadditions:item_drill:3>, <actuallyadditions:block_misc:9>]]);  

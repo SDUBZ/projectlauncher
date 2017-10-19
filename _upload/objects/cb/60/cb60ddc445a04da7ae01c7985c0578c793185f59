@@ -1,0 +1,22 @@
+#Name : StorageDrawers.zs
+#Author: TrilexCom
+
+#StorageDrawers nerf for controller and slave and compacting drawer
+recipes.remove(<storagedrawers:compdrawers>);
+recipes.remove(<storagedrawers:controller>);
+recipes.remove(<storagedrawers:controllerslave>);
+
+recipes.addShaped(<storagedrawers:compdrawers>,
+ [[<minecraft:stone>, <minecraft:anvil>, <minecraft:stone>],
+  [<ironchest:iron_chest:6>, <ore:drawerBasic>, <ironchest:iron_chest:6>],
+  [<minecraft:stone>, <actuallyadditions:item_crystal:5>, <minecraft:stone>]]);
+  
+recipes.addShaped(<storagedrawers:controller>,
+ [[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>],
+  [<minecraft:comparator>, <ore:drawerBasic>, <minecraft:comparator>],
+  [<minecraft:stone>, <actuallyadditions:item_crystal:2>, <minecraft:stone>]]);
+  
+recipes.addShaped(<storagedrawers:controllerslave>,
+ [[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>],
+  [<minecraft:comparator>, <ore:drawerBasic>, <minecraft:comparator>],
+  [<minecraft:stone>, <forestry:thermionic_tubes:4>, <minecraft:stone>]]);

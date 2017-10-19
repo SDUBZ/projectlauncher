@@ -1,0 +1,33 @@
+#Name: vanilla.zs
+#Author: FTB
+#Secondary_Author: TrilexCom
+
+import crafttweaker.item.IIngredient as IIngredient;
+import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.oredict.IOreDict as IOreDict;
+import crafttweaker.oredict.IOreDictEntry as IOreDictEntry;
+
+recipes.remove(<natura:materials:1>);
+
+recipes.addShaped(<natura:materials:3>,
+ [[<harvestcraft:cottonitem>, <harvestcraft:cottonitem>, <harvestcraft:cottonitem>],
+  [null, null, null],
+  [null, null, null]]);
+  
+recipes.addShapeless(<natura:overworld_planks:7> * 2, [<natura:overworld_logs2:3>]);
+recipes.addShapeless(<natura:overworld_planks:6> * 2, [<natura:overworld_logs2:2>]);
+recipes.addShapeless(<natura:overworld_planks> * 2, [<natura:overworld_logs>]);
+recipes.addShapeless(<natura:overworld_planks:5> * 2, [<natura:overworld_logs2:1>]);
+recipes.addShapeless(<natura:overworld_planks:3> * 2, [<natura:overworld_logs:3>]);
+recipes.addShapeless(<natura:overworld_planks:4> * 2, [<natura:overworld_logs2>]);
+recipes.addShapeless(<natura:overworld_planks:1> * 2, [<natura:overworld_logs:1>]);
+recipes.addShapeless(<natura:overworld_planks:8> * 2, [<natura:redwood_logs:1>]);
+recipes.addShapeless(<natura:overworld_planks:2> * 2, [<natura:overworld_logs:2>]);
+recipes.addShapeless(<natura:nether_planks> * 2, [<natura:nether_logs>]);
+recipes.addShapeless(<natura:nether_planks:2> * 2, [<natura:nether_logs:1>]);
+recipes.addShapeless(<natura:nether_planks:1> * 2, [<natura:nether_logs2>]);
+recipes.addShapeless(<natura:nether_planks:3> * 2, [<natura:nether_logs:2>]);
+
+
+
+  

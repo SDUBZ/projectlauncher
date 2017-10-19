@@ -1,0 +1,11 @@
+#Name : lpb.zs
+#Author: FTB for conduit only!
+#Co-Author : TrilexCom
+
+recipes.remove(<longfallboots:longfallboots>);
+recipes.addShaped(<longfallboots:longfallboots>,
+ [[<minecraft:diamond>, null, <minecraft:diamond>],
+  [<minecraft:obsidian>, null, <minecraft:obsidian>],
+  [<redstonearsenal:armor.boots_flux>, null, <ic2:nano_boots:26>]]);
+
+  

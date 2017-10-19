@@ -1,0 +1,72 @@
+#Name : td.zs
+#Author: FTB for conduit only!
+#Co-Author : TrilexCom
+
+recipes.remove(<thermaldynamics:duct_0>);
+recipes.addShaped(<thermaldynamics:duct_0> * 6,
+ [[<minecraft:redstone>, <actuallyadditions:item_crystal>, <minecraft:redstone>],
+  [<ic2:plate:5>, <ore:blockGlass>, <ic2:plate:5>],
+  [<minecraft:redstone>, <actuallyadditions:item_crystal>, <minecraft:redstone>]]);
+  
+recipes.remove(<thermaldynamics:duct_0:1>);
+recipes.addShaped(<thermaldynamics:duct_0:1> * 6,
+ [[<minecraft:redstone>, <actuallyadditions:item_crystal>, <minecraft:redstone>],
+  [<ic2:plate:7>, <ore:blockGlassHardened>, <ic2:plate:7>],
+  [<minecraft:redstone>, <actuallyadditions:item_crystal>, <minecraft:redstone>]]);
+
+recipes.remove(<thermaldynamics:duct_0:6>);
+recipes.addShaped(<thermaldynamics:duct_0:6> * 6,
+ [[<thermalfoundation:material:1026>, <thermalfoundation:material:229>, <thermalfoundation:material:1026>],
+  [<redstonearsenal:material>, <thermalfoundation:glass_alloy:6>, <redstonearsenal:material>],
+  [<thermalfoundation:material:1026>, <thermalfoundation:material:229>, <thermalfoundation:material:1026>]]);  
+  
+recipes.remove(<thermaldynamics:duct_0:8>);
+recipes.addShaped(<thermaldynamics:duct_0:8> * 6,
+ [[<thermaldynamics:duct_0:6>, <thermalfoundation:material:1027>, <thermaldynamics:duct_0:6>],
+  [<thermaldynamics:duct_0:6>, <thermalfoundation:material:295>, <thermaldynamics:duct_0:6>],
+  [<thermaldynamics:duct_0:6>, <thermalfoundation:material:1027>, <thermaldynamics:duct_0:6>]]); 
+
+recipes.remove(<thermaldynamics:duct_16>);
+recipes.addShaped(<thermaldynamics:duct_16> * 6,
+ [[null, <ore:blockGlassHardened>, null],
+  [<ic2:plate:1>, <ore:blockGlass>, <ic2:plate:1>],
+  [null, <ore:blockGlassHardened>, null]]);
+  
+recipes.remove(<thermaldynamics:duct_16:1>);
+recipes.addShaped(<thermaldynamics:duct_16:1> * 6,
+ [[<thermalfoundation:material:195>, <ore:blockGlassHardened>, <thermalfoundation:material:195>],
+  [<ic2:plate:1>, <ore:blockGlass>, <ic2:plate:1>],
+  [<thermalfoundation:material:195>, <ore:blockGlassHardened>, <thermalfoundation:material:195>]]);
+
+recipes.remove(<thermaldynamics:duct_16:2>);
+recipes.addShaped(<thermaldynamics:duct_16:2> * 6,
+ [[null, <ore:blockGlassHardened>, null],
+  [<thermalfoundation:material:98>, <ore:blockGlass>, <thermalfoundation:material:98>],
+  [null, <ore:blockGlassHardened>, null]]); 
+
+recipes.remove(<thermaldynamics:duct_16:3>);
+recipes.addShaped(<thermaldynamics:duct_16:3> * 6,
+ [[<thermalfoundation:material:195>, <ore:blockGlassHardened>, <thermalfoundation:material:195>],
+  [<thermalfoundation:material:98>, <ore:blockGlass>, <thermalfoundation:material:98>],
+  [<thermalfoundation:material:195>, <ore:blockGlassHardened>, <thermalfoundation:material:195>]]);
+
+recipes.remove(<thermaldynamics:duct_32>);
+recipes.addShaped(<thermaldynamics:duct_32> * 6,
+ [[null, <ore:blockGlassHardened>, null],
+  [<ic2:plate:8>, <ore:blockGlass>, <ic2:plate:8>],
+  [null, <ore:blockGlassHardened>, null]]); 
+
+
+ recipes.remove(<thermaldynamics:duct_32:1>);
+recipes.addShaped(<thermaldynamics:duct_32:1> * 6,
+ [[<thermalfoundation:material:195>, <ore:blockGlassHardened>, <thermalfoundation:material:195>],
+  [<ic2:plate:8>, <ore:blockGlass>, <ic2:plate:8>],
+  [<thermalfoundation:material:195>, <ore:blockGlassHardened>, <thermalfoundation:material:195>]]);   
+  
+recipes.remove(<thermaldynamics:duct_32:2>);
+recipes.remove(<thermaldynamics:duct_32:6>);
+recipes.remove(<thermaldynamics:duct_0:3>);
+recipes.remove(<thermaldynamics:duct_0:4>);
+
+recipes.remove(<thermaldynamics:duct_32:7>);
+recipes.remove(<thermaldynamics:duct_32:3>);

@@ -1,0 +1,17 @@
+#Name : multibed.zs
+#Author: FTB for conduit only!
+#Co-Author : TrilexCom
+
+recipes.remove(<multibeds:beds:1>);
+recipes.addShaped(<multibeds:beds:1>,
+ [[<multibeds:beds:18>, <multibeds:beds:18>, <multibeds:beds:18>],
+  [<multibeds:beds>, <multibeds:beds>, <multibeds:beds>],
+  [<bibliocraft:framingsheet>, <bibliocraft:framingsheet>, <bibliocraft:framingsheet>]]);
+
+recipes.remove(<multibeds:beds>);
+recipes.addShaped(<multibeds:beds>,
+ [[<harvestcraft:wovencottonitem>, <minecraft:feather>, <harvestcraft:wovencottonitem>],
+  [<minecraft:feather>, <harvestcraft:wovencottonitem>, <minecraft:feather>],
+  [<harvestcraft:wovencottonitem>, <minecraft:feather>, <harvestcraft:wovencottonitem>]]);
+    
+  

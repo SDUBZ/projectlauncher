@@ -1,0 +1,20 @@
+#Name : solarflux.zs
+#Author : TrilexCom
+
+recipes.remove(<solarfluxreborn:mirror>);
+recipes.addShaped(<solarfluxreborn:mirror> *2,
+ [[<ore:nuggetSteel>,<ore:nuggetSteel>, <ore:nuggetSteel>],
+  [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
+  [<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>]]);
+
+recipes.remove(<solarfluxreborn:solarcell1>);
+recipes.addShaped(<solarfluxreborn:solarcell1>,
+ [[<ore:paneGlass>,<ore:paneGlass>, <ore:paneGlass>],
+  [<ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>],
+  [<solarfluxreborn:mirror>, <solarfluxreborn:mirror>, <solarfluxreborn:mirror>]]);
+  
+recipes.remove(<solarfluxreborn:wire_1>);
+recipes.remove(<solarfluxreborn:wire_2>);
+recipes.remove(<solarfluxreborn:wire_3>);  
+  
+  

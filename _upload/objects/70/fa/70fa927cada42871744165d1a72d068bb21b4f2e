@@ -1,0 +1,17 @@
+#Name : oc.zs
+#Author: FTB for conduit only!
+#Co-Author : TrilexCom
+
+recipes.remove(<opencomputers:material:7>);
+recipes.addShaped(<opencomputers:material:7>,
+ [[<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>],
+  [<actuallyadditions:item_crystal>, <opencomputers:material:6>, <actuallyadditions:item_crystal>],
+  [<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>]]);
+  
+recipes.remove(<opencomputers:material:6>);
+recipes.addShaped(<opencomputers:material:6>,
+ [[<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>],
+  [<ore:nuggetGold>, <minecraft:paper>, <ore:nuggetGold>],
+  [null, <actuallyadditions:item_crystal>, null]]);
+    
+  

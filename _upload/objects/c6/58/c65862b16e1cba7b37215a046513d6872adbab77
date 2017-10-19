@@ -1,0 +1,38 @@
+#Name : hc.zs
+#Author : TrilexCom
+
+recipes.remove(<environmentaltech:interconnect>);
+recipes.addShaped(<environmentaltech:interconnect>,
+ [[null,<environmentaltech:connector>, null],
+  [<environmentaltech:connector>, <immersiveengineering:stone_decoration:5>, <environmentaltech:connector>],
+  [null, <environmentaltech:connector>, null]]);
+  
+recipes.remove(<environmentaltech:laser_lens>);
+recipes.addShaped(<environmentaltech:laser_lens>,
+ [[<ore:blockGlass>,<industrialforegoing:laser_lens>, <ore:blockGlass>],
+  [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
+  [<ore:blockGlass>, <industrialforegoing:laser_lens>, <ore:blockGlass>]]);
+
+recipes.remove(<environmentaltech:litherite_crystal>); 
+
+recipes.remove(<environmentaltech:solar_cont_1>);
+recipes.addShaped(<environmentaltech:solar_cont_1>,
+ [[<ore:blockLitherite>,<ic2:plate:13>, <ore:blockLitherite>],
+  [<ic2:plate:13>, <ore:etSolarCell>, <ic2:plate:13>],
+  [<ore:blockLitherite>, <ic2:plate:13>, <ore:blockLitherite>]]);
+  
+recipes.remove(<environmentaltech:connector>);
+recipes.addShaped(<environmentaltech:connector>,
+ [[<minecraft:redstone>,<magneticraft:light_plates:5>, <minecraft:redstone>],
+  [<magneticraft:light_plates:5>, <minecraft:redstone>, <magneticraft:light_plates:5>],
+  [<minecraft:redstone>, <magneticraft:light_plates:5>, <minecraft:redstone>]]);  
+
+  
+  
+  
+  
+  
+
+  
+  
+  

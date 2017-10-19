@@ -1,0 +1,56 @@
+#Name: ae.zs
+#Author: All the mods
+#Co-Author: TrilexCom
+
+import crafttweaker.item.IIngredient as IIngredient;
+import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.oredict.IOreDict as IOreDict;
+import crafttweaker.oredict.IOreDictEntry as IOreDictEntry;
+
+//====== Unify wood stuff in oredicts =======
+// made by Ordinator 2017-JUL-08
+
+
+//====== Variables ======
+//
+	var Chest = <ore:chest>;
+	var ChestWood = <ore:chestWood>;
+	var ChestTrapped = <ore:chestTrapped>;
+	var Trapdoor = <ore:trapdoorWood>;
+	var Door = <ore:doorWood>;
+	var Bed = <ore:bed>;
+	var Log = <ore:logWood>;
+	var Plank = <ore:plankWood>;
+	var WoodSlab = <ore:slabWood>;
+	var WoodStair = <ore:stairWood>;
+	var Stick = <ore:stickWood>;
+	var Fence = <ore:fenceWood>;
+	var Gate = <ore:fenceGateWood>;
+
+//======Add to chest======
+//
+	var ChestsToAdd = [
+		//<appliedenergistics2:sky_stone_chest>,
+		//<appliedenergistics2:smooth_sky_stone_chest>,
+	] as IItemStack[];
+	
+	Chest.addItems(ChestsToAdd);
+
+recipes.addShapeless(<biomesoplenty:planks_0> * 2, [<biomesoplenty:log_0:4>]);
+recipes.addShapeless(<biomesoplenty:planks_0:1> * 2, [<biomesoplenty:log_0:5>]);
+recipes.addShapeless(<biomesoplenty:planks_0:2> * 2, [<biomesoplenty:log_0:6>]);
+recipes.addShapeless(<biomesoplenty:planks_0:3> * 2, [<biomesoplenty:log_0:7>]);
+recipes.addShapeless(<biomesoplenty:planks_0:4> * 2, [<biomesoplenty:log_1:4>]);
+recipes.addShapeless(<biomesoplenty:planks_0:5> * 2, [<biomesoplenty:log_1:5>]);	
+recipes.addShapeless(<biomesoplenty:planks_0:6> * 2, [<biomesoplenty:log_1:6>]);	
+recipes.addShapeless(<biomesoplenty:planks_0:8> * 2, [<biomesoplenty:log_2:4>]);
+recipes.addShapeless(<biomesoplenty:planks_0:9> * 2, [<biomesoplenty:log_2:5>]);
+recipes.addShapeless(<biomesoplenty:planks_0:10> * 2, [<biomesoplenty:log_2:6>]);
+recipes.addShapeless(<biomesoplenty:planks_0:11> * 2, [<biomesoplenty:log_2:7>]);
+recipes.addShapeless(<biomesoplenty:planks_0:12> * 2, [<biomesoplenty:log_3:4>]);
+recipes.addShapeless(<biomesoplenty:planks_0:13> * 2, [<biomesoplenty:log_3:5>]);
+recipes.addShapeless(<biomesoplenty:planks_0:14> * 2, [<biomesoplenty:log_3:6>]);
+recipes.addShapeless(<biomesoplenty:planks_0:15> * 2, [<biomesoplenty:log_3:7>]);
+recipes.addShapeless(<biomesoplenty:planks_0:7> * 2, [<biomesoplenty:log_1:7>]);
+
+		

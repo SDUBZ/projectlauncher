@@ -1,0 +1,37 @@
+#Name: RandomThings.zs
+#Author: All the mods
+#Co-Author: TrilexCom
+
+import crafttweaker.item.IIngredient as IIngredient;
+import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.oredict.IOreDict as IOreDict;
+import crafttweaker.oredict.IOreDictEntry as IOreDictEntry;
+
+//====== Unify wood stuff in oredicts =======
+// made by Ordinator 2017-JUL-08
+
+
+//====== Variables ======
+//
+	var Chest = <ore:chest>;
+	var ChestWood = <ore:chestWood>;
+	var ChestTrapped = <ore:chestTrapped>;
+	var Trapdoor = <ore:trapdoorWood>;
+	var Door = <ore:doorWood>;
+	var Bed = <ore:bed>;
+	var Log = <ore:logWood>;
+	var Plank = <ore:plankWood>;
+	var WoodSlab = <ore:slabWood>;
+	var WoodStair = <ore:stairWood>;
+	var Stick = <ore:stickWood>;
+	var Fence = <ore:fenceWood>;
+	var Gate = <ore:fenceGateWood>;
+
+//======Add to chestWood======
+//
+	var WoodChestToAdd = [
+		//<randomthings:specialChest:0>,
+		//<randomthings:specialChest:1>,
+	] as IItemStack[];
+	
+	ChestWood.addItems(WoodChestToAdd);

@@ -1,0 +1,106 @@
+#Name : tf.zs
+#Author : TrilexCom
+
+val tfironplate = <ore:plateIron>;  
+tfironplate.remove(<thermalfoundation:material:32>);
+
+val tfgoldplate = <ore:plateGold>;  
+tfgoldplate.remove(<thermalfoundation:material:33>);
+
+val tfCopperplate = <ore:plateCopper>;  
+tfCopperplate.remove(<thermalfoundation:material:320>);
+
+val tfTinplate = <ore:plateTin>;  
+tfTinplate.remove(<thermalfoundation:material:321>);
+
+val tfleadplate = <ore:plateTin>;  
+tfleadplate.remove(<thermalfoundation:material:323>);
+
+val tfsteelplate = <ore:plateSteel>;  
+tfsteelplate.remove(<thermalfoundation:material:352>);
+
+val tfBronzeplate = <ore:plateBronze>;  
+tfBronzeplate.remove(<thermalfoundation:material:355>);
+
+recipes.remove(<thermalfoundation:material:32>);
+recipes.remove(<thermalfoundation:material:33>);
+recipes.remove(<thermalfoundation:material:320>);
+recipes.remove(<thermalfoundation:material:321>);
+recipes.remove(<thermalfoundation:material:323>);
+recipes.remove(<thermalfoundation:material:352>);
+recipes.remove(<thermalfoundation:material:355>);
+recipes.remove(<thermalfoundation:material:322>);
+recipes.remove(<thermalfoundation:material:353>);
+recipes.remove(<thermalfoundation:material:356>);
+recipes.remove(<thermalfoundation:material:324>);
+recipes.remove(<thermalfoundation:storage:7>);
+recipes.remove(<thermalfoundation:storage:8>);
+recipes.remove(<thermalfoundation:storage_alloy:1>);
+recipes.remove(<thermalfoundation:storage_alloy:5>);
+recipes.remove(<thermalfoundation:storage_alloy:6>);
+recipes.remove(<thermalfoundation:storage_alloy:7>);
+recipes.remove(<thermalfoundation:storage:8>);
+recipes.remove(<thermalfoundation:storage:4>);
+recipes.remove(<thermalfoundation:storage:6>);
+
+recipes.remove(<thermalfoundation:material:99>);
+
+#Remove TF Gear
+recipes.remove(<thermalfoundation:material:290>);
+recipes.remove(<thermalfoundation:material:291>);
+recipes.remove(<thermalfoundation:material:292>);
+recipes.remove(<thermalfoundation:material:293>);
+recipes.remove(<thermalfoundation:material:294>);
+recipes.remove(<thermalfoundation:material:259>);
+recipes.remove(<thermalfoundation:material:258>);
+recipes.remove(<thermalfoundation:material:257>);
+recipes.remove(<thermalfoundation:material:256>);
+recipes.remove(<thermalfoundation:material:289>);
+recipes.remove(<thermalfoundation:material:288>);
+recipes.remove(<thermalfoundation:material:264>);
+recipes.remove(<thermalfoundation:material:263>);
+recipes.remove(<thermalfoundation:material:262>);
+recipes.remove(<thermalfoundation:material:261>);
+recipes.remove(<thermalfoundation:material:260>);
+recipes.remove(<thermalfoundation:material:290>);
+recipes.remove(<thermalfoundation:material:291>);
+recipes.remove(<thermalfoundation:material:292>);
+recipes.remove(<thermalfoundation:material:293>);
+recipes.remove(<thermalfoundation:material:294>);
+recipes.remove(<thermalfoundation:material:295>);
+recipes.remove(<thermalfoundation:material:288>);
+recipes.remove(<redstonearsenal:material:96>);
+recipes.remove(<thermalfoundation:material:25>);
+recipes.remove(<thermalfoundation:material:24>);
+recipes.remove(<thermalfoundation:material:98>);
+recipes.remove(<redstonearsenal:material:160>);
+
+#Remove Alloy block
+recipes.remove(<thermalfoundation:storage_alloy:3>);
+recipes.remove(<thermalfoundation:storage_alloy:4>);
+recipes.remove(<thermalfoundation:storage:1>);
+recipes.remove(<thermalfoundation:storage>);
+recipes.remove(<thermalfoundation:storage_alloy:2>);
+recipes.remove(<thermalfoundation:storage_alloy>);
+recipes.remove(<thermalfoundation:storage:2>);
+recipes.remove(<thermalfoundation:storage:3>);
+
+#furnace.addRecipe(<thermalfoundation:material:193>, <thermalfoundation:ore:1>);
+#furnace.addRecipe(<thermalfoundation:material:192>, <thermalfoundation:ore>);
+#furnace.addRecipe(<thermalfoundation:material:196>, <thermalfoundation:ore:4>);
+#furnace.addRecipe(<thermalfoundation:material:195>, <thermalfoundation:ore:3>);
+#furnace.addRecipe(<thermalfoundation:material:194>, <thermalfoundation:ore:2>);
+#furnace.addRecipe(<thermalfoundation:material:197>, <thermalfoundation:ore:5>);
+
+
+#furnace.remove(<thermalfoundation:material:128>);
+#furnace.remove(<thermalfoundation:material:129>);
+#furnace.remove(<thermalfoundation:material:131>);
+#furnace.remove(<thermalfoundation:material:133>);
+#furnace.remove(<thermalfoundation:material:132>);
+#furnace.remove(<thermalfoundation:material:130>);
+
+
+
+
+
