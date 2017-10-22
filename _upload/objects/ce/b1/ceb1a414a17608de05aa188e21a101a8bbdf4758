@@ -1,0 +1,203 @@
+# Configuration file
+
+"items enables" {
+    # Should item.blood_collector.name be enabled
+    B:blood_collector=true
+
+    # Should Blood Essence be enabled
+    B:blood_essence=true
+
+    # Should Blood Infused Ender Eye be enabled
+    B:blood_infused_ender_eye=true
+
+    # Should Bloody Apple be enabled
+    B:bloody_apple=true
+
+    # Should Bloody Earring be enabled
+    B:bloody_earring=true
+
+    # Should Bloody Pontus Cube be enabled
+    B:bloody_pontus_cube=true
+
+    # Should Broken Arrow be enabled
+    B:broken_arrow=true
+
+    # Should Combat Pendant be enabled
+    B:combat_pendant=true
+
+    # Should Criminal Pendant be enabled
+    B:criminal_pendant=true
+
+    # Should Diamond Shard be enabled
+    B:diamond_shard=true
+
+    # Should Elemental Pendant be enabled
+    B:elemental_pendant=true
+
+    # Should Elytra Pendant be enabled
+    B:elytra_pendant=true
+
+    # Should Emerald Shard be enabled
+    B:emerald_shard=true
+
+    # Should Empowered Soul Harsher Sword be enabled
+    B:empowered_soul_harsher_sword=true
+
+    # Should Empty Ring be enabled
+    B:empty_ring=true
+
+    # Should Ender Bow be enabled
+    B:ender_bow=true
+
+    # Should Ender Necklace be enabled
+    B:ender_pendant=true
+
+    # Should Enion Bow be enabled
+    B:enion_bow=true
+
+    # Should Fearring be enabled
+    B:fearring=true
+
+    # Should Feather Earring be enabled
+    B:feather_earring=true
+
+    # Should Feeding Earring be enabled
+    B:feeding_earring=true
+
+    # Should Fiery Ring be enabled
+    B:fiery_ring=true
+
+    # Should item.glass_container.name be enabled
+    B:glass_container=true
+
+    # Should Harshen Book (wip) be enabled
+    B:harshen_book=true
+
+    # Should Harshen Crystal be enabled
+    B:harshen_crystal=true
+
+    # Should Harshen Soul Fragment be enabled
+    B:harshen_soul_fragment=true
+
+    # Should Harshen Soul Ingot be enabled
+    B:harshen_soul_ingot=true
+
+    # Should Iron Bow be enabled
+    B:iron_bow=true
+
+    # Should Iron Heart be enabled
+    B:iron_heart=true
+
+    # Should Iron Scythe be enabled
+    B:iron_scythe=true
+
+    # Should Harshen Dimensional Door be enabled
+    B:item_harshen_dimensional_door=true
+
+    # Should ite be enabled
+    B:item_liquid=true
+
+    # Should Itium be enabled
+    B:itium=true
+
+    # Should Light Emitted Essence be enabled
+    B:light_emitted_essence=true
+
+    # Should Light Emitted Seed be enabled
+    B:light_emitted_seed=true
+
+    # Should Lightning Staff be enabled
+    B:lightning_staff=true
+
+    # Should Looting Earring be enabled
+    B:looting_earring=true
+
+    # Should Minering be enabled
+    B:minering=true
+
+    # Should Mystic Feather be enabled
+    B:mystic_feather=true
+
+    # Should One Ring be enabled
+    B:one_ring=true
+
+    # Should Pontus Cube be enabled
+    B:pontus_cube=true
+
+    # Should Pontus Ring be enabled
+    B:pontus_ring=true
+
+    # Should item.pontus_world_gate_part.name be enabled
+    B:pontus_world_gate_part=true
+
+    # Should item.pontus_world_gate_spawner.name be enabled
+    B:pontus_world_gate_spawner=true
+
+    # Should Powder of Heretism be enabled
+    B:powder_of_heretism=true
+
+    # Should item.prop.name be enabled
+    B:props=true
+
+    # Should Punchy Ring be enabled
+    B:punchy_ring=true
+
+    # Should Raptor Scythe be enabled
+    B:raptor_scythe=true
+
+    # Should Reach Pendant be enabled
+    B:reach_pendant=true
+
+    # Should Ring of Blood be enabled
+    B:ring_of_blood=true
+
+    # Should item.ring_of_flight.name be enabled
+    B:ring_of_flight=true
+
+    # Should item.ritual_crystal.name be enabled
+    B:ritual_crystal=true
+
+    # Should item.ritual_stick.name be enabled
+    B:ritual_stick=true
+
+    # Should Solidifying Paste be enabled
+    B:solidifying_paste=true
+
+    # Should Soul Binding Pendant be enabled
+    B:soul_binding_pendant=true
+
+    # Should Kazzendre's Soul Harsher Pickaxe be enabled
+    B:soul_harsher_pickaxe=true
+
+    # Should Soul Harsher Sword be enabled
+    B:soul_harsher_sword=true
+
+    # Should Soul Infused Ingot be enabled
+    B:soul_infused_ingot=true
+
+    # Should Soul Ripper Bow be enabled
+    B:soul_ripper_bow=true
+
+    # Should Soul Shield be enabled
+    B:soul_shield=true
+
+    # Should Telering be enabled
+    B:telering=true
+
+    # Should Valor Badge be enabled
+    B:valor_badge=true
+
+    # Should Aqua Earring be enabled
+    B:water_earring=true
+
+    # Should Xray Necklace be enabled
+    B:xray_pendant=true
+
+    # Should Zombi Pendant be enabled
+    B:zombi_pendant=true
+
+    # Should Zombie Eye be enabled
+    B:zombie_eye=true
+}
+
+

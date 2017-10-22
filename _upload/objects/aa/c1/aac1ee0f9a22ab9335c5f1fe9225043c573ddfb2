@@ -1,0 +1,140 @@
+# Configuration file
+
+"blocks enables" {
+    # Should Archive be enabled
+    B:archive=true
+
+    # Should Block Of Heads be enabled
+    B:block_of_heads=true
+
+    # Should Blood be enabled
+    B:blood_block=true
+
+    # Should Blood Factory be enabled
+    B:blood_factory=true
+
+    # Should Blood Placer be enabled
+    B:blood_placer=true
+
+    # Should Blood Vessel be enabled
+    B:blood_vessel=true
+
+    # Should Crop of Gleam be enabled
+    B:crop_of_gleam=true
+
+    # Should Gilded Obsidian be enabled
+    B:gilded_obsidian=true
+
+    # Should Pontus Chaotic Rock be enabled
+    B:harshen_chaotic_rock=true
+
+    # Should Harshen Destroyed Plant be enabled
+    B:harshen_destroyed_plant=true
+
+    # Should Harshen Dimensional Dirt be enabled
+    B:harshen_dimensional_dirt=true
+
+    # Should Harshen Dimensional Door be enabled
+    B:harshen_dimensional_door=true
+
+    # Should Harshen Dimensional Flat Plate be enabled
+    B:harshen_dimensional_flat_plate=true
+
+    # Should Harshen Dimensional Gate (Pontus) be enabled
+    B:harshen_dimensional_gate=true
+
+    # Should Harshen Dimensional Glass be enabled
+    B:harshen_dimensional_glass=true
+
+    # Should Harshen Dimensional Ladder be enabled
+    B:harshen_dimensional_ladder=true
+
+    # Should Ritual Pedestal be enabled
+    B:harshen_dimensional_pedestal=true
+
+    # Should Harshen Dimensional Plate be enabled
+    B:harshen_dimensional_plate=true
+
+    # Should Harshen Dimensional Plate be enabled
+    B:harshen_dimensional_plate_active=true
+
+    # Should Harshen Dimensional Pressure Plate be enabled
+    B:harshen_dimensional_pressure_plate=true
+
+    # Should Harshen Dimensional Rock be enabled
+    B:harshen_dimensional_rock=true
+
+    # Should Harshen Dimensional Stairs be enabled
+    B:harshen_dimensional_stairs=true
+
+    # Should Harshen Dimensional Stone be enabled
+    B:harshen_dimensional_stone=true
+
+    # Should Harshen Dimensional Wood Crate be enabled
+    B:harshen_dimensional_wood_crate=true
+
+    # Should Harshen Display Block be enabled
+    B:harshen_display_block=true
+
+    # Should Harshen Magic Table be enabled
+    B:harshen_magic_table=true
+
+    # Should Harshen Soul Flower be enabled
+    B:harshen_soul_flower=true
+
+    # Should Harshen Soul Ore be enabled
+    B:harshen_soul_ore=true
+
+    # Should Harshen Spawner be enabled
+    B:harshen_spawner=true
+
+    # Should Heretic Cauldron be enabled
+    B:heretic_cauldron=true
+
+    # Should Heretic Cauldron be enabled
+    B:heretic_cauldron_top=true
+
+    # Should Itium Ore be enabled
+    B:itium_ore=true
+
+    # Should tile.jewel_dirt.name be enabled
+    B:jewel_dirt=true
+
+    # Should Unstable Kuantic Element Ore be enabled
+    B:kuantic_ore=true
+
+    # Should Ritual Pedestal Slab be enabled
+    B:pedestal_slab=true
+
+    # Should Plant of Gleam be enabled
+    B:plant_of_gleam=true
+
+    # Should Pontus Chaotic Leaves be enabled
+    B:pontus_chaotic_leaves=true
+
+    # Should Pontus Chaotic Wood be enabled
+    B:pontus_chaotic_wood=true
+
+    # Should Pontus Dead Leaves be enabled
+    B:pontus_dead_leaves=true
+
+    # Should Pontus Dead Wood be enabled
+    B:pontus_dead_wood=true
+
+    # Should Pontus Emerald Ore be enabled
+    B:pontus_emerald_ore=true
+
+    # Should Pontus Far Leaves be enabled
+    B:pontus_far_leaves=true
+
+    # Should Pontus Far Rock be enabled
+    B:pontus_far_rock=true
+
+    # Should Pontus Far Wood be enabled
+    B:pontus_far_wood=true
+
+    # Should Soul Reminder be enabled
+    B:soul_reminder=true
+}
+
+

@@ -1,0 +1,20 @@
+# Configuration file
+
+ids {
+    # What should the ID for entity.harshen_soul.name be
+    I:entity_harshen_soul=86
+
+    # What should the ID for Soul Part be
+    I:entity_soul_part=84
+
+    # What should the ID for Soulless Knight be
+    I:entity_soulless_knight=83
+
+    # What should the ID for entity.thrown.name be
+    I:entity_thrown=85
+
+    # What should the ID for Pontus Dimension be
+    I:pontus_dimension=5
+}
+
+

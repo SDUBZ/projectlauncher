@@ -1,0 +1,20 @@
+# Configuration file
+
+general {
+    # The chance for blood to occur when a mob is hit.
+    D:blood_chance=0.3
+
+    # If blood occurs, should it be placed on the ground?
+    B:blood_drops=true
+
+    # If the blood cant be placed on the ground, should the player be able to get it if they have a blood collector in their offhand
+    B:blood_offhand=true
+
+    # Should the flatplate renderer be run for all players in creative mode
+    B:render_flatplates=true
+
+    # If a structure has the ruin tag, what is the chance that a block is changed to air. If you dont understand dont worry, its not very important
+    D:structure_ruin_chance=0.2
+}
+
+

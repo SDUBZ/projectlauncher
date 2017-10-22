@@ -1,0 +1,34 @@
+# Configuration file
+
+ender_pendant {
+    # config.enderpendant.distance
+    I:enderpendant.distance=100
+}
+
+
+reach_pendant {
+    # config.reach.length
+    D:reach.length=12.5
+}
+
+
+xray_pendant {
+    # What blocks shouldnt work with the xray pendant
+    S:xray.blacklist <
+        minecraft:stone
+     >
+
+    # The distance from the player that the xray pendant should be able to find, along the x axis(The higher this is the more lag it makes)
+    I:xray.distance.x=20
+
+    # The distance from the player that the xray pendant should be able to find, along the y axis(The higher this is the more lag it makes)
+    I:xray.distance.y=20
+
+    # The distance from the player that the xray pendant should be able to find, along the z axis(The higher this is the more lag it makes)
+    I:xray.distance.z=20
+
+    # The maximum amount of blocks the xray pendant can pick up
+    I:xray.listsize=50
+}
+
+

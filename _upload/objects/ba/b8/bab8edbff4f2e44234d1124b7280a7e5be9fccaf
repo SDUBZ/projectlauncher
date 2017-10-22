@@ -1,0 +1,17 @@
+# Configuration file
+
+"structures enables" {
+    # Should the structure castle be enabled
+    B:castle=true
+
+    # Should the structure inside_dome be enabled
+    B:inside_dome=true
+
+    # Should the structure ritual be enabled
+    B:ritual=true
+
+    # Should the structure shrine be enabled
+    B:shrine=true
+}
+
+
