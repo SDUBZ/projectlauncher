@@ -1,0 +1,51 @@
+# Configuration file
+
+general {
+    # Bucket & Bottle Cooldowns?
+    I:C_EXPCOW_BOTTLE_COOLDOWN=120
+    I:C_EXPCOW_BUCKET_COOLDOWN=720
+    I:C_LAPISCOW_BUCKET_COOLDOWN=240
+    I:C_REDSTONECOW_BUCKET_COOLDOWN=240
+    I:M_CoalCowSpawnRate=20
+
+    # Set Cow Spawnrate
+    I:M_CobblestoneCowSpawnRate=25
+    I:M_DiamondCowSpawnRate=8
+    I:M_EmeraldCowSpawnRate=5
+    I:M_ExperienceCowSpawnRate=3
+    I:M_GlowstoneCowSpawnRate=20
+    I:M_GoldCowSpawnRate=12
+    I:M_HallowenCowSpawnRate=5
+    I:M_IceCowSpawnRate=1
+    I:M_IronCowSpawnRate=15
+    I:M_LapisCowSpawnRate=14
+    I:M_ObsidianCowSpawnRate=10
+    I:M_PinkCowSpawnRate=15
+    I:M_QuartzCowSpawnRate=15
+    I:M_RedstoneCowSpawnRate=12
+    I:M_SmartCowSpawnRate=5
+    I:M_SnowCowSpawnRate=1
+    I:M_SpongeCowSpawnRate=0
+
+    # Should cows spawn by default?
+    B:OPT_Defaultcowspawn=true
+
+    # Should cows destroy farms?
+    B:OPT_DestroyCrops=true
+
+    # Enable Hallowen Cow?
+    B:OPT_EnableHallowenCow=true
+
+    # Enable Xmas Cow?
+    B:OPT_EnableXmasCow=false
+
+    # Farmable Cows, if it's = false then cows will attack player!
+    B:OPT_FarmableCows=true
+    I:R_Pox=75
+    I:R_Poy=16
+
+    # Sponge Cows Absorptions Radius
+    I:R_Poz=75
+}
+
+

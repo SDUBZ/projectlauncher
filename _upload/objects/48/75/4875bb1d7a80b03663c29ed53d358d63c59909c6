@@ -1,0 +1,130 @@
+#Name: tconstruct.zs
+#Author:TrilexCom
+#Co-Author:hiyikfko
+#Credit:AOG
+
+#tconstruct recipe removal
+recipes.remove(<tconstruct:throwball:1>);
+recipes.remove(<tconstruct:stone_torch>);
+recipes.remove(<tconstruct:soil>);
+
+recipes.remove(<tconstruct:seared_furnace_controller>);
+
+#tconstruct toolforge recipe
+recipes.remove(<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block"}}));
+var toolstation = <tconstruct:tooltables:3>;
+var densesteel = <ic2:plate:16>;
+var searedbricks = <tconstruct:seared:3>;
+recipes.remove(<tconstruct:toolforge>);
+recipes.addShaped(<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}),[[searedbricks,searedbricks,searedbricks],[densesteel,toolstation,densesteel],[densesteel,null,densesteel]]);
+
+#tconstruct stencil recipe
+recipes.remove(<tconstruct:tooltables:1>.withTag({textureBlock: {id: "minecraft:planks", Count: 1 as byte, Damage: 0 as short}}));
+var tcpattern = <tconstruct:pattern>;
+var woodengear = <ore:gearWood>;
+var bcframing = <bibliocraft:framingboard>;
+var tcwoodenplate = <ore:plateWood>;
+var mcfence = <ore:fenceWood>;
+var mcstick = <ore:stickWood>;
+recipes.remove(<tconstruct:tooltables:1>);
+recipes.addShaped(<tconstruct:tooltables:1>.withTag({textureBlock: {id: "minecraft:planks", Count: 1 as byte, Damage: 0 as short}}),[[bcframing,tcpattern,bcframing],[tcwoodenplate,woodengear,tcwoodenplate],[bcframing,tcwoodenplate,bcframing]]);
+
+#tconstruct part builder recipe
+recipes.remove(<tconstruct:tooltables:2>.withTag({textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}));
+recipes.remove(<tconstruct:tooltables:2>);
+recipes.addShaped(<tconstruct:tooltables:2>.withTag({textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}),[[bcframing,tcpattern,bcframing],[woodengear,tcwoodenplate,woodengear],[bcframing,woodengear,bcframing]]);
+
+#tcontruct tool station rcipe
+
+recipes.remove(<tconstruct:tooltables:3>);
+recipes.addShaped(<tconstruct:tooltables:3>,
+ [[<bibliocraft:framingboard>, <tconstruct:pattern>, <bibliocraft:framingboard>],
+  [<minecraft:flint>, <ore:gearWood>, <minecraft:flint>],
+  [<bibliocraft:framingboard>, <ore:ringIron>, <bibliocraft:framingboard>]]);
+
+#tcontruct pattern chest
+recipes.remove(<tconstruct:tooltables:4>);
+recipes.addShaped(<tconstruct:tooltables:4>,
+ [[<ore:plateWood>, <tconstruct:pattern>, <ore:plateWood>],
+  [<ore:plateWood>, <ore:chest>, <ore:plateWood>],
+  [<ore:plateWood>, <ore:plateWood>, <ore:plateWood>]]);
+  
+recipes.remove(<tconstruct:tooltables>);
+recipes.addShaped(<tconstruct:tooltables> , [
+    [<primal:flint_saw>.anyDamage()],
+    [<minecraft:crafting_table>],
+    ]);
+
+recipes.remove(<tconstruct:pattern>);
+#recipes.addShaped(<tconstruct:pattern>,
+# [[<extratrees:misc:4>, <ore:stickWood>, <extratrees:misc:4>],
+#  [<ore:stickWood>, <ore:paper >, <ore:stickWood>],
+#  [<extratrees:misc:4>, <ore:stickWood>, <extratrees:misc:4>]]);
+
+
+recipes.remove(<tconstruct:materials:16>);
+recipes.addShaped(<tconstruct:materials:16>,
+ [[null, <tconstruct:materials:15>, null],
+  [<tconstruct:materials:15>, <minecraft:emerald_block>, <tconstruct:materials:15>],
+  [null, <tconstruct:materials:15>, null]]);
+
+recipes.remove(<tconstruct:materials:15>);
+recipes.addShaped(<tconstruct:materials:15>,
+ [[<ore:string>, <harvestcraft:wovencottonitem>, <ore:string>],
+  [<harvestcraft:wovencottonitem>, <ore:ingotAlubrass>, <harvestcraft:wovencottonitem>],
+  [<ore:string>, <harvestcraft:wovencottonitem>, <ore:string>]]);
+
+recipes.addShaped(<tconstruct:soil> *6,
+ [[<minecraft:sand>, <minecraft:gravel>, <minecraft:sand>],
+  [<minecraft:clay>, <ore:listAllwater>, <minecraft:clay>],
+  [<minecraft:sand>, <minecraft:gravel>, <minecraft:sand>]]);
+  
+recipes.remove(<tconstruct:smeltery_controller>);
+recipes.addShaped(<tconstruct:smeltery_controller>,
+ [[<tconstruct:materials>, <tconstruct:seared:3>, <tconstruct:materials>],
+  [<tconstruct:seared:3>, <minecraft:furnace>, <tconstruct:seared:3>],
+  [<tconstruct:materials>, <tconstruct:seared:3>, <tconstruct:materials>]]);
+
+recipes.remove(<tconstruct:smeltery_io>);
+recipes.addShaped(<tconstruct:smeltery_io>,
+ [[<tconstruct:seared:3>, <tconstruct:faucet>, <tconstruct:seared:3>],
+  [<tconstruct:seared:3>, null, <tconstruct:seared:3>],
+  [<tconstruct:seared:3>, <tconstruct:faucet>, <tconstruct:seared:3>]]);
+
+furnace.remove(<tconstruct:materials>);
+recipes.remove(<tconstruct:slime_boots>);
+recipes.remove(<tconstruct:slime_boots:1>); 
+recipes.remove(<tconstruct:slime_boots:2>);
+recipes.remove(<tconstruct:slime_boots:3>);  
+recipes.remove(<tconstruct:slime_boots:4>);
+recipes.remove(<tconstruct:slimesling>);
+recipes.remove(<tconstruct:stone_ladder>);
+
+recipes.remove(<tcomplement:materials>);    
+  
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast_custom:3>);
+
+#tinkers mangeticcraft chunk alloy recipe 
+
+mods.tconstruct.Melting.addRecipe(<liquid:iron> * 288,<magneticraft:chunks>);
+mods.tconstruct.Melting.addRecipe(<liquid:gold> * 288,<magneticraft:chunks:1>);
+mods.tconstruct.Melting.addRecipe(<liquid:tin> * 288,<magneticraft:chunks:13>);
+mods.tconstruct.Melting.addRecipe(<liquid:silver> * 288,<magneticraft:chunks:12>);
+mods.tconstruct.Melting.addRecipe(<liquid:nickel> * 288,<magneticraft:chunks:10>);
+mods.tconstruct.Melting.addRecipe(<liquid:lead> * 288,<magneticraft:chunks:3>);
+mods.tconstruct.Melting.addRecipe(<liquid:copper> * 288,<magneticraft:chunks:2>);
+mods.tconstruct.Melting.addRecipe(<liquid:aluminum> * 288,<magneticraft:chunks:7>);
+
+#tinkers mangeticcraft dust alloy recipe 
+
+mods.tconstruct.Melting.addRecipe(<liquid:iron> * 144,<magneticraft:dusts>);
+mods.tconstruct.Melting.addRecipe(<liquid:gold> * 144,<magneticraft:dusts:1>);
+mods.tconstruct.Melting.addRecipe(<liquid:copper> * 144,<magneticraft:dusts:2>);
+mods.tconstruct.Melting.addRecipe(<liquid:lead> * 144,<magneticraft:dusts:3>);
+mods.tconstruct.Melting.addRecipe(<liquid:aluminum> * 144,<magneticraft:dusts:7>);
+mods.tconstruct.Melting.addRecipe(<liquid:nickel> * 144,<magneticraft:dusts:10>);
+mods.tconstruct.Melting.addRecipe(<liquid:silver> * 144,<magneticraft:dusts:12>);
+mods.tconstruct.Melting.addRecipe(<liquid:tin> * 144,<magneticraft:dusts:13>);
+
+
+

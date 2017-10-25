@@ -1,0 +1,22 @@
+#Name : enderstorage.zs
+#Author : TrilexCom
+
+recipes.remove(<enderstorage:ender_storage>);
+recipes.addShaped(<enderstorage:ender_storage>,
+ [[<minecraft:blaze_rod>,<ore:blockWool>, <minecraft:blaze_rod>],
+  [<ironchest:iron_chest>, <thermalexpansion:frame:132>, <ironchest:iron_chest>],
+  [<minecraft:blaze_rod>, <thermalexpansion:strongbox>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 4 as byte}), <minecraft:blaze_rod>]]);
+  
+recipes.remove(<enderstorage:ender_storage:1>);
+recipes.addShaped(<enderstorage:ender_storage:1>,
+ [[<minecraft:blaze_rod>,<ore:blockWool>, <minecraft:blaze_rod>],
+  [<minecraft:cauldron>, <thermalexpansion:frame:132>, <minecraft:cauldron>],
+  [<minecraft:blaze_rod>, <enderutilities:enderbucket>, <minecraft:blaze_rod>]]);
+  
+recipes.remove(<enderstorage:ender_pouch>);
+recipes.addShaped(<enderstorage:ender_pouch>,
+ [[<minecraft:blaze_powder>,<ore:blockWool>, <minecraft:blaze_powder>],
+  [<minecraft:leather>, <minecraft:ender_pearl>, <minecraft:leather>],
+  [<minecraft:blaze_powder>, <minecraft:leather>, <minecraft:blaze_powder>]]);  
+  
+  

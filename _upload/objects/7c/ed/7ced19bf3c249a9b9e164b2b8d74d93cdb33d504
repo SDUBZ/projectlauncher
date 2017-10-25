@@ -1,0 +1,104 @@
+#Name : mc.zs
+#Author : TrilexCom
+
+recipes.remove(<magneticraft:water_generator>);
+recipes.addShaped(<magneticraft:water_generator>,
+ [[<ic2:plate:3>,<ore:blockGlassHardened>, <ic2:plate:3>],
+  [<ore:blockGlassHardened>, <minecraft:cauldron>, <ore:blockGlassHardened>],
+  [<ic2:plate:3>, <ore:blockGlassHardened>, <ic2:plate:3>]]);
+  
+recipes.remove(<magneticraft:crushing_table>);
+recipes.addShaped(<magneticraft:crushing_table>,
+ [[<ic2:plate:3>,<ic2:plate:3>, <ic2:plate:3>],
+  [<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>],
+  [<ore:plankWood>, <ore:logWood>, <ore:plankWood>]]);  
+  
+recipes.remove(<magneticraft:crafting:5>);
+recipes.addShaped(<magneticraft:crafting:5>,
+ [[<ic2:plate:3>,<magneticraft:crafting:6>, <ic2:plate:3>],
+  [<magneticraft:crafting:6>, <ic2:plate:3>, <magneticraft:crafting:6>],
+  [<ic2:plate:3>, <magneticraft:crafting:6>, <ic2:plate:3>]]);
+
+recipes.remove(<magneticraft:crafting:6>);
+recipes.addShaped(<magneticraft:crafting:6>,
+ [[<ore:fabricHemp>,<ore:string>, <ore:fabricHemp>],
+  [<ore:string>, <ore:fabricHemp>, <ore:string>],
+  [<ore:fabricHemp>, <ore:string>, <ore:fabricHemp>]]);  
+  
+furnace.addRecipe(<minecraft:iron_ingot>, <magneticraft:chunks>);
+furnace.addRecipe(<minecraft:gold_ingot>, <magneticraft:chunks:1>);
+furnace.addRecipe(<thermalfoundation:material:128>, <magneticraft:chunks:2>);
+furnace.addRecipe(<thermalfoundation:material:131>, <magneticraft:chunks:3>);
+furnace.addRecipe(<thermalfoundation:material:132>, <magneticraft:chunks:7>);
+furnace.addRecipe(<thermalfoundation:material:133>, <magneticraft:chunks:10>);
+furnace.addRecipe(<thermalfoundation:material:130>, <magneticraft:chunks:12>);
+furnace.addRecipe(<thermalfoundation:material:129>, <magneticraft:chunks:13>);
+
+furnace.addRecipe(<thermalfoundation:material:128>, <magneticraft:dusts:2>);
+furnace.addRecipe(<thermalfoundation:material:131>, <magneticraft:dusts:3>);
+furnace.addRecipe(<thermalfoundation:material:132>, <magneticraft:dusts:7>);
+furnace.addRecipe(<thermalfoundation:material:133>, <magneticraft:dusts:10>);
+furnace.addRecipe(<thermalfoundation:material:130>, <magneticraft:dusts:12>);
+furnace.addRecipe(<thermalfoundation:material:129>, <magneticraft:dusts:13>);
+
+furnace.remove(<magneticraft:ingots:2>);
+furnace.remove(<magneticraft:ingots:7>);
+furnace.remove(<magneticraft:ingots:10>);
+furnace.remove(<magneticraft:ingots:12>);
+furnace.remove(<magneticraft:ingots:13>);
+furnace.remove(<magneticraft:ingots:3>);
+furnace.remove(<magneticraft:ingots:5>);
+
+mods.magneticraft.CrushingTable.removeRecipe(<minecraft:iron_ingot>);
+mods.magneticraft.CrushingTable.removeRecipe(<minecraft:gold_ingot>);
+mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:2>);
+mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:3>);
+mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:5>);
+mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:6>);
+mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ores:4>);
+mods.magneticraft.CrushingTable.addRecipe(<forestry:wood_pulp>, <techreborn:plates:3> * 1, true);
+
+#vanilla dye recipe for crushing table
+
+#vanilla red dye
+
+mods.magneticraft.CrushingTable.addRecipe(<minecraft:red_flower:4>, <minecraft:dye:1> * 1, true);
+mods.magneticraft.CrushingTable.addRecipe(<minecraft:red_flower>, <minecraft:dye:1> * 1, true);
+mods.magneticraft.CrushingTable.addRecipe(<minecraft:red_flower:6>, <minecraft:dye:7> * 1, true);
+mods.magneticraft.CrushingTable.addRecipe(<minecraft:red_flower:7>, <minecraft:dye:9> * 1, true);
+mods.magneticraft.CrushingTable.addRecipe(<minecraft:red_flower:7>, <minecraft:dye:9> * 1, true);
+mods.magneticraft.CrushingTable.addRecipe(<minecraft:yellow_flower>, <minecraft:dye:11> * 1, true);
+mods.magneticraft.CrushingTable.addRecipe(<minecraft:red_flower:1>, <minecraft:dye:12> * 1, true);
+mods.magneticraft.CrushingTable.addRecipe(<minecraft:red_flower:1>, <minecraft:dye:12> * 1, true);
+mods.magneticraft.CrushingTable.addRecipe(<minecraft:double_plant:1>, <minecraft:dye:13> * 1, true);
+mods.magneticraft.CrushingTable.addRecipe(<minecraft:double_plant:1>, <minecraft:dye:13> * 1, true);
+mods.magneticraft.CrushingTable.addRecipe(<minecraft:red_flower:5>, <minecraft:dye:14> * 1, true);
+mods.magneticraft.CrushingTable.addRecipe(<actuallyadditions:block_black_lotus>, <actuallyadditions:item_misc:17> * 1, true);
+
+#bop dye recipe 
+
+mods.magneticraft.CrushingTable.addRecipe(<biomesoplenty:double_plant:1>, <biomesoplenty:brown_dye> * 1, true);
+mods.magneticraft.CrushingTable.addRecipe(<biomesoplenty:plant_1:4>, <biomesoplenty:brown_dye> * 1, true);
+
+mods.magneticraft.CrushingTable.addRecipe(<biomesoplenty:flower_1:2>, <biomesoplenty:blue_dye> * 1, true);
+mods.magneticraft.CrushingTable.addRecipe(<biomesoplenty:mushroom:2>, <biomesoplenty:blue_dye> * 1, true);
+
+
+recipes.remove(<magneticraft:crafting:2>);
+recipes.addShaped(<magneticraft:crafting:2>,
+ [[<ore:ingotLead>,<ic2:casing:3>, <ore:nuggetCopper>],
+  [<ic2:crafting:5>, <minecraft:redstone>, <minecraft:iron_ingot>],
+  [<ore:ingotLead>, <ic2:casing:3>, <ore:nuggetCopper>]]); 
+  
+  
+val mclightleadplate = <ore:plateLead>;  
+mclightleadplate.remove(<magneticraft:light_plates:3>);
+
+val mclightcopperplate = <ore:plateCopper>;  
+mclightcopperplate.remove(<magneticraft:light_plates:2>);
+
+val mclightgoldplate = <ore:plateGold>;  
+mclightgoldplate.remove(<magneticraft:light_plates:1>);
+
+val mclightironplate = <ore:plateIron>;  
+mclightironplate.remove(<magneticraft:light_plates>);    

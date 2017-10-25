@@ -1,0 +1,5 @@
+#Name : gendustry.zs
+#Author: FTB for conduit only!
+#Co-Author : TrilexCom
+
+recipes.remove(<gendustry:power_module>);

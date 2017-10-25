@@ -1,0 +1,12 @@
+#Name : ceramic.zs
+#Author: FTB for conduit only!
+#Co-Author : TrilexCom
+
+recipes.remove(<ceramics:unfired_clay:1>);
+
+
+
+
+
+    
+  

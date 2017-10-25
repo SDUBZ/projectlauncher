@@ -1,0 +1,44 @@
+# Configuration file
+
+crafting {
+    # [true/false]
+    B:"Activate the crafting recipes for amulets"=true
+}
+
+
+events {
+    # [true/false]
+    B:"Activate the Update-Checker"=true
+
+    #  [range: 1 ~ 50, default: 15]
+    I:"The amount of experience levels that you need to charge a gem"=15
+}
+
+
+generation {
+    # [true/false]
+    B:"Activate mod item generation in dungeon chests"=true
+
+    # [true/false]
+    B:"Activate the mod ore generation in the world"=true
+}
+
+
+materials {
+    # [true/false]
+    B:"Activate amethyst stuff"=true
+
+    # [true/false]
+    B:"Activate crystal stuff"=true
+
+    # [true/false]
+    B:"Activate ruby stuff"=true
+
+    # [true/false]
+    B:"Activate sapphire stuff"=true
+
+    # [true/false]
+    B:"Activate topaz stuff"=true
+}
+
+

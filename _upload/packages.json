@@ -2,9 +2,16 @@
   "minimumVersion" : 1,
   "packages" : [
     {
+      "title" : "SKYCRAFT 2.5",
+      "name" : "SKYCRAFT 2.5",
+      "version" : "0.1",
+      "location" : "skycraft-2.5.json",
+      "priority" : 8
+    },
+    {
       "title" : "Trilex Pack",
       "name" : "Trilex Pack",
-      "version" : "1.6.1",
+      "version" : "1.6.2",
       "location" : "trilex-pack.json",
       "priority" : 7
     },
