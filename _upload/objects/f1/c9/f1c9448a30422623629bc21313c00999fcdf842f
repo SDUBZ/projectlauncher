@@ -1,0 +1,69 @@
+# Configuration file
+
+~CONFIG_VERSION: 0.1.0
+
+world-2022870356 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=@modu
+    B:overlayEnabled=true
+}
+
+
+world-2086561172 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=latex
+    B:overlayEnabled=true
+}
+
+
+world-78688046 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=flight
+    B:overlayEnabled=true
+}
+
+
+world1516311564 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=axp
+    B:overlayEnabled=true
+}
+
+
+world1544803905 {
+    S:filterText=
+}
+
+
+world1969446759 {
+    B:cheatItemsEnabled=true
+
+    # Hide and unhide items by clicking them in the item list.
+    B:editEnabled=false
+    S:filterText=tree
+
+    # Show the list of items next to open guis.
+    B:overlayEnabled=true
+}
+
+
+world2048841810 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world3145593 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=@factory
+    B:overlayEnabled=true
+}
+
+
