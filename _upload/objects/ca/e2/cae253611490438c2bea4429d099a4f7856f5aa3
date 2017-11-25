@@ -1,0 +1,9 @@
+#Tue Nov 21 21:20:26 AEDT 2017
+WheelScrollDirection=0
+WheelTweak=1
+LMBTweakWithoutItem=1
+WheelSearchOrder=1
+LMBTweakWithItem=1
+RMBTweak=1
+OnTickMethodOrder=Forge, LiteLoader
+Debug=0
