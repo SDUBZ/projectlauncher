@@ -1,0 +1,38 @@
+# Configuration file
+
+~CONFIG_VERSION: 0.1.0
+
+world-1402590416 {
+    # Give items instead of showing the recipe.
+    B:cheatItemsEnabled=true
+
+    # Hide and unhide items by clicking them in the item list.
+    B:editEnabled=false
+    S:filterText=cart
+
+    # Show the list of items next to open guis.
+    B:overlayEnabled=true
+}
+
+
+world-1516846865 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=@vanilla
+    B:overlayEnabled=true
+}
+
+
+world-78688046 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=@rpg
+    B:overlayEnabled=true
+}
+
+
+world1544803905 {
+    S:filterText=
+}
+
+

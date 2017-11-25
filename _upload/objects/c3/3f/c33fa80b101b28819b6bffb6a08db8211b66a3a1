@@ -1,0 +1,313 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "EmbersChest",
+  "items": [
+    {
+      "weight": 0.35883715748786926,
+      "min": 1,
+      "max": 21,
+      "item": {
+        "id": "embers:ashenBrick",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 1,
+      "max": 26,
+      "item": {
+        "id": "embers:ashenTile",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 1,
+      "max": 17,
+      "item": {
+        "id": "embers:ashenBrick",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 1,
+      "max": 24,
+      "item": {
+        "id": "embers:blockCaminiteBrick",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0034870589151978493,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "embers:swordCopper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.005751589313149452,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "embers:hoeSilver",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.005751589313149452,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "embers:pickaxeLead",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 5.22887276019901E-4,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "embers:axeDawnstone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0068187713623047,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "embers:hoeDawnstone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0010694180382415652,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "embers:swordDawnstone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.268061798531562E-4,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "embers:grandhammer",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.268061798531562E-4,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "embers:staffEmber",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.268061798531562E-4,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "embers:ashenCloakHead",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.268061798531562E-4,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "embers:ignitionCannon",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 5.22887276019901E-4,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "embers:stampBar",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 5.22887276019901E-4,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "embers:stampFlat",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 5.22887276019901E-4,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "embers:stampPlate",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 7.574109476990998E-4,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "embers:stampBarRaw",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 7.574109476990998E-4,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "embers:stampFlatRaw",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 7.574109476990998E-4,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "embers:stampPlateRaw",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 3.504269116092473E-4,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "embers:emberJar",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "embers:emberCapacity": {
+              "nbtType": "double",
+              "nbt": 1000.0
+            },
+            "embers:ember": {
+              "nbtType": "double",
+              "nbt": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 8.315798913827166E-5,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "embers:emberCartridge",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "embers:emberCapacity": {
+              "nbtType": "double",
+              "nbt": 6000.0
+            },
+            "embers:ember": {
+              "nbtType": "double",
+              "nbt": 6000.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.0014766963431611657,
+      "min": 1,
+      "max": 18,
+      "item": {
+        "id": "embers:pipe",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.268061798531562E-4,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "embers:pump",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 3.504269116092473E-4,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "embers:emberGauge",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 3.504269116092473E-4,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "embers:itemGauge",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 3.504269116092473E-4,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "embers:fluidGauge",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 8.315798913827166E-5,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "embers:emberDetector",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

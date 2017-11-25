@@ -2,6 +2,13 @@
   "minimumVersion" : 1,
   "packages" : [
     {
+      "title" : "Immersiveexploration",
+      "name" : "Immersive exploration",
+      "version" : "0.1",
+      "location" : "immersive-exploration.json",
+      "priority" : 9
+    },
+    {
       "title" : "SKYCRAFT 2.5",
       "name" : "SKYCRAFT 2.5",
       "version" : "0.4",
