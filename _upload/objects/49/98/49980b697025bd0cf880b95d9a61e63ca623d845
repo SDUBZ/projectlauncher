@@ -1,0 +1,150 @@
+[{
+		"id": "blackholestorage:atomic_transformer",
+		"recipe": {
+			"input": {
+				"id": "minecraft:emerald"
+			},
+			"cost": "1000000",
+			"output": {
+				"id": "minecraft:emerald_block"
+			}
+		}
+	}, {
+		"id": "blackholestorage:atomic_transformer",
+		"recipe": {
+			"input": {
+				"id": "minecraft:obsidian"
+			},
+			"cost": "1000000",
+			"output": {
+				"id": "armorplus:compressed_obsidian",
+				"count": 1
+			}
+		}
+	}, {
+		"id": "blackholestorage:atomic_transformer",
+		"recipe": {
+			"input": {
+				"id": "minecraft:gold_ingot"
+			},
+			"cost": "1000000",
+			"output": {
+				"id": "minecraft:gold_block",
+				"count": 1
+			}
+		}
+	}, {
+		"id": "blackholestorage:atomic_transformer",
+		"recipe": {
+			"input": {
+				"id": "minecraft:glass"
+			},
+			"cost": "1000",
+			"output": {
+				"id": "thermalfoundation:glass",
+				"damage": 3,
+				"count": 1
+			}
+		}
+	}, {
+		"id": "blackholestorage:atomic_transformer",
+		"recipe": {
+			"input": {
+				"id": "minecraft:noteblock"
+			},
+			"cost": "1000",
+			"output": {
+				"id": "extrautils2:soundmuffler",
+				"damage": 0,
+				"count": 1
+			}
+		}
+	}, {
+		"id": "blackholestorage:atomic_transformer",
+		"recipe": {
+			"input": {
+				"id": "minecraft:iron_ingot"
+			},
+			"cost": "1000000",
+			"output": {
+				"id": "minecraft:iron_block",
+				"count": 1
+			}
+		}
+	}, {
+		"id": "blackholestorage:atomic_transformer",
+		"recipe": {
+			"input": {
+				"id": "minecraft:stone"
+			},
+			"cost": "100000",
+			"output": {
+				"id": "minecraft:end_stone",
+				"count": 1
+			}
+		}
+	}, {
+		"id": "blackholestorage:atomic_transformer",
+		"recipe": {
+			"input": {
+				"id": "refinedstorage:storage_disk",
+				"damage": 3
+			},
+			"cost": "10000000",
+			"output": {
+				"id": "refinedstorage:storage_disk",
+				"damage": 4
+			}
+		}
+	}, {
+		"id": "blackholestorage:atomic_transformer",
+		"recipe": {
+			"input": {
+				"id": "minecraft:skull",
+				"damage": 1
+			},
+			"cost": "1000000",
+			"output": {
+				"id": "minecraft:nether_star",
+				"count": 1
+			}
+		}
+	}, {
+		"id": "blackholestorage:atomic_transformer",
+		"recipe": {
+			"input": {
+				"id": "minecraft:ender_pearl"
+			},
+			"cost": "100000",
+			"output": {
+				"id": "actuallyadditions:block_misc",
+				"count": 1,
+				"damage": 6
+			}
+		}
+	}, {
+		"id": "blackholestorage:atomic_transformer",
+		"recipe": {
+			"input": {
+				"id": "minecraft:leather"
+			},
+			"cost": "10000",
+			"output": {
+				"id": "minecraft:leather",
+				"count": 9
+			}
+		}
+	}, {
+		"id": "blackholestorage:atomic_transformer",
+		"recipe": {
+			"input": {
+				"id": "minecraft:emerald_block"
+			},
+			"cost": "1000000",
+			"output": {
+				"id": "minecraft:emerald_block",
+				"count": 9
+			}
+		}
+	}
+]
