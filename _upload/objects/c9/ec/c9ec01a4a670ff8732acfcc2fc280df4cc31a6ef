@@ -1,0 +1,90 @@
+# Configuration file
+
+general {
+    I:APBasePoint=200
+
+    # Set Coefficients of AP System. Format EnchantmentsID:Coefficient
+    S:ApSystemCoefficientList <
+        protection:2
+        fire_protection:1
+        feather_falling:1
+        blast_protection:1
+        projectile_protection:1
+        respiration:1
+        aqua_affinity:1
+        thorns:1
+        sharpness:2
+        smite:1
+        bane_of_arthropods:1
+        knockback:1
+        fire_aspect:1
+        looting:3
+        efficiency:1
+        silk_touch:1
+        unbreaking:1
+        fortune:2
+        power:2
+        punch:1
+        flame:1
+        infinity:1
+        luck_of_the_sea:1
+        lure:1
+        binding_curse:0
+        sweeping:2
+        vanishing_curse:3
+     >
+
+    # Set Enchantmets Level Limit for AP System Format EnchantmentID:LimitLv(LimitLv = 0 > DefaultMaxLevel)
+    S:ApSystemLevelLimit <
+        protection:10
+        fire_protection:10
+        feather_falling:10
+        blast_protection:10
+        projectile_protection:10
+        efficiency:0
+        unbreaking:30
+     >
+    I:CloudSwordHUDxCoordinate=0
+    I:CloudSwordHUDyCoordinate=0
+
+    # Difficulty of this MOD. 0 = Easy, 1 = Normal, 2 = Hard
+    I:Difficulty=2
+
+    # TRUE:Render Sword on player's back. 
+    B:EnableBackSword=true
+    B:EnableCloudSwordDisplay=true
+
+    # Cost to open enchantchanger or Materia Window when mods difficulty is hard
+    I:EnchantChangerOpenCost=5
+
+    # This is a power of Meteor
+    I:"METEOR POWER"=10
+
+    # How long minutes Materia put potion effect to MOB or ANIMAL
+    I:"Materia Potion Minutes"=10
+
+    # Materia generating ratio in Mako reactor
+    I:MateriaGeneratingRatio=256
+
+    # This is a Size of Meteor
+    I:"Meteor Size"=10
+
+    # Monthly Salary of soldier.
+    I:SoldiersSalary=10
+
+    # デバッグ用
+    B:"debug mode"=false
+    B:enableAPSystem=true
+
+    # TRUE:The level of extracted Materia is decreased by the item damage
+    B:enableDecMateriaLv=false
+    B:enableDungeonLoot=true
+
+    # TRUE:You cannot change a Materia to a enchantment over max level of the enchantment.
+    B:enableLevelCap=true
+
+    # TRUE:You become Tera in FF4. It means that you can use Magic Materia when your MP is exhausted
+    B:flagYOUARETERRA=false
+}
+
+
