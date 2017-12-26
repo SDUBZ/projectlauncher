@@ -1,0 +1,20 @@
+# Configuration file
+
+general {
+    # Changes spawn rate of Cerulean Bird. Increase value to spawn more Cerulean Bird.
+    # Min: 0
+    # Max: 100
+    I:birdwight=28
+
+    # Changes spawn rate of Cerulean Bird. Increase value to spawn more Cerulean Bird.
+    # Min: 0
+    # Max: 100
+    I:cerulean_wight=32
+
+    # Changes spawn rate of Cerulean Bird. Increase value to spawn more Cerulean Bird.
+    # Min: 0
+    # Max: 100
+    I:poisoncerulean_wight=30
+}
+
+
