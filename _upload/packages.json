@@ -4,7 +4,7 @@
     {
       "title" : "Immersiveexploration",
       "name" : "Immersive exploration",
-      "version" : "0.6",
+      "version" : "0.7a",
       "location" : "immersive-exploration.json",
       "priority" : 9
     },
