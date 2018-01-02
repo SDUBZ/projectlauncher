@@ -1,0 +1,15 @@
+# Configuration file
+
+general {
+    # Changes spawn rate of Cerulean. Increase value to spawn more Cerulean.
+    # Min: 0
+    # Max: 100
+    I:cerulean_wight=32
+
+    # Changes spawn rate of PoisonCerulean. Increase value to spawn more PoisonCerulean.
+    # Min: 0
+    # Max: 100
+    I:poisoncerulean_wight=30
+}
+
+
