@@ -9,6 +9,13 @@
       "priority" : 9
     },
     {
+      "title" : "wasted survival",
+      "name" : "wasted survival",
+      "version" : "0.1",
+      "location" : "wasted-survival.json",
+      "priority" : 9
+    },
+    {
       "title" : "SKYCRAFT 2.5",
       "name" : "SKYCRAFT 2.5",
       "version" : "0.5",

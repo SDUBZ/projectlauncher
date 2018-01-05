@@ -1,0 +1,63 @@
+# Configuration file
+
+general {
+
+    rainblock {
+        # [FE] FE needed to activate the block
+        # Min: 0
+        # Max: 2147483647
+        I:FE_activation=1000000
+
+        # [FE] inner FE capacity
+        # Min: 0
+        # Max: 2147483647
+        I:FE_capacity=10000000
+
+        # [FE] max FE input
+        # Min: 0
+        # Max: 2147483647
+        I:FE_maxInput=4000
+
+        # [XP] levels needed to activate
+        # Min: 0
+        # Max: 2147483647
+        I:XP_levels=10
+
+        # Does it need sky above it to work?
+        B:needsSky=true
+
+        # What way of activation?
+        # Valid values:
+        # FE
+        # FREE
+        # XP
+        S:type=FE
+    }
+
+    generator {
+        # inner FE capacity
+        # Min: 0
+        # Max: 2147483647
+        I:capacity=200000
+
+        # FE generation
+        # Min: 0
+        # Max: 2147483647
+        I:generation=40
+
+        # maximum FE output per side
+        # Min: 0
+        # Max: 2147483647
+        I:maxOutput=2000
+    }
+
+    sensor {
+        # Sensor delay [needs world restart]
+        # Min: 1
+        # Max: 2147483647
+        I:delay=40
+    }
+
+}
+
+
