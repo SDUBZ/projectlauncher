@@ -1,0 +1,113 @@
+# Configuration file
+
+~CONFIG_VERSION: 0.1.0
+
+world-1402590410 {
+    # Give items instead of showing the recipe.
+    B:cheatItemsEnabled=false
+
+    # Hide and unhide items by clicking them in the item list.
+    B:editEnabled=false
+    S:filterText=
+
+    # Show the list of items next to open guis.
+    B:overlayEnabled=true
+}
+
+
+world-1402590414 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=@magic
+    B:overlayEnabled=true
+}
+
+
+world-1402590415 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=@mee
+    B:overlayEnabled=true
+}
+
+
+world-1402590416 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world-1422446064 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=@vanilla seed
+    B:overlayEnabled=true
+}
+
+
+world-1454795390 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world-1516846865 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=@vanilla
+    B:overlayEnabled=true
+}
+
+
+world-1717386942 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=ore
+    B:overlayEnabled=true
+}
+
+
+world-78688046 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=@rpg
+    B:overlayEnabled=true
+}
+
+
+world-881597921 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=copper
+    B:overlayEnabled=true
+}
+
+
+world141729503 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world1544803905 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world2117665635 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
