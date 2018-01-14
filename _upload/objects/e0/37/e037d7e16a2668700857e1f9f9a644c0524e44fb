@@ -1,0 +1,31 @@
+{
+  "version": 1.6,
+  "dim": 0,
+  "pos": {
+    "field_177962_a": -756,
+    "field_177960_b": 65,
+    "field_177961_c": 536
+  },
+  "editable": true,
+  "name": "Death 11:25:09 AM 1/14/18",
+  "icon": {
+    "imageLocation": {
+      "field_110626_a": "journeymap",
+      "field_110625_b": "ui/img/waypoint-death.png"
+    },
+    "color": -65536,
+    "opacity": 1.0,
+    "textureX": 0,
+    "textureY": 0,
+    "textureWidth": 16,
+    "textureHeight": 16,
+    "displayWidth": 16.0,
+    "displayHeight": 16.0
+  },
+  "label": {
+    "color": -65536
+  },
+  "modId": "journeymap",
+  "id": "7412c438-997e-4904-ad80-0e5427696718",
+  "displayType": "Waypoint"
+}
