@@ -1,0 +1,9 @@
+# Configuration file
+
+general {
+    B:debugMode=false
+    S:modpack=wasted survival
+    B:showTime=true
+}
+
+

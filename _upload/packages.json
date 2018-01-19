@@ -2,17 +2,17 @@
   "minimumVersion" : 1,
   "packages" : [
     {
+      "title" : "wasted survival",
+      "name" : "wasted survival",
+      "version" : "0.3",
+      "location" : "wasted-survival.json",
+      "priority" : 10
+    },
+    {
       "title" : "Immersiveexploration",
       "name" : "Immersive exploration",
       "version" : "0.11",
       "location" : "immersive-exploration.json",
-      "priority" : 9
-    },
-    {
-      "title" : "wasted survival",
-      "name" : "wasted survival",
-      "version" : "0.2",
-      "location" : "wasted-survival.json",
       "priority" : 9
     },
     {

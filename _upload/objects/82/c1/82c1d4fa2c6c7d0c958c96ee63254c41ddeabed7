@@ -1,0 +1,44 @@
+# Configuration file
+
+crafting {
+    # [true/false]
+    B:"Activate Bow Crafting"=true
+
+    # [true/false]
+    B:"Activate Longstick Crafting"=true
+}
+
+
+events {
+    # [true/false]
+    B:"Activate Update-Checker"=true
+
+    # [true/false]
+    B:"Activate the branch drop of leaves"=true
+
+    # Higher = Rarer [range: 1 ~ 500, default: 50]
+    I:"The chance of a branch drop from leaves"=50
+}
+
+
+generation {
+    # [true/false] ['false' not recommend]
+    B:"Activate Chest Generation"=true
+
+    # [true/false]
+    B:"Activate Tool Chest Generation"=true
+}
+
+
+other {
+    # [true/false]
+    B:"Activate Default Tool Enchantments"=true
+}
+
+
+smelting {
+    # [true/false]
+    B:"Activate Tool Recycling"=true
+}
+
+
