@@ -1,0 +1,24 @@
+# Configuration file
+
+general {
+    D:damageDiamondSpike=5.0
+    D:damageIronSpike=2.0
+    B:diamondSpikesDestroyItems=false
+    B:diamondSpikesDropXP=true
+    B:ironSpikesDestroyItems=true
+    B:ironSpikesDropXP=true
+
+    # Min: 0.001
+    # Max: 1.7976931348623157E308
+    D:speedAdvancedConveyor=0.25
+
+    # Min: 0.001
+    # Max: 1.7976931348623157E308
+    D:speedBasicConveyor=0.1
+
+    # Min: 0.001
+    # Max: 1.7976931348623157E308
+    D:speedExtremeConveyor=1.0
+}
+
+
