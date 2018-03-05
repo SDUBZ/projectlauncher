@@ -1,0 +1,89 @@
+# Configuration file
+
+~CONFIG_VERSION: 0.1.0
+
+world-1384663274 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world-1835322980 {
+    # Give items instead of showing the recipe.
+    B:cheatItemsEnabled=true
+
+    # Hide and unhide items by clicking them in the item list.
+    B:editEnabled=false
+    S:filterText=tank
+
+    # Show the list of items next to open guis.
+    B:overlayEnabled=true
+}
+
+
+world-2030080134 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world-78688046 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=tree
+    B:overlayEnabled=true
+}
+
+
+world-991409412 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=water
+    B:overlayEnabled=true
+}
+
+
+world103179 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=@prefab
+    B:overlayEnabled=true
+}
+
+
+world1606022606 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world2117665635 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=@water
+    B:overlayEnabled=true
+}
+
+
+world276141900 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world350155539 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
