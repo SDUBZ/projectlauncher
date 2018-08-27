@@ -1,0 +1,153 @@
+# Configuration file
+
+##########################################################################################################
+# energy
+#--------------------------------------------------------------------------------------------------------#
+# Settings related to Energy controls (requires REACTOR_ENERGY to be true)
+##########################################################################################################
+
+energy {
+    # Whether Reactors generate energy whilst operational. [default: true]
+    B:Energy=true
+
+    # Percentage of the Reactor's temperature required for it to be at max efficiency. [range: 0.0 ~ 100.0, default: 80.0]
+    S:"Energy Efficiency Percentage"=80.0
+
+    # The max multiplier a Reactor at max efficiency has. [range: 1.0 ~ 3.4028235E38, default: 2.0]
+    S:"Energy Generation Multiplier"=2.0
+}
+
+
+##########################################################################################################
+# general
+#--------------------------------------------------------------------------------------------------------#
+# General Settings for Tiny Reactors
+##########################################################################################################
+
+general {
+    # Whether the Tiny Wrench can be added to any Helmet. [default: true]
+    B:"Wrench on Helmets"=true
+}
+
+
+##########################################################################################################
+# meltdown
+#--------------------------------------------------------------------------------------------------------#
+# Settings related to Meltdown controls (requires REACTOR_MELTDOWN to be true)
+##########################################################################################################
+
+meltdown {
+    # Whether Reactors can go into meltdown. [default: true]
+    B:Meltdown=true
+
+    # Which form of meltdown a Reactor will enter (visit the Wiki for info) [range: 0 ~ 5, default: 0]
+    I:"Meltdown Mode"=0
+}
+
+
+##########################################################################################################
+# performance
+#--------------------------------------------------------------------------------------------------------#
+# Performance Settings for Tiny Reactors
+##########################################################################################################
+
+performance {
+    # The number of blocks to update per tick when the Energy Network refreshes. [range: -1 ~ 100, default: 10]
+    I:"Network Refresh Block Count"=10
+}
+
+
+##########################################################################################################
+# reactants
+#--------------------------------------------------------------------------------------------------------#
+# Settings related to Reactants (visit the Wiki for tips/tricks)
+##########################################################################################################
+
+reactants {
+    # A list of Reactants suitable for placement in the Reactor structure. [default: [minecraft:coal_ore = 1], [minecraft:iron_ore = 2], [minecraft:lapis_ore = 4], [minecraft:quartz_ore = 4], [minecraft:redstone_ore = 8], [minecraft:gold_ore = 8], [minecraft:diamond_ore = 16], [minecraft:emerald_ore = 32], [minecraft:coal_block = 8], [minecraft:iron_block = 16], [minecraft:lapis_block = 32], [minecraft:quartz_block = 16], [minecraft:redstone_block = 64], [minecraft:gold_block = 64], [minecraft:diamond_block = 128], [minecraft:emerald_block = 256]]
+    S:Reactants <
+        minecraft:coal_ore = 1
+        minecraft:iron_ore = 2
+        minecraft:lapis_ore = 4
+        minecraft:quartz_ore = 4
+        minecraft:redstone_ore = 8
+        minecraft:gold_ore = 8
+        minecraft:diamond_ore = 16
+        minecraft:emerald_ore = 32
+        minecraft:coal_block = 8
+        minecraft:iron_block = 16
+        minecraft:lapis_block = 32
+        minecraft:quartz_block = 16
+        minecraft:redstone_block = 64
+        minecraft:gold_block = 64
+        minecraft:diamond_block = 128
+        minecraft:emerald_block = 256
+     >
+}
+
+
+##########################################################################################################
+# temperature
+#--------------------------------------------------------------------------------------------------------#
+# Settings related to Temperature controls (requires REACTOR_TEMPERATURE to be true)
+##########################################################################################################
+
+temperature {
+    # Temperature gain amount (per tick) per air block within the Reactor structure. [range: 0.0 ~ 3.4028235E38, default: 0.1]
+    S:"Air Temperature Gain"=0.1
+
+    # Whether Reactor Air Vents can decrease a Reactor's temperature increase. [default: true]
+    B:"Air Vent"=true
+
+    # Temperature cooldown amount (per tick) per Reactor Air Vent in a Reactor structure. [range: 0.0 ~ 3.4028235E38, default: 0.1]
+    S:"Air Vent Amount"=0.1
+
+    # Whether Reactor Heat Sinks can increase a Reactor's maximum temperature threshold. [default: true]
+    B:"Heat Sink"=true
+
+    # Temperature threshold increase amount per Reactor Heat Sink in a Reactor structure. [range: 0.0 ~ 3.4028235E38, default: 100.0]
+    S:"Heat Sink Amount"=100.0
+
+    # Temperature gain amount (per tick) per valid reactant block within the Reactor structure. [range: 0.0 ~ 3.4028235E38, default: 0.01]
+    S:"Reactant Temperature Gain"=0.01
+
+    # Whether Reactors generate heat whilst operational. [default: true]
+    B:Temperature=true
+
+    # Percentage of the Reactor's temperature required for it to be in 'Critical Temperature' mode. [range: 0.0 ~ 100.0, default: 90.0]
+    S:"Temperature Critical Percentage"=90.0
+
+    # Base threshold for a Reactors maximum temperature. [range: 0.0 ~ 3.4028235E38, default: 1000.0]
+    S:"Temperature Threshold"=1000.0
+}
+
+
+##########################################################################################################
+# transfer
+#--------------------------------------------------------------------------------------------------------#
+# Settings related to Reactor Transfer Nodes
+##########################################################################################################
+
+transfer {
+    # The amount of RF a Reactor Transfer Port in ITEM MODE consumes inputting Reactants into a Reactor structure. [range: 0 ~ 2147483647, default: 100]
+    I:"Item Energy Usage"=100
+
+    # The number of ticks between each insertion operation of a Reactor Transfer Port in ITEM mode. [range: 0 ~ 2147483647, default: 100]
+    I:"Item Usage Delay"=100
+
+    # The amount of RF/tick a Reactor Transfer Port consumes in LIQUID MODE. [range: 0 ~ 2147483647, default: 1]
+    I:"Liquid Energy Usage"=1
+}
+
+
+##########################################################################################################
+# ui
+#--------------------------------------------------------------------------------------------------------#
+# Do not change these settings via the Configuration file or Mod-Options screen, use the Tiny Wrench Overlay Configuration screen.
+##########################################################################################################
+
+ui {
+    S:"Wrench Overlay Anchor"=CENTER_MIDDLE
+}
+
+
