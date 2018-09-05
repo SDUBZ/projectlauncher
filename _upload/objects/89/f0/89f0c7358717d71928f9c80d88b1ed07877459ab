@@ -1,0 +1,18 @@
+{
+  "id": "quarry_-61,65,-5",
+  "name": "quarry",
+  "icon": "waypoint-normal.png",
+  "x": -61,
+  "y": 65,
+  "z": -5,
+  "r": 211,
+  "g": 144,
+  "b": 180,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}
