@@ -1,0 +1,283 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "MekanismChestGen",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "mekanism:Ingot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "mekanism:Ingot",
+        "damage": 4,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "mekanism:Ingot",
+        "damage": 5,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "mekanism:Ingot",
+        "damage": 6,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "mekanism:Ingot",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "mekanism:Ingot",
+        "damage": 2,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "mekanism:Ingot",
+        "damage": 3,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.32298368215560913,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mekanism:EnergyTablet",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "mekData": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 3.504269116092473E-4,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mekanism:Configurator",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "mekData": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 8.315798913827166E-5,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mekanism:ElectricBow",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "mekData": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.4082876441534609E-4,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mekanismtools:ObsidianSword",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.011213661171495914,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mekanismtools:LapisLazuliChestplate",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.009064221754670143,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mekanismtools:OsmiumBoots",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.009064221754670143,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mekanismtools:BronzePickaxe",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.009064221754670143,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mekanismtools:GlowstoneHelmet",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.009064221754670143,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mekanismtools:SteelPaxel",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.013752810657024384,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mekanismtools:SteelLeggings",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.4082876441534609E-4,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "mekanism:SpeedUpgrade",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 8.315798913827166E-5,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "mekanism:EnergyUpgrade",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.4082876441534609E-4,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mekanism:FilterUpgrade",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "mekanism:MufflingUpgrade",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.4082876441534609E-4,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mekanism:AnchorUpgrade",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 8.315798913827166E-5,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "mekanism:GasUpgrade",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 8.315798913827166E-5,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mekanism:Flamethrower",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "mekData": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

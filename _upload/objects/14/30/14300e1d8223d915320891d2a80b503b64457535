@@ -1,0 +1,27 @@
+// JourneyMap server configuration file. Modify at your own risk!
+// To restore the default settings, simply delete this file before starting Minecraft server
+// For more information, go to: http://journeymap.info/JourneyMapServer
+//
+// Dimension -2 Op Configuration : Set "enabled": "true" to override the Global Server Configuration for this dimension 
+{
+  "enabled": "false",
+  "actionTeleport": "false",
+  "displayCompass": "true",
+  "displayFullscreen": "true",
+  "displayMinimap": "true",
+  "displayWaypointBeacon": "true",
+  "displayWaypointManager": "true",
+  "displayWebmap": "true",
+  "maptypeBiome": "true",
+  "maptypeDay": "true",
+  "maptypeNight": "true",
+  "maptypeTopo": "true",
+  "maptypeUnderground": "true",
+  "radarHostileMob": "true",
+  "radarNPC": "true",
+  "radarPassiveMob": "true",
+  "radarPlayer": "true",
+  "radarVehicle": "true",
+  "radarWaypoint": "true",
+  "configVersion": "5.6.0b1"
+}

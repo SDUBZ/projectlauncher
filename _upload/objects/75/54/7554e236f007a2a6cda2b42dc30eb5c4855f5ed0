@@ -1,0 +1,27 @@
+# Configuration file
+
+enabled {
+    B:"environmentaltech:aethium"=true
+    B:"environmentaltech:erodium"=true
+    B:"environmentaltech:ionite"=true
+    B:"environmentaltech:kyronite"=true
+    B:"environmentaltech:lonsdaleite"=true
+    B:"environmentaltech:pladium"=true
+    B:"forestry:ash_brick"=true
+    B:"forestry:planks.0"=true
+    B:"forestry:planks.1"=true
+    B:"forestry:planks.fireproof.0"=true
+    B:"forestry:planks.fireproof.1"=true
+}
+
+
+enabled_groups {
+}
+
+
+general {
+    # Whether or not to enable debug functionality. [default: false]
+    B:enableDebugFeatures=false
+}
+
+

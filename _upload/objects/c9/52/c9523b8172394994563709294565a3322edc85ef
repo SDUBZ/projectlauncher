@@ -1,0 +1,26 @@
+{
+  "version": 1.6,
+  "dim": 0,
+  "pos": {
+    "field_177962_a": -1258,
+    "field_177960_b": 56,
+    "field_177961_c": -720
+  },
+  "editable": true,
+  "name": "quarry",
+  "icon": {
+    "color": -1,
+    "opacity": 1.0,
+    "textureX": 0,
+    "textureY": 0
+  },
+  "label": {
+    "color": -1
+  },
+  "displayDims": [
+    0
+  ],
+  "modId": "journeymap",
+  "id": "fc867dbf-80e7-4d12-8f74-2be916b05a09",
+  "displayType": "Waypoint"
+}

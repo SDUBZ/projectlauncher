@@ -1,0 +1,70 @@
+# Configuration file
+
+##########################################################################################################
+# balance
+#--------------------------------------------------------------------------------------------------------#
+# General balance for Enderfuge.
+##########################################################################################################
+
+balance {
+    # How many ticks a Dragon Egg will fuel the Enderfuge. [range: 1 ~ 65655, default: 50000]
+    I:"Dragon Egg Fuel Length"=50000
+
+    # How many ticks an End Crystal will fuel the Enderfuge. [range: 1 ~ 65655, default: 25000]
+    I:"End Crystal Fuel Length"=25000
+
+    # How many ticks an Ender Pearl will fuel the Enderfuge. [range: 1 ~ 65655, default: 1600]
+    I:"Ender Pearl Fuel Length"=1600
+
+    # How many ticks an Eye of Ender will fuel the Enderfuge. [range: 1 ~ 65655, default: 5600]
+    I:"Eye of Ender Fuel Length"=5600
+
+    # How many ticks a Shulker Shell will fuel the Enderfuge. [range: 1 ~ 65655, default: 800]
+    I:"Shulker Shell Fuel Length"=800
+
+    # How many ticks between a successful smelt. [range: 1 ~ 65655, default: 400]
+    I:"Smelting Time"=400
+}
+
+
+general {
+    I:"End Crystal Fuel Length"=25000
+    I:"Ender Pearl Fuel Length"=1600
+    I:"Eye of Ender Fuel Length"=5600
+    I:"Smelting Time"=400
+}
+
+
+##########################################################################################################
+# integration
+#--------------------------------------------------------------------------------------------------------#
+# Integration in EnderFuge.
+##########################################################################################################
+
+integration {
+    # Enable integration with Extra Utilities? [default: true]
+    B:"Extra Utilities 2 Integration"=true
+
+    # Enable integration with IC2? [default: true]
+    B:"IC2 Integration"=true
+
+    # Enable integration with Pumpkin Spice Latte? [default: true]
+    B:"Pumpkin Spice Latte Integration"=true
+
+    # Enable integration with Thermal Foundation? [default: true]
+    B:"Thermal Foundation Integration"=true
+}
+
+
+##########################################################################################################
+# miscellaneous
+#--------------------------------------------------------------------------------------------------------#
+# Miscellaneous
+##########################################################################################################
+
+miscellaneous {
+    # Enable the creative fuel items? They're silly and probably stupidly balanced. You've been warned. [default: true]
+    B:"Creative Fuel Items"=true
+}
+
+

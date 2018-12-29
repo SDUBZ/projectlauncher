@@ -1,0 +1,18 @@
+#Splash screen properties
+#Sat Mar 03 19:50:41 AEDT 2018
+logoTexture=textures/gui/title/mojang.png
+background=0x000000
+memoryGood=0x00660a
+font=0x00B28C
+barBackground=0x006658
+barBorder=0x2da393
+memoryLow=0xE42F2F
+rotate=false
+memoryWarn=0xE6E84A
+showMemory=true
+enabled=true
+bar=0xCB3D35
+resourcePackPath=resources
+logoOffset=0
+forgeTexture=fml\:textures/gui/forge.png
+fontTexture=textures/font/ascii.png
