@@ -1,0 +1,162 @@
+# Configuration file
+
+~CONFIG_VERSION: 0.1.0
+
+world-1081308257 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=@pressure
+    B:overlayEnabled=true
+}
+
+
+world-1441392908 {
+    B:bookmarkOverlayEnabled=true
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world-1454795390 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=cable
+    B:overlayEnabled=true
+}
+
+
+world-172558058 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=cable
+    B:overlayEnabled=true
+}
+
+
+world-1852844566 {
+    B:bookmarkOverlayEnabled=true
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world-1974054333 {
+    B:bookmarkOverlayEnabled=true
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world-2066958301 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=strain
+    B:overlayEnabled=true
+}
+
+
+world-547297691 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world-78688046 {
+    B:bookmarkOverlayEnabled=true
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=lava
+    B:overlayEnabled=true
+}
+
+
+world-877171677 {
+    B:bookmarkOverlayEnabled=true
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=iron pic
+    B:overlayEnabled=true
+}
+
+
+world1544803905 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world1855637915 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=@flo
+    B:overlayEnabled=true
+}
+
+
+world1921797500 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=repair
+    B:overlayEnabled=true
+}
+
+
+world2020284019 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world2117665635 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=@tesla
+    B:overlayEnabled=true
+}
+
+
+world2640276 {
+    # Show the list of bookmarks next to open GUIs.
+    B:bookmarkOverlayEnabled=true
+
+    # Give items instead of showing the recipe.
+    B:cheatItemsEnabled=false
+
+    # Hide and unhide ingredients by clicking them in the list.
+    B:editEnabled=false
+    S:filterText=
+
+    # Show the list of ingredients next to open GUIs.
+    B:overlayEnabled=true
+}
+
+
+world608470327 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world687489114 {
+    B:bookmarkOverlayEnabled=true
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
