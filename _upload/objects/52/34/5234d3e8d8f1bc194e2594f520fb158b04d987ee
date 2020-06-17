@@ -1,0 +1,2044 @@
+[
+  {
+    "item": "minecraft:apple",
+    "hunger": 4,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:mushroom_stew",
+    "hunger": 6,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:bread",
+    "hunger": 5,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:porkchop",
+    "hunger": 3,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "minecraft:cooked_porkchop",
+    "hunger": 8,
+    "saturation": 0.8,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "minecraft:golden_apple",
+    "hunger": 4,
+    "saturation": 1.2,
+    "always_edible": true,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:regeneration",
+        "duration": 100,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "id": "minecraft:absorption",
+        "duration": 2400,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "item": "minecraft:enchanted_golden_apple",
+    "hunger": 4,
+    "saturation": 1.2,
+    "always_edible": true,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:regeneration",
+        "duration": 400,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "id": "minecraft:resistance",
+        "duration": 6000,
+        "amplifier": 0,
+        "chance": 1.0
+      },
+      {
+        "id": "minecraft:fire_resistance",
+        "duration": 6000,
+        "amplifier": 0,
+        "chance": 1.0
+      },
+      {
+        "id": "minecraft:absorption",
+        "duration": 2400,
+        "amplifier": 3,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "item": "minecraft:cod",
+    "hunger": 2,
+    "saturation": 0.1,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:salmon",
+    "hunger": 2,
+    "saturation": 0.1,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:tropical_fish",
+    "hunger": 1,
+    "saturation": 0.1,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:pufferfish",
+    "hunger": 1,
+    "saturation": 0.1,
+    "always_edible": false,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:poison",
+        "duration": 1200,
+        "amplifier": 3,
+        "chance": 1.0
+      },
+      {
+        "id": "minecraft:hunger",
+        "duration": 300,
+        "amplifier": 2,
+        "chance": 1.0
+      },
+      {
+        "id": "minecraft:nausea",
+        "duration": 300,
+        "amplifier": 1,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "item": "minecraft:cooked_cod",
+    "hunger": 5,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:cooked_salmon",
+    "hunger": 6,
+    "saturation": 0.8,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:cookie",
+    "hunger": 2,
+    "saturation": 0.1,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:melon_slice",
+    "hunger": 2,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:dried_kelp",
+    "hunger": 1,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": true,
+    "meat": false
+  },
+  {
+    "item": "minecraft:beef",
+    "hunger": 3,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "minecraft:cooked_beef",
+    "hunger": 8,
+    "saturation": 0.8,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "minecraft:chicken",
+    "hunger": 2,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": true,
+    "effects": [
+      {
+        "id": "minecraft:hunger",
+        "duration": 600,
+        "amplifier": 0,
+        "chance": 0.3
+      }
+    ]
+  },
+  {
+    "item": "minecraft:cooked_chicken",
+    "hunger": 6,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "minecraft:rotten_flesh",
+    "hunger": 4,
+    "saturation": 0.1,
+    "always_edible": false,
+    "snack": false,
+    "meat": true,
+    "effects": [
+      {
+        "id": "minecraft:hunger",
+        "duration": 600,
+        "amplifier": 0,
+        "chance": 0.8
+      }
+    ]
+  },
+  {
+    "item": "minecraft:gold_nugget",
+    "hunger": 4,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:spider_eye",
+    "hunger": 2,
+    "saturation": 0.8,
+    "always_edible": false,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:poison",
+        "duration": 100,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "item": "minecraft:glistering_melon_slice",
+    "hunger": 4,
+    "saturation": 0.5,
+    "always_edible": true,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:regeneration",
+        "duration": 90,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "item": "minecraft:carrot",
+    "hunger": 3,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:potato",
+    "hunger": 1,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:baked_potato",
+    "hunger": 5,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:poisonous_potato",
+    "hunger": 2,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:poison",
+        "duration": 100,
+        "amplifier": 0,
+        "chance": 0.6
+      }
+    ]
+  },
+  {
+    "item": "minecraft:golden_carrot",
+    "hunger": 6,
+    "saturation": 1.2,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:pumpkin_pie",
+    "hunger": 8,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:rabbit",
+    "hunger": 3,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "minecraft:cooked_rabbit",
+    "hunger": 5,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "minecraft:rabbit_stew",
+    "hunger": 10,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:mutton",
+    "hunger": 2,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "minecraft:cooked_mutton",
+    "hunger": 6,
+    "saturation": 0.8,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "minecraft:chorus_fruit",
+    "hunger": 4,
+    "saturation": 0.3,
+    "always_edible": true,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:beetroot",
+    "hunger": 1,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:beetroot_soup",
+    "hunger": 6,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:shulker_shell",
+    "hunger": 4,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:suspicious_stew",
+    "hunger": 6,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "minecraft:sweet_berries",
+    "hunger": 2,
+    "saturation": 0.1,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "quazi-modded:calamari",
+    "hunger": 2,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "quazi-modded:cooked_calamari",
+    "hunger": 6,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": true,
+    "meat": false
+  },
+  {
+    "item": "minecraft:honey_bottle",
+    "hunger": 6,
+    "saturation": 0.1,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "rotten:flesh",
+    "hunger": 5,
+    "saturation": 0.8,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "berrysmod:golden_berries",
+    "hunger": 2,
+    "saturation": 1.0,
+    "always_edible": true,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:regeneration",
+        "duration": 60,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "item": "berrysmod:berry_pie",
+    "hunger": 7,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "berrysmod:golden_pie",
+    "hunger": 8,
+    "saturation": 0.4,
+    "always_edible": true,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:regeneration",
+        "duration": 160,
+        "amplifier": 0,
+        "chance": 1.0
+      },
+      {
+        "id": "minecraft:night_vision",
+        "duration": 900,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "item": "berrysmod:jam",
+    "hunger": 4,
+    "saturation": 1.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "berrysmod:golden_jam",
+    "hunger": 5,
+    "saturation": 1.5,
+    "always_edible": true,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:regeneration",
+        "duration": 100,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "item": "berrysmod:cranberries",
+    "hunger": 2,
+    "saturation": 1.0,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "berrysmod:gold_cranberries",
+    "hunger": 2,
+    "saturation": 1.3,
+    "always_edible": true,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:regeneration",
+        "duration": 100,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "item": "epicurean:smoked_salmon",
+    "hunger": 8,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "epicurean:tomato",
+    "hunger": 2,
+    "saturation": 0.2,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "epicurean:pepper",
+    "hunger": 2,
+    "saturation": 0.2,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "epicurean:noodles",
+    "hunger": 3,
+    "saturation": 0.2,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "epicurean:tofu",
+    "hunger": 3,
+    "saturation": 0.2,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "epicurean:pad_thai",
+    "hunger": 10,
+    "saturation": 0.5,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "epicurean:spaghetti",
+    "hunger": 10,
+    "saturation": 0.5,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "epicurean:ramen",
+    "hunger": 10,
+    "saturation": 0.5,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "epicurean:beef_stew",
+    "hunger": 10,
+    "saturation": 0.5,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "epicurean:chicken_tender",
+    "hunger": 5,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "epicurean:hamburger",
+    "hunger": 10,
+    "saturation": 0.5,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "epicurean:pancake",
+    "hunger": 5,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "epicurean:onion",
+    "hunger": 2,
+    "saturation": 0.2,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "epicurean:soybean",
+    "hunger": 2,
+    "saturation": 0.2,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "zmod:dolphin_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:speed_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:regeneration_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:strength_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:jumpboost_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:fireresistance_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:waterbreathing_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:nightvision_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:levitation_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:resistance_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:luck_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:slowfalling_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:enchanted_apple",
+    "hunger": 4,
+    "saturation": 2.4,
+    "always_edible": true,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:dried_apple",
+    "hunger": 5,
+    "saturation": 0.7,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:apple_crisps",
+    "hunger": 3,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": true,
+    "meat": false
+  },
+  {
+    "item": "zmod:miners_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:apple_pie",
+    "hunger": 8,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:jumpboost_pie",
+    "hunger": 8,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:nightvision_pie",
+    "hunger": 8,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:regeneration_pie",
+    "hunger": 8,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:speed_pie",
+    "hunger": 8,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:strength_pie",
+    "hunger": 8,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:preserved_dolphin_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": true,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:preserved_fireresistance_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": true,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:preserved_waterbreathing_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": true,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:preserved_levitation_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": true,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:preserved_resistance_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": true,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:preserved_luck_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": true,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:preserved_slowfalling_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": true,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:preserved_miners_apple",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": true,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:roasted_bread",
+    "hunger": 6,
+    "saturation": 1.2,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:dried_sweet_berries",
+    "hunger": 3,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "zmod:juice",
+    "hunger": 5,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "scalevacuum:ancient_chorus_fruit",
+    "hunger": 4,
+    "saturation": 0.3,
+    "always_edible": true,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "rotmgfood:ambrosia",
+    "hunger": 10,
+    "saturation": 2.0,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "rotmgfood:hotsauce",
+    "hunger": 1,
+    "saturation": 0.2,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "rotmgfood:softdrink",
+    "hunger": 1,
+    "saturation": 0.2,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "rotmgfood:solarenergydrink",
+    "hunger": 14,
+    "saturation": 2.4,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "rotmgfood:atomictaco",
+    "hunger": 9,
+    "saturation": 1.9,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:candyapple",
+    "hunger": 5,
+    "saturation": 1.5,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:caramelapple",
+    "hunger": 5,
+    "saturation": 1.5,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:chaoscake",
+    "hunger": 6,
+    "saturation": 1.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:chocolatebar",
+    "hunger": 11,
+    "saturation": 2.2,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:chocolatecreamsandwichcookie",
+    "hunger": 6,
+    "saturation": 1.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:christmastreecupcake",
+    "hunger": 3,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:christmasturkeyleg",
+    "hunger": 9,
+    "saturation": 1.8,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:cranberries",
+    "hunger": 1,
+    "saturation": 0.4,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:doublecheeseburgerdeluxe",
+    "hunger": 9,
+    "saturation": 1.9,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:earofcorn",
+    "hunger": 8,
+    "saturation": 1.8,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:eggomelette",
+    "hunger": 4,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:energypotato",
+    "hunger": 11,
+    "saturation": 2.1,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:eyecicle",
+    "hunger": 10,
+    "saturation": 2.0,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:fries",
+    "hunger": 3,
+    "saturation": 0.4,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:gingerbreadhouse",
+    "hunger": 5,
+    "saturation": 1.2,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:glazedapple",
+    "hunger": 10,
+    "saturation": 2.0,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:glowinggreengoo",
+    "hunger": 10,
+    "saturation": 2.0,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:goldbar",
+    "hunger": 6,
+    "saturation": 1.7,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:grapesofwrath",
+    "hunger": 8,
+    "saturation": 1.8,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:greattaco",
+    "hunger": 5,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:mouthwateringmelon",
+    "hunger": 10,
+    "saturation": 2.1,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:napalmtaco",
+    "hunger": 6,
+    "saturation": 1.7,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:oryxcookie",
+    "hunger": 7,
+    "saturation": 1.8,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:picantetaco",
+    "hunger": 5,
+    "saturation": 1.1,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:powerpizza",
+    "hunger": 5,
+    "saturation": 1.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:pumpkinpie",
+    "hunger": 5,
+    "saturation": 1.0,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:rainbowgummyworm",
+    "hunger": 6,
+    "saturation": 1.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:reindeerfood",
+    "hunger": 12,
+    "saturation": 2.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:slicedyam",
+    "hunger": 5,
+    "saturation": 0.7,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:sugargummyworm",
+    "hunger": 6,
+    "saturation": 1.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:superburger",
+    "hunger": 9,
+    "saturation": 1.8,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "rotmgfood:thanksgivingturkey",
+    "hunger": 8,
+    "saturation": 1.8,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "honeymod:honey_pie",
+    "hunger": 8,
+    "saturation": 0.4,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "mobz:rottenflesh",
+    "hunger": 5,
+    "saturation": 0.8,
+    "always_edible": false,
+    "snack": false,
+    "meat": true
+  },
+  {
+    "item": "sandwichable:sandwich",
+    "hunger": 0,
+    "saturation": 0.0,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "sandwichable:bread_slice",
+    "hunger": 2,
+    "saturation": 0.5,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "sandwichable:toasted_bread_slice",
+    "hunger": 3,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "sandwichable:lettuce_head",
+    "hunger": 5,
+    "saturation": 0.8,
+    "always_edible": false,
+    "snack": true,
+    "meat": false
+  },
+  {
+    "item": "sandwichable:lettuce_leaf",
+    "hunger": 1,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": true,
+    "meat": false
+  },
+  {
+    "item": "sandwichable:cheese_wheel",
+    "hunger": 9,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:nausea",
+        "duration": 420,
+        "amplifier": 5,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "item": "sandwichable:cheese_slice",
+    "hunger": 3,
+    "saturation": 0.6,
+    "always_edible": false,
+    "snack": true,
+    "meat": false
+  },
+  {
+    "item": "sandwichable:tomato",
+    "hunger": 4,
+    "saturation": 0.42,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "sandwichable:tomato_slice",
+    "hunger": 2,
+    "saturation": 0.7,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "sandwichable:pork_cuts",
+    "hunger": 2,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "sandwichable:bacon_strips",
+    "hunger": 4,
+    "saturation": 0.7,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "sandwichable:burnt_food",
+    "hunger": 1,
+    "saturation": 0.1,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "sandwichable:fermenting_milk_bucket",
+    "hunger": 3,
+    "saturation": 0.9,
+    "always_edible": true,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "betternether:black_apple",
+    "hunger": 6,
+    "saturation": 0.5,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "betternether:stalagnate_bowl_wart",
+    "hunger": 4,
+    "saturation": 0.5,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "betternether:stalagnate_bowl_mushroom",
+    "hunger": 6,
+    "saturation": 0.5,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "betternether:stalagnate_bowl_apple",
+    "hunger": 7,
+    "saturation": 0.5,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "lalegamod:sashimi_sake",
+    "hunger": 3,
+    "saturation": 1.375,
+    "always_edible": true,
+    "snack": true,
+    "meat": false
+  },
+  {
+    "item": "lalegamod:salmon_fillet",
+    "hunger": 3,
+    "saturation": 1.45,
+    "always_edible": true,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:poison",
+        "duration": 500,
+        "amplifier": 0,
+        "chance": 0.225
+      }
+    ]
+  },
+  {
+    "item": "lalegamod:rice",
+    "hunger": 2,
+    "saturation": 1.55,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "lalegamod:nigiri_sake",
+    "hunger": 5,
+    "saturation": 2.1,
+    "always_edible": true,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "lalegamod:hosomaki_sake",
+    "hunger": 3,
+    "saturation": 2.0,
+    "always_edible": true,
+    "snack": true,
+    "meat": false
+  },
+  {
+    "item": "lalegamod:uramaki_sake",
+    "hunger": 6,
+    "saturation": 2.75,
+    "always_edible": true,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "lalegamod:futomaki_sake",
+    "hunger": 7,
+    "saturation": 3.45,
+    "always_edible": true,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "lalegamod:wasabi",
+    "hunger": 1,
+    "saturation": 0.85,
+    "always_edible": false,
+    "snack": true,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:speed",
+        "duration": 200,
+        "amplifier": 0,
+        "chance": 0.175
+      }
+    ]
+  },
+  {
+    "item": "lalegamod:avocado",
+    "hunger": 1,
+    "saturation": 0.95,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "lalegamod:raw_squid",
+    "hunger": 2,
+    "saturation": 1.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:nausea",
+        "duration": 400,
+        "amplifier": 0,
+        "chance": 0.215
+      }
+    ]
+  },
+  {
+    "item": "lalegamod:cooked_squid",
+    "hunger": 3,
+    "saturation": 1.65,
+    "always_edible": false,
+    "snack": true,
+    "meat": false
+  },
+  {
+    "item": "lalegamod:squid_skewer",
+    "hunger": 4,
+    "saturation": 1.95,
+    "always_edible": true,
+    "snack": true,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:luck",
+        "duration": 900,
+        "amplifier": 0,
+        "chance": 0.115
+      }
+    ]
+  },
+  {
+    "item": "lalegamod:minched_pork",
+    "hunger": 3,
+    "saturation": 1.9,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "lalegamod:sashimi_fugu",
+    "hunger": 3,
+    "saturation": 1.15,
+    "always_edible": true,
+    "snack": true,
+    "meat": false
+  },
+  {
+    "item": "lalegamod:pufferfish_fillet",
+    "hunger": 3,
+    "saturation": 1.45,
+    "always_edible": true,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:poison",
+        "duration": 1200,
+        "amplifier": 0,
+        "chance": 0.575
+      }
+    ]
+  },
+  {
+    "item": "lalegamod:gyoza",
+    "hunger": 6,
+    "saturation": 3.85,
+    "always_edible": false,
+    "snack": true,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:regeneration",
+        "duration": 160,
+        "amplifier": 0,
+        "chance": 0.245
+      }
+    ]
+  },
+  {
+    "item": "lalegamod:torafugu_karaage",
+    "hunger": 8,
+    "saturation": 5.65,
+    "always_edible": false,
+    "snack": true,
+    "meat": false
+  },
+  {
+    "item": "lalegamod:fried_uramaki_sake",
+    "hunger": 7,
+    "saturation": 4.125,
+    "always_edible": true,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "lalegamod:fried_futomaki_sake",
+    "hunger": 8,
+    "saturation": 5.175,
+    "always_edible": true,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "lalegamod:fried_hosomaki_sake",
+    "hunger": 4,
+    "saturation": 3.0,
+    "always_edible": true,
+    "snack": true,
+    "meat": false
+  },
+  {
+    "item": "lalegamod:torafugu_karaage_bowl",
+    "hunger": 12,
+    "saturation": 18.0,
+    "always_edible": true,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:speed",
+        "duration": 700,
+        "amplifier": 0,
+        "chance": 0.325
+      },
+      {
+        "id": "minecraft:regeneration",
+        "duration": 400,
+        "amplifier": 0,
+        "chance": 0.785
+      }
+    ]
+  },
+  {
+    "item": "lalegamod:sashimi_fugu_bowl",
+    "hunger": 9,
+    "saturation": 12.0,
+    "always_edible": true,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:night_vision",
+        "duration": 1000,
+        "amplifier": 0,
+        "chance": 0.75
+      },
+      {
+        "id": "minecraft:luck",
+        "duration": 1600,
+        "amplifier": 0,
+        "chance": 0.2275
+      }
+    ]
+  },
+  {
+    "item": "lalegamod:nigiri_sake_wasabi",
+    "hunger": 5,
+    "saturation": 2.6,
+    "always_edible": true,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:speed",
+        "duration": 280,
+        "amplifier": 0,
+        "chance": 0.385
+      }
+    ]
+  },
+  {
+    "item": "lalegamod:hosomaki_sake_wasabi",
+    "hunger": 3,
+    "saturation": 2.5,
+    "always_edible": true,
+    "snack": true,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:speed",
+        "duration": 300,
+        "amplifier": 0,
+        "chance": 0.385
+      }
+    ]
+  },
+  {
+    "item": "lalegamod:uramaki_sake_wasabi",
+    "hunger": 6,
+    "saturation": 3.25,
+    "always_edible": true,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:speed",
+        "duration": 300,
+        "amplifier": 0,
+        "chance": 0.385
+      }
+    ]
+  },
+  {
+    "item": "lalegamod:futomaki_sake_wasabi",
+    "hunger": 7,
+    "saturation": 3.95,
+    "always_edible": true,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:speed",
+        "duration": 300,
+        "amplifier": 0,
+        "chance": 0.385
+      }
+    ]
+  },
+  {
+    "item": "oysterscooking:cooked_oyster",
+    "hunger": 2,
+    "saturation": 1.3,
+    "always_edible": false,
+    "snack": true,
+    "meat": false
+  },
+  {
+    "item": "overpowered_pickles:absurd_pickle",
+    "hunger": 7,
+    "saturation": 0.7,
+    "always_edible": true,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "overpowered_pickles:ridiculous_pickle",
+    "hunger": 7,
+    "saturation": 0.7,
+    "always_edible": true,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "overpowered_pickles:ludicrous_pickle",
+    "hunger": 7,
+    "saturation": 0.7,
+    "always_edible": true,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "overpowered_pickles:insane_pickle",
+    "hunger": 7,
+    "saturation": 0.7,
+    "always_edible": true,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "overpowered_pickles:farcical_pickle",
+    "hunger": 7,
+    "saturation": 0.7,
+    "always_edible": true,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "overpowered_pickles:preposterous_pickle",
+    "hunger": 7,
+    "saturation": 0.7,
+    "always_edible": true,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "overpowered_pickles:cleansing_pickle",
+    "hunger": 1,
+    "saturation": 0.0,
+    "always_edible": true,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "simplystrawberrys:strawberry",
+    "hunger": 3,
+    "saturation": 2.0,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "pieceofrag:heal_rag",
+    "hunger": 0,
+    "saturation": 0.0,
+    "always_edible": true,
+    "snack": true,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:regeneration",
+        "duration": 200,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "item": "adabraniummod:vibranium_soup",
+    "hunger": 8,
+    "saturation": 0.6,
+    "always_edible": true,
+    "snack": false,
+    "meat": false,
+    "effects": [
+      {
+        "id": "minecraft:resistance",
+        "duration": 2400,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "id": "minecraft:speed",
+        "duration": 3600,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "id": "minecraft:strength",
+        "duration": 2400,
+        "amplifier": 1,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "item": "flax:roasted_flax_seeds",
+    "hunger": 2,
+    "saturation": 0.45,
+    "always_edible": true,
+    "snack": true,
+    "meat": false
+  },
+  {
+    "item": "campanion:mre",
+    "hunger": 20,
+    "saturation": 24.8,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "campanion:cracker",
+    "hunger": 1,
+    "saturation": 0.0,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "campanion:marshmallow",
+    "hunger": 1,
+    "saturation": 0.0,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "campanion:cooked_marshmallow",
+    "hunger": 1,
+    "saturation": 0.0,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "campanion:blackened_marshmallow",
+    "hunger": 1,
+    "saturation": 0.0,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "campanion:smore",
+    "hunger": 3,
+    "saturation": 0.0,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:blue_berries",
+    "hunger": 2,
+    "saturation": 0.1,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:blue_berry_juice",
+    "hunger": 3,
+    "saturation": 0.2,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:blue_berry_pie",
+    "hunger": 8,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:yellow_berries",
+    "hunger": 2,
+    "saturation": 0.1,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:yellow_berry_juice",
+    "hunger": 3,
+    "saturation": 0.2,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:yellow_berry_pie",
+    "hunger": 8,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:orange_berries",
+    "hunger": 2,
+    "saturation": 0.1,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:orange_berry_juice",
+    "hunger": 3,
+    "saturation": 0.2,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:orange_berry_pie",
+    "hunger": 8,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:purple_berries",
+    "hunger": 2,
+    "saturation": 0.1,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:purple_berry_juice",
+    "hunger": 3,
+    "saturation": 0.2,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:purple_berry_pie",
+    "hunger": 8,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:green_berries",
+    "hunger": 2,
+    "saturation": 0.1,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:green_berry_juice",
+    "hunger": 3,
+    "saturation": 0.2,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:green_berry_pie",
+    "hunger": 8,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:black_berries",
+    "hunger": 2,
+    "saturation": 0.1,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:black_berry_juice",
+    "hunger": 3,
+    "saturation": 0.2,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:black_berry_pie",
+    "hunger": 8,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:sweet_berry_juice",
+    "hunger": 3,
+    "saturation": 0.1,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  },
+  {
+    "item": "moreberries:sweet_berry_pie",
+    "hunger": 8,
+    "saturation": 0.3,
+    "always_edible": false,
+    "snack": false,
+    "meat": false
+  }
+]

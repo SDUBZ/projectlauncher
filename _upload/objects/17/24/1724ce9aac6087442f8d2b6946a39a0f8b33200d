@@ -1,0 +1,5 @@
+fastLeafDecay = true
+treeChopMode = "SINGLE_CHOP"
+fullChopDurabilityUsage = "BREAK_MID_CHOP"
+sneakToDisable = true
+requireLeavesToChop = true

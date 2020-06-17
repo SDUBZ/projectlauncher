@@ -1,0 +1,9 @@
+{
+  "enableExtraMaterials": true,
+  "enableFull3x3": false,
+  "fullBlockHitbox": false,
+  "alwaysShowSingleBlockHitbox": false,
+  "showSingleBlockWhenSneaking": true,
+  "breakSingleBlockWhenSneaking": true,
+  "durabilityModifier": 5
+}

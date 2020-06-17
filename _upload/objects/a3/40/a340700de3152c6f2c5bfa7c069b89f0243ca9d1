@@ -1,0 +1,8 @@
+#Flonters configuration
+#Mon May 18 15:07:22 AEST 2020
+flonterPatchChance=16
+tallFlonterChance=0.05
+logFlonterPropertiesParse=false
+flonterPatchQuantity=2
+flonterPatchSize=6
+flonterPatchDensity=2

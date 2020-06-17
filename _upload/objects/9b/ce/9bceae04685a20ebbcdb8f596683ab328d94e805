@@ -1,0 +1,8 @@
+{
+  "configVersion": 1,
+  "header": "\u0026cTest \u00266Header",
+  "footer": "\u00266Test \u0026cFooter",
+  "motd": "",
+  "enableColor": true,
+  "enableTablistFormatting": true
+}

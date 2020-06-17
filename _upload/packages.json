@@ -2,94 +2,80 @@
   "minimumVersion" : 1,
   "packages" : [
     {
-      "title" : "fabric 1.15.2",
-      "name" : "fabric 1.15.2",
-      "version" : "0.1",
-      "location" : "fabric-1.15.2.json",
-      "priority" : 0
-    },
-    {
-      "title" : "A Tuna In A Can Pack 1.12.1(full)",
-      "name" : "A Tuna In A Can Pack 1.12.1(full)",
-      "version" : "3.7",
-      "location" : "a-tuna-in-a-can-pack-1.12.1-full-.json",
-      "priority" : 0
-    },
-    {
-      "title" : "A Tuna In A Can Pack 1.12.1(lite)",
-      "name" : "A Tuna In A Can Pack 1.12.1(lite)",
-      "version" : "1.1",
-      "location" : "a-tuna-in-a-can-pack-1.12.1-lite-.json",
-      "priority" : 0
-    },
-    {
-      "title" : "BUILDTECH LTE 2",
-      "name" : "BUILDTECH LTE 2",
-      "version" : "0.50a",
-      "location" : "buildtech-lte-2.json",
-      "priority" : 0
-    },
-    {
-      "title" : "eeCraft A Journey In The Sky",
-      "name" : "eecraft",
-      "version" : "1.11",
-      "location" : "eecraft.json",
-      "priority" : 0
+      "title" : "wasted survival",
+      "name" : "wasted survival",
+      "version" : "1.0.1",
+      "location" : "wasted-survival.json",
+      "priority" : 10
     },
     {
       "title" : "Immersiveexploration",
       "name" : "Immersive exploration",
       "version" : "1.0",
       "location" : "immersive-exploration.json",
-      "priority" : 0
-    },
-    {
-      "title" : "Modernismo",
-      "name" : "Modernismo",
-      "version" : "1.2",
-      "location" : "modernismo.json",
-      "priority" : 0
-    },
-    {
-      "title" : "SdubzCraft 5 The Final chapter ( A End Of A Tekkit Series )",
-      "name" : "SdubzCraft 5 The Final chapter ( A End Of A Tekkit Series )",
-      "version" : "1.7.5",
-      "location" : "sdubzcraft-5-the-final-chapter-a-end-of-a-tekkit-series-.json",
-      "priority" : 0
+      "priority" : 9
     },
     {
       "title" : "SKYCRAFT 2.5",
       "name" : "SKYCRAFT 2.5",
       "version" : "0.6",
       "location" : "skycraft-2.5.json",
-      "priority" : 0
-    },
-    {
-      "title" : "the snappy pack 1.16",
-      "name" : "snappy pack",
-      "version" : "0.1",
-      "location" : "snappy-pack.json",
-      "priority" : 0
-    },
-    {
-      "title" : "TFC2 PACK",
-      "name" : "TFC2 PACK",
-      "version" : "1.2",
-      "location" : "tfc2-pack.json",
-      "priority" : 0
+      "priority" : 8
     },
     {
       "title" : "Trilex Pack",
       "name" : "Trilex Pack",
       "version" : "1.6.2",
       "location" : "trilex-pack.json",
-      "priority" : 0
+      "priority" : 7
     },
     {
-      "title" : "wasted survival",
-      "name" : "wasted survival",
-      "version" : "1.0.1",
-      "location" : "wasted-survival.json",
+      "title" : "BUILDTECH LTE 2",
+      "name" : "BUILDTECH LTE 2",
+      "version" : "0.50a",
+      "location" : "buildtech-lte-2.json",
+      "priority" : 6
+    },
+    {
+      "title" : "A Tuna In A Can Pack 1.12.1(full)",
+      "name" : "A Tuna In A Can Pack 1.12.1(full)",
+      "version" : "3.7",
+      "location" : "a-tuna-in-a-can-pack-1.12.1-full-.json",
+      "priority" : 5
+    },
+    {
+      "title" : "A Tuna In A Can Pack 1.12.1(lite)",
+      "name" : "A Tuna In A Can Pack 1.12.1(lite)",
+      "version" : "1.1",
+      "location" : "a-tuna-in-a-can-pack-1.12.1-lite-.json",
+      "priority" : 4
+    },
+    {
+      "title" : "TFC2 PACK",
+      "name" : "TFC2 PACK",
+      "version" : "1.2",
+      "location" : "tfc2-pack.json",
+      "priority" : 3
+    },
+    {
+      "title" : "SdubzCraft 5 The Final chapter ( A End Of A Tekkit Series )",
+      "name" : "SdubzCraft 5 The Final chapter ( A End Of A Tekkit Series )",
+      "version" : "1.7.5",
+      "location" : "sdubzcraft-5-the-final-chapter-a-end-of-a-tekkit-series-.json",
+      "priority" : 2
+    },
+    {
+      "title" : "eeCraft A Journey In The Sky",
+      "name" : "eecraft",
+      "version" : "1.11",
+      "location" : "eecraft.json",
+      "priority" : 1
+    },
+    {
+      "title" : "Modernismo",
+      "name" : "Modernismo",
+      "version" : "1.2",
+      "location" : "modernismo.json",
       "priority" : 0
     }
   ]
