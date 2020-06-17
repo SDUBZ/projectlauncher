@@ -81,14 +81,14 @@
     {
       "title" : "the snappy pack 1.16",
       "name" : "snappy pack",
-      "version" : "0.2",
+      "version" : "0.3",
       "location" : "snappy-pack.json",
       "priority" : 2
     },
     {
       "title" : "fabric 1.15.2",
       "name" : "fabric 1.15.2",
-      "version" : "0.2",
+      "version" : "0.3",
       "location" : "fabric-1.15.2.json",
       "priority" : 1
     }
