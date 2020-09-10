@@ -1,0 +1,12 @@
+# LibNetworkStack configuration file.
+# Removing an option will reset it back to the default value.
+# Removing or altering comments doesn't replace them.
+
+# True to enable all debugging, or false to use the
+# other options for more fine-grained control.
+debug.all=false
+
+# True to enable recording type information when writing packets
+# (which is used when an exception is thrown while reading packets)
+debug.record_types=false
+

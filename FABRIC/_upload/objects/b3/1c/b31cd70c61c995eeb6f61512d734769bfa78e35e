@@ -1,0 +1,4 @@
+# Lakeside options:
+# disable_vanilla_lakes - Disables vanilla lakes (default: true) 
+#Mon May 18 15:11:48 AEST 2020
+disable_vanilla_lakes=true

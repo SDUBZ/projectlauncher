@@ -1,0 +1,64 @@
+{
+  "Real Time Prefix": {
+    "key": "Real Time Prefix",
+    "toolTip": "prefix to define colors or similar",
+    "value": "",
+    "defaultValue": ""
+  },
+  "Game Time": {
+    "key": "Game Time",
+    "toolTip": "Show ingame time",
+    "value": true,
+    "defaultValue": true
+  },
+  "Game Time Prefix": {
+    "key": "Game Time Prefix",
+    "toolTip": "prefix to define colors or similar",
+    "value": "",
+    "defaultValue": ""
+  },
+  "Real Time Format": {
+    "key": "Real Time Format",
+    "toolTip": "Real Time Format (please see Java SimpleDateFormat",
+    "value": "HH:mm:ss",
+    "defaultValue": "HH:mm:ss"
+  },
+  "Game Time X Percent": {
+    "key": "Game Time X Percent",
+    "toolTip": "Offset from screen left",
+    "value": 0,
+    "defaultValue": 0,
+    "minValue": 0,
+    "maxValue": 100
+  },
+  "Real Time": {
+    "key": "Real Time",
+    "toolTip": "Show real time",
+    "value": false,
+    "defaultValue": false
+  },
+  "Real Time Y Percent": {
+    "key": "Real Time Y Percent",
+    "toolTip": "Offset from screen top",
+    "value": 10,
+    "defaultValue": 10,
+    "minValue": 0,
+    "maxValue": 100
+  },
+  "Real Time X Percent": {
+    "key": "Real Time X Percent",
+    "toolTip": "Offset from screen left",
+    "value": 0,
+    "defaultValue": 0,
+    "minValue": 0,
+    "maxValue": 100
+  },
+  "Game Time Y Percent": {
+    "key": "Game Time Y Percent",
+    "toolTip": "Offset from screen top",
+    "value": 5,
+    "defaultValue": 5,
+    "minValue": 0,
+    "maxValue": 100
+  }
+}

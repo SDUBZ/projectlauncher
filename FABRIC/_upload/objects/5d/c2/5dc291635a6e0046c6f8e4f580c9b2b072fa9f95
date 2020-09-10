@@ -1,0 +1,11 @@
+{
+	"zoom_divisor": 4.0,
+	"cinematic_camera": "off",
+	"cinematic_multiplier": 4.0,
+	"reduce_sensitivity": true,
+	"zoom_transition": "smooth",
+	"zoom_toggle": false,
+	"zoom_scrolling": true,
+	"minimum_zoom_divisor": 1.0,
+	"maximum_zoom_divisor": 50.0
+}

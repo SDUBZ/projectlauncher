@@ -1,0 +1,623 @@
+{
+  "InfoLineOrdersHostile": {
+    "infoZombie": 1,
+    "infoBlaze": 13,
+    "infoEnderman": 15,
+    "infoSpider": 2,
+    "infoCreeper": 3,
+    "infoWitch": 4,
+    "infoEndermite": 5,
+    "infoSlime": 6,
+    "infoGuardian": 7,
+    "infoIllager": 8,
+    "infoGhast": 14,
+    "infoPhantom": 9,
+    "infoRavager": 10,
+    "infoShulker": 16,
+    "infoSilverfish": 17,
+    "infoSkeleton": 11,
+    "infoVex": 12
+  },
+  "InfoLineOrdersPassive": {
+    "infoChicken": 1,
+    "infoPig": 2,
+    "infoSheep": 3,
+    "infoCow": 4,
+    "infoHorse": 5,
+    "infoRabbit": 6,
+    "infoWolf": 7,
+    "infoOcelot": 8,
+    "infoParrot": 9,
+    "infoBat": 10,
+    "infoCat": 11,
+    "infoIronGolem": 12,
+    "infoSnowGolem": 13,
+    "infoPlayer": 14,
+    "infoFish": 15,
+    "infoTrader": 16,
+    "infoDolphin": 17,
+    "infoFox": 18,
+    "infoPanda": 19,
+    "infoPolarBear": 20,
+    "infoSquid": 21,
+    "infoTurtle": 22,
+    "infoBee": 23
+  },
+  "Generic": {
+    "countHostile": 16,
+    "countPassive": 16,
+    "enabled": true,
+    "messageList": [],
+    "notifyFaction": false,
+    "radiusHostile": 16,
+    "radiusPassive": 16,
+    "soundFile": "block.note_block.bass",
+    "xp5": false
+  },
+  "Hotkeys": {
+    "toggleHostile": {
+      "keys": "O",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "openGuiSettings": {
+      "keys": "P,C",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "togglePassive": {
+      "keys": "P",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    }
+  },
+  "InfoTypeTogglesHostile": {
+    "infoZombie": false,
+    "infoBlaze": false,
+    "infoEnderman": false,
+    "infoSpider": false,
+    "infoCreeper": false,
+    "infoWitch": false,
+    "infoEndermite": false,
+    "infoSlime": false,
+    "infoGuardian": false,
+    "infoIllager": false,
+    "infoGhast": false,
+    "infoPhantom": false,
+    "infoRavager": false,
+    "infoShulker": false,
+    "infoSilverfish": false,
+    "infoSkeleton": false,
+    "infoVex": false
+  },
+  "InfoHotkeysHostile": {
+    "infoZombie": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoBlaze": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoEnderman": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoSpider": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoCreeper": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoWitch": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoEndermite": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoSlime": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoGuardian": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoIllager": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoGhast": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoPhantom": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoRavager": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoShulker": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoSilverfish": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoSkeleton": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoVex": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    }
+  },
+  "InfoTypeTogglesPassive": {
+    "infoChicken": false,
+    "infoPig": false,
+    "infoSheep": false,
+    "infoCow": false,
+    "infoHorse": false,
+    "infoRabbit": false,
+    "infoWolf": false,
+    "infoOcelot": false,
+    "infoParrot": false,
+    "infoBat": false,
+    "infoCat": false,
+    "infoIronGolem": false,
+    "infoSnowGolem": false,
+    "infoPlayer": false,
+    "infoFish": false,
+    "infoTrader": false,
+    "infoDolphin": false,
+    "infoFox": false,
+    "infoPanda": false,
+    "infoPolarBear": false,
+    "infoSquid": false,
+    "infoTurtle": false,
+    "infoBee": false
+  },
+  "InfoHotkeysPassive": {
+    "infoChicken": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoPig": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoSheep": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoCow": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoHorse": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoRabbit": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoWolf": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoOcelot": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoParrot": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoBat": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoCat": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoIronGolem": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoSnowGolem": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoPlayer": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoFish": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoTrader": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoDolphin": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoFox": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoPanda": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoPolarBear": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoSquid": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoTurtle": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "infoBee": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    }
+  }
+}

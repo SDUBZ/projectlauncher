@@ -1,0 +1,5 @@
+#Mon May 18 14:40:07 AEST 2020
+reconnectEnabled=false
+secondsBetweenReconnectAttempts=3
+damageLogoutEnabled=false
+reconnectAttemptNumber=10

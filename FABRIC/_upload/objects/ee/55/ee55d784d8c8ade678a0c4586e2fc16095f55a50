@@ -1,0 +1,146 @@
+{
+  "legend": true,
+  "grid_snapping": true,
+  "history_highlighting": true,
+  "side_selection_style": "SIMPLE",
+  "weighted_palette": false,
+  "random_rotate": false,
+  "show_legend": true,
+  "legend_corner": "BOTTOM_LEFT",
+  "show_utility": false,
+  "show_basic": true,
+  "show_system": false,
+  "axial_text_size": 1.0,
+  "selection_box_color": 4284729165,
+  "selection_face_color": 4294895457,
+  "multiplayer_box_color": 4294342010,
+  "paste_box_color": 4290072712,
+  "move_drag_key": [
+    "move_dual_axis",
+    false,
+    1,
+    false,
+    false,
+    false
+  ],
+  "move_push_key": [
+    "move_single_axis",
+    false,
+    1,
+    true,
+    false,
+    false
+  ],
+  "fill_key": [
+    "fill_blocks",
+    true,
+    82,
+    false,
+    false,
+    false
+  ],
+  "walls_key": [
+    "fill_walls",
+    true,
+    67,
+    false,
+    false,
+    false
+  ],
+  "resize_side_key": [
+    "resize_single_axis",
+    false,
+    0,
+    false,
+    false,
+    false
+  ],
+  "resize_symmetric_key": [
+    "resize_single_axis_symmetric",
+    false,
+    0,
+    true,
+    false,
+    false
+  ],
+  "repeat_pattern_key": [
+    "repeat_pattern",
+    true,
+    88,
+    false,
+    false,
+    false
+  ],
+  "mirror_tool_key": [
+    "mirror_tool",
+    true,
+    78,
+    false,
+    false,
+    false
+  ],
+  "copy_key": [
+    "copy_tool",
+    true,
+    67,
+    false,
+    true,
+    false
+  ],
+  "paste_key": [
+    "paste_tool",
+    true,
+    86,
+    false,
+    true,
+    false
+  ],
+  "new_box_key": [
+    "center_edit_region",
+    true,
+    66,
+    false,
+    false,
+    false
+  ],
+  "undo_key": [
+    "undo",
+    true,
+    90,
+    false,
+    true,
+    false
+  ],
+  "redo_key": [
+    "redo",
+    true,
+    89,
+    false,
+    true,
+    false
+  ],
+  "multi_palette": [
+    "multi_palette",
+    true,
+    86,
+    false,
+    false,
+    false
+  ],
+  "air_mode": [
+    "air_mode",
+    true,
+    71,
+    false,
+    false,
+    false
+  ],
+  "place_mode": [
+    "place_mode",
+    true,
+    90,
+    false,
+    false,
+    false
+  ]
+}

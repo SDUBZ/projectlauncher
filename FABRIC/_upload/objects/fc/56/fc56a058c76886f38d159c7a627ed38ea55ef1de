@@ -1,0 +1,3433 @@
+{
+  "materials": [
+    {
+      "oreInformation": {
+        "oreType": "METAL",
+        "targetId": "minecraft:podzol",
+        "oreCount": 4,
+        "minXPAmount": 0,
+        "maxXPAmount": 0,
+        "oreClusterSize": 6
+      },
+      "id": "raa_materials:outruhenix",
+      "name": "outruhenix",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_8",
+          "stick": "raa_materials:item/tools/pickaxe/stick_6"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_5",
+          "stick": "raa_materials:item/tools/axe/axe_stick_2"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_10",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_2"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_9",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_3"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_1",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_7"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_2",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_1",
+        "leggingsTexture": "raa_materials:item/armor/leggings_2",
+        "bootsTexture": "raa_materials:item/armor/boots_3",
+        "overlayTexture": "raa_materials:block/ores/metals/ore_6",
+        "resourceItemTexture": "raa_materials:item/ingots/ingot_12",
+        "dustTexture": "raa_materials:item/dusts/dust_1",
+        "smallDustTexture": "raa_materials:item/small_dusts/small_dust_1",
+        "gearTexture": "raa_materials:item/gears/gear_1",
+        "plateTexture": "raa_materials:item/plates/plate_1",
+        "storageBlockTexture": "raa_materials:block/storage_blocks/metals/metal_1",
+        "nuggetTexture": "raa_materials:item/nuggets/nugget_1",
+        "fruitTexture": "raa_materials:item/fruits/fruit_9"
+      },
+      "specialEffects": {
+        "FIREBALL": {
+          "chance": 3
+        },
+        "EFFECT": {
+          "type": "minecraft:resistance",
+          "duration": 13,
+          "amplifier": 0
+        }
+      },
+      "color": -6953281,
+      "miningLevel": 1,
+      "armor": true,
+      "armorMaterial": {
+        "durabilityMultiplier": 20,
+        "protectionAmounts": [
+          3,
+          5,
+          12,
+          1
+        ],
+        "enchantability": 11,
+        "toughness": 2.6,
+        "horseArmorBonus": 21,
+        "knockbackResistance": 0.1933521
+      },
+      "tools": true,
+      "weapons": false,
+      "toolMaterial": {
+        "durability": 1177,
+        "miningSpeed": 6.9,
+        "attackDamage": 3.9,
+        "miningLevel": 1,
+        "enchantability": 29,
+        "hoeAttackSpeed": 3.3,
+        "axeAttackDamage": 2.4,
+        "axeAttackSpeed": 0.1,
+        "swordAttackDamage": 3.25,
+        "cooldownTicks": 2
+      },
+      "foodData": {
+        "hunger": 6,
+        "saturationModifier": 2.774613,
+        "meat": true,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 2.1822689,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "METAL",
+        "targetId": "minecraft:end_stone",
+        "oreCount": 27,
+        "minXPAmount": 0,
+        "maxXPAmount": 4,
+        "oreClusterSize": 6
+      },
+      "id": "raa_materials:retrowice",
+      "name": "retrowice",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_6",
+          "stick": "raa_materials:item/tools/pickaxe/stick_8"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_4",
+          "stick": "raa_materials:item/tools/axe/axe_stick_6"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_1",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_5"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_10",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_7"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_1",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_7"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_4",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_3",
+        "leggingsTexture": "raa_materials:item/armor/leggings_3",
+        "bootsTexture": "raa_materials:item/armor/boots_2",
+        "overlayTexture": "raa_materials:block/ores/generic_ore_3",
+        "resourceItemTexture": "raa_materials:item/ingots/ingot_12",
+        "dustTexture": "raa_materials:item/dusts/dust_2",
+        "smallDustTexture": "raa_materials:item/small_dusts/small_dust_1",
+        "gearTexture": "raa_materials:item/gears/gear_1",
+        "plateTexture": "raa_materials:item/plates/plate_2",
+        "storageBlockTexture": "raa_materials:block/storage_blocks/metals/metal_5",
+        "nuggetTexture": "raa_materials:item/nuggets/nugget_1",
+        "fruitTexture": "raa_materials:item/fruits/fruit_11"
+      },
+      "specialEffects": {},
+      "color": -2618807,
+      "miningLevel": 4,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 1606,
+        "miningSpeed": 7.0,
+        "attackDamage": 3.4,
+        "miningLevel": 4,
+        "enchantability": 14,
+        "hoeAttackSpeed": 1.4,
+        "axeAttackDamage": 0.5,
+        "axeAttackSpeed": 0.2,
+        "swordAttackDamage": 0.85,
+        "cooldownTicks": 8
+      },
+      "foodData": {
+        "hunger": 26,
+        "saturationModifier": 2.9990737,
+        "meat": true,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 0.93879694,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:sandstone",
+        "oreCount": 25,
+        "minXPAmount": 0,
+        "maxXPAmount": 1,
+        "oreClusterSize": 9
+      },
+      "id": "raa_materials:abutrice",
+      "name": "abutrice",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_9",
+          "stick": "raa_materials:item/tools/pickaxe/stick_4"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_10",
+          "stick": "raa_materials:item/tools/axe/axe_stick_6"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_5",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_4"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_10",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_3"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_7",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_11"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_2",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_2",
+        "leggingsTexture": "raa_materials:item/armor/leggings_1",
+        "bootsTexture": "raa_materials:item/armor/boots_3",
+        "overlayTexture": "raa_materials:block/ores/crystals/ore_8",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_10",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_1",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_10"
+      },
+      "specialEffects": {},
+      "color": -12832676,
+      "miningLevel": 2,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": false,
+      "toolMaterial": {
+        "durability": 831,
+        "miningSpeed": 1.8,
+        "attackDamage": 1.3,
+        "miningLevel": 2,
+        "enchantability": 23,
+        "hoeAttackSpeed": 1.4,
+        "axeAttackDamage": 1.8,
+        "axeAttackSpeed": 0.7,
+        "swordAttackDamage": 5.55,
+        "cooldownTicks": 5
+      },
+      "foodData": {
+        "hunger": 27,
+        "saturationModifier": 2.722358,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": true,
+      "oreFlower": true,
+      "food": false,
+      "compostableAmount": 2.7877064,
+      "compostable": false,
+      "beaconBase": true
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:granite",
+        "oreCount": 15,
+        "minXPAmount": 0,
+        "maxXPAmount": 0,
+        "oreClusterSize": 5
+      },
+      "id": "raa_materials:obite",
+      "name": "obite",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_8",
+          "stick": "raa_materials:item/tools/pickaxe/stick_3"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_10",
+          "stick": "raa_materials:item/tools/axe/axe_stick_7"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_5",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_7"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_6",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_8"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_4",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_1"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_4",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_2",
+        "leggingsTexture": "raa_materials:item/armor/leggings_1",
+        "bootsTexture": "raa_materials:item/armor/boots_3",
+        "overlayTexture": "raa_materials:block/ores/crystals/ore_4",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_10",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_4",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_6"
+      },
+      "specialEffects": {},
+      "color": -4465069,
+      "miningLevel": 3,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 867,
+        "miningSpeed": 2.6,
+        "attackDamage": 0.5,
+        "miningLevel": 3,
+        "enchantability": 26,
+        "hoeAttackSpeed": 3.6,
+        "axeAttackDamage": 1.3,
+        "axeAttackSpeed": 0.4,
+        "swordAttackDamage": 2.95,
+        "cooldownTicks": 10
+      },
+      "foodData": {
+        "hunger": 7,
+        "saturationModifier": 1.6487207,
+        "meat": true,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": true,
+      "food": false,
+      "compostableAmount": 2.8823402,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "GEM",
+        "targetId": "minecraft:does_not_appear",
+        "oreCount": 24,
+        "minXPAmount": 0,
+        "maxXPAmount": 4,
+        "oreClusterSize": 2
+      },
+      "id": "raa_materials:postinise",
+      "name": "postinise",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_5",
+          "stick": "raa_materials:item/tools/pickaxe/stick_6"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_8",
+          "stick": "raa_materials:item/tools/axe/axe_stick_1"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_10",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_8"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_8",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_11"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_9",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_8"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_2",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_2",
+        "leggingsTexture": "raa_materials:item/armor/leggings_2",
+        "bootsTexture": "raa_materials:item/armor/boots_3",
+        "overlayTexture": "raa_materials:block/ores/gems/ore_1",
+        "resourceItemTexture": "raa_materials:item/gems/gem_17",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/gems/gem_1",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_6"
+      },
+      "specialEffects": {
+        "EFFECT": {
+          "type": "minecraft:nausea",
+          "duration": 10,
+          "amplifier": 2
+        }
+      },
+      "color": -16629707,
+      "miningLevel": 1,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": false,
+      "toolMaterial": {
+        "durability": 903,
+        "miningSpeed": 3.7,
+        "attackDamage": 3.7,
+        "miningLevel": 1,
+        "enchantability": 24,
+        "hoeAttackSpeed": 1.8,
+        "axeAttackDamage": 2.5,
+        "axeAttackSpeed": 0.6,
+        "swordAttackDamage": 6.15,
+        "cooldownTicks": 6
+      },
+      "foodData": {
+        "hunger": 12,
+        "saturationModifier": 1.3815002,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": true,
+      "compostableAmount": 1.2266357,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:gravel",
+        "oreCount": 12,
+        "minXPAmount": 0,
+        "maxXPAmount": 3,
+        "oreClusterSize": 2
+      },
+      "id": "raa_materials:coperule",
+      "name": "coperule",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_2",
+          "stick": "raa_materials:item/tools/pickaxe/stick_4"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_10",
+          "stick": "raa_materials:item/tools/axe/axe_stick_8"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_4",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_1"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_3",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_6"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_7",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_2"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_3",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_4",
+        "leggingsTexture": "raa_materials:item/armor/leggings_1",
+        "bootsTexture": "raa_materials:item/armor/boots_3",
+        "overlayTexture": "raa_materials:block/ores/crystals/ore_6",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_6",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_1",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_4"
+      },
+      "specialEffects": {},
+      "color": -16487611,
+      "miningLevel": 3,
+      "armor": true,
+      "armorMaterial": {
+        "durabilityMultiplier": 12,
+        "protectionAmounts": [
+          2,
+          9,
+          2,
+          2
+        ],
+        "enchantability": 24,
+        "toughness": 0.0,
+        "horseArmorBonus": 2,
+        "knockbackResistance": 0.045552135
+      },
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 1131,
+        "miningSpeed": 3.8,
+        "attackDamage": 1.7,
+        "miningLevel": 3,
+        "enchantability": 26,
+        "hoeAttackSpeed": 3.4,
+        "axeAttackDamage": 1.1,
+        "axeAttackSpeed": 0.8,
+        "swordAttackDamage": 1.45,
+        "cooldownTicks": 5
+      },
+      "foodData": {
+        "hunger": 16,
+        "saturationModifier": 2.780485,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 1.1365085,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:red_sandstone",
+        "oreCount": 9,
+        "minXPAmount": 0,
+        "maxXPAmount": 3,
+        "oreClusterSize": 3
+      },
+      "id": "raa_materials:extraise",
+      "name": "extraise",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_2",
+          "stick": "raa_materials:item/tools/pickaxe/stick_5"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_9",
+          "stick": "raa_materials:item/tools/axe/axe_stick_8"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_9",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_2"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_7",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_8"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_11",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_3"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_2",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_4",
+        "leggingsTexture": "raa_materials:item/armor/leggings_3",
+        "bootsTexture": "raa_materials:item/armor/boots_3",
+        "overlayTexture": "raa_materials:block/ores/crystals/ore_7",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_8",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_1",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_11"
+      },
+      "specialEffects": {},
+      "color": -7135507,
+      "miningLevel": 3,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": false,
+      "toolMaterial": {
+        "durability": 384,
+        "miningSpeed": 2.8,
+        "attackDamage": 2.6,
+        "miningLevel": 3,
+        "enchantability": 33,
+        "hoeAttackSpeed": 2.9,
+        "axeAttackDamage": 2.1,
+        "axeAttackSpeed": 0.3,
+        "swordAttackDamage": 3.25,
+        "cooldownTicks": 7
+      },
+      "foodData": {
+        "hunger": 20,
+        "saturationModifier": 1.5956802,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": true,
+      "food": false,
+      "compostableAmount": 2.0622938,
+      "compostable": true,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:sandstone",
+        "oreCount": 26,
+        "minXPAmount": 0,
+        "maxXPAmount": 3,
+        "oreClusterSize": 8
+      },
+      "id": "raa_materials:ambite",
+      "name": "ambite",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_7",
+          "stick": "raa_materials:item/tools/pickaxe/stick_2"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_3",
+          "stick": "raa_materials:item/tools/axe/axe_stick_2"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_3",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_6"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_7",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_2"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_10",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_2"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_4",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_3",
+        "leggingsTexture": "raa_materials:item/armor/leggings_2",
+        "bootsTexture": "raa_materials:item/armor/boots_2",
+        "overlayTexture": "raa_materials:block/ores/generic_ore_3",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_6",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_2",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_3"
+      },
+      "specialEffects": {},
+      "color": -4593395,
+      "miningLevel": 0,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 1074,
+        "miningSpeed": 5.8,
+        "attackDamage": 3.9,
+        "miningLevel": 0,
+        "enchantability": 13,
+        "hoeAttackSpeed": 1.5,
+        "axeAttackDamage": 0.0,
+        "axeAttackSpeed": 0.8,
+        "swordAttackDamage": 6.05,
+        "cooldownTicks": 2
+      },
+      "foodData": {
+        "hunger": 16,
+        "saturationModifier": 1.7868654,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": true,
+      "food": false,
+      "compostableAmount": 1.599613,
+      "compostable": true,
+      "beaconBase": true
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:gravel",
+        "oreCount": 27,
+        "minXPAmount": 0,
+        "maxXPAmount": 4,
+        "oreClusterSize": 8
+      },
+      "id": "raa_materials:suprakaryix",
+      "name": "suprakaryix",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_1",
+          "stick": "raa_materials:item/tools/pickaxe/stick_8"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_6",
+          "stick": "raa_materials:item/tools/axe/axe_stick_3"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_8",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_5"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_6",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_6"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_4",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_5"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_4",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_3",
+        "leggingsTexture": "raa_materials:item/armor/leggings_4",
+        "bootsTexture": "raa_materials:item/armor/boots_3",
+        "overlayTexture": "raa_materials:block/ores/crystals/ore_1",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_2",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_2",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_3"
+      },
+      "specialEffects": {
+        "FIREBALL": {
+          "chance": 2
+        }
+      },
+      "color": -14627981,
+      "miningLevel": 1,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 1196,
+        "miningSpeed": 2.1,
+        "attackDamage": 0.6,
+        "miningLevel": 1,
+        "enchantability": 18,
+        "hoeAttackSpeed": 3.5,
+        "axeAttackDamage": 2.3,
+        "axeAttackSpeed": 0.6,
+        "swordAttackDamage": 6.35,
+        "cooldownTicks": 5
+      },
+      "foodData": {
+        "hunger": 17,
+        "saturationModifier": 3.9293938,
+        "meat": false,
+        "alwaysEdible": true,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 0.999802,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "METAL",
+        "targetId": "minecraft:stone",
+        "oreCount": 28,
+        "minXPAmount": 0,
+        "maxXPAmount": 1,
+        "oreClusterSize": 4
+      },
+      "id": "raa_materials:superuforise",
+      "name": "superuforise",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_6",
+          "stick": "raa_materials:item/tools/pickaxe/stick_3"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_5",
+          "stick": "raa_materials:item/tools/axe/axe_stick_8"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_6",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_10"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_6",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_1"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_7",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_7"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_3",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_4",
+        "leggingsTexture": "raa_materials:item/armor/leggings_3",
+        "bootsTexture": "raa_materials:item/armor/boots_3",
+        "overlayTexture": "raa_materials:block/ores/metals/ore_2",
+        "resourceItemTexture": "raa_materials:item/ingots/ingot_3",
+        "dustTexture": "raa_materials:item/dusts/dust_1",
+        "smallDustTexture": "raa_materials:item/small_dusts/small_dust_1",
+        "gearTexture": "raa_materials:item/gears/gear_1",
+        "plateTexture": "raa_materials:item/plates/plate_1",
+        "storageBlockTexture": "raa_materials:block/storage_blocks/metals/metal_5",
+        "nuggetTexture": "raa_materials:item/nuggets/nugget_8",
+        "fruitTexture": "raa_materials:item/fruits/fruit_8"
+      },
+      "specialEffects": {},
+      "color": -5012486,
+      "miningLevel": 3,
+      "armor": true,
+      "armorMaterial": {
+        "durabilityMultiplier": 12,
+        "protectionAmounts": [
+          2,
+          1,
+          4,
+          3
+        ],
+        "enchantability": 24,
+        "toughness": 0.0,
+        "horseArmorBonus": 5,
+        "knockbackResistance": 0.15913492
+      },
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 1901,
+        "miningSpeed": 6.3,
+        "attackDamage": 2.6,
+        "miningLevel": 3,
+        "enchantability": 23,
+        "hoeAttackSpeed": 0.0,
+        "axeAttackDamage": 1.6,
+        "axeAttackSpeed": 0.0,
+        "swordAttackDamage": 3.15,
+        "cooldownTicks": 10
+      },
+      "foodData": {
+        "hunger": 30,
+        "saturationModifier": 2.4759564,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 0.60161996,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:netherrack",
+        "oreCount": 15,
+        "minXPAmount": 0,
+        "maxXPAmount": 2,
+        "oreClusterSize": 8
+      },
+      "id": "raa_materials:interuxium",
+      "name": "interuxium",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_8",
+          "stick": "raa_materials:item/tools/pickaxe/stick_4"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_4",
+          "stick": "raa_materials:item/tools/axe/axe_stick_2"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_10",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_10"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_7",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_13"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_9",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_7"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_3",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_2",
+        "leggingsTexture": "raa_materials:item/armor/leggings_3",
+        "bootsTexture": "raa_materials:item/armor/boots_3",
+        "overlayTexture": "raa_materials:block/ores/generic_ore_2",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_5",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_4",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_8"
+      },
+      "specialEffects": {},
+      "color": -2021229,
+      "miningLevel": 0,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 204,
+        "miningSpeed": 4.5,
+        "attackDamage": 1.4,
+        "miningLevel": 0,
+        "enchantability": 11,
+        "hoeAttackSpeed": 3.6,
+        "axeAttackDamage": 2.2,
+        "axeAttackSpeed": 0.8,
+        "swordAttackDamage": 5.05,
+        "cooldownTicks": 8
+      },
+      "foodData": {
+        "hunger": 15,
+        "saturationModifier": 2.3917065,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": true
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": true,
+      "compostableAmount": 1.4889305,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:red_sandstone",
+        "oreCount": 14,
+        "minXPAmount": 0,
+        "maxXPAmount": 0,
+        "oreClusterSize": 2
+      },
+      "id": "raa_materials:disurite",
+      "name": "disurite",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_2",
+          "stick": "raa_materials:item/tools/pickaxe/stick_4"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_7",
+          "stick": "raa_materials:item/tools/axe/axe_stick_3"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_7",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_3"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_11",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_12"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_2",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_7"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_1",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_1",
+        "leggingsTexture": "raa_materials:item/armor/leggings_2",
+        "bootsTexture": "raa_materials:item/armor/boots_3",
+        "overlayTexture": "raa_materials:block/ores/crystals/ore_7",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_4",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_1",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_3"
+      },
+      "specialEffects": {},
+      "color": -12488708,
+      "miningLevel": 1,
+      "armor": true,
+      "armorMaterial": {
+        "durabilityMultiplier": 47,
+        "protectionAmounts": [
+          3,
+          3,
+          2,
+          5
+        ],
+        "enchantability": 10,
+        "toughness": 0.0,
+        "horseArmorBonus": 23,
+        "knockbackResistance": 0.17206931
+      },
+      "tools": true,
+      "weapons": false,
+      "toolMaterial": {
+        "durability": 916,
+        "miningSpeed": 5.7,
+        "attackDamage": 2.4,
+        "miningLevel": 1,
+        "enchantability": 17,
+        "hoeAttackSpeed": 3.2,
+        "axeAttackDamage": 1.5,
+        "axeAttackSpeed": 0.1,
+        "swordAttackDamage": 4.35,
+        "cooldownTicks": 5
+      },
+      "foodData": {
+        "hunger": 24,
+        "saturationModifier": 2.0004954,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": true
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 2.5699239,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:stone",
+        "oreCount": 3,
+        "minXPAmount": 0,
+        "maxXPAmount": 3,
+        "oreClusterSize": 8
+      },
+      "id": "raa_materials:exuborix",
+      "name": "exuborix",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_4",
+          "stick": "raa_materials:item/tools/pickaxe/stick_8"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_8",
+          "stick": "raa_materials:item/tools/axe/axe_stick_7"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_4",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_10"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_3",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_2"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_4",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_7"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_1",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_3",
+        "leggingsTexture": "raa_materials:item/armor/leggings_3",
+        "bootsTexture": "raa_materials:item/armor/boots_2",
+        "overlayTexture": "raa_materials:block/ores/crystals/ore_8",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_1",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_1",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_4"
+      },
+      "specialEffects": {},
+      "color": -14887051,
+      "miningLevel": 1,
+      "armor": true,
+      "armorMaterial": {
+        "durabilityMultiplier": 11,
+        "protectionAmounts": [
+          2,
+          6,
+          3,
+          2
+        ],
+        "enchantability": 16,
+        "toughness": 0.0,
+        "horseArmorBonus": 13,
+        "knockbackResistance": 0.08964372
+      },
+      "tools": false,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 1132,
+        "miningSpeed": 2.7,
+        "attackDamage": 2.6,
+        "miningLevel": 1,
+        "enchantability": 12,
+        "hoeAttackSpeed": 2.6,
+        "axeAttackDamage": 1.5,
+        "axeAttackSpeed": 0.4,
+        "swordAttackDamage": 1.15,
+        "cooldownTicks": 9
+      },
+      "foodData": {
+        "hunger": 16,
+        "saturationModifier": 1.2644188,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": true,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 1.3680537,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "GEM",
+        "targetId": "minecraft:end_stone",
+        "oreCount": 9,
+        "minXPAmount": 0,
+        "maxXPAmount": 4,
+        "oreClusterSize": 2
+      },
+      "id": "raa_materials:ultrazix",
+      "name": "ultrazix",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_9",
+          "stick": "raa_materials:item/tools/pickaxe/stick_8"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_1",
+          "stick": "raa_materials:item/tools/axe/axe_stick_7"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_7",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_1"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_5",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_6"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_7",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_4"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_4",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_2",
+        "leggingsTexture": "raa_materials:item/armor/leggings_2",
+        "bootsTexture": "raa_materials:item/armor/boots_4",
+        "overlayTexture": "raa_materials:block/ores/gems/ore_7",
+        "resourceItemTexture": "raa_materials:item/gems/gem_21",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/gems/gem_4",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_10"
+      },
+      "specialEffects": {},
+      "color": -2295294,
+      "miningLevel": 4,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 181,
+        "miningSpeed": 2.0,
+        "attackDamage": 3.4,
+        "miningLevel": 4,
+        "enchantability": 16,
+        "hoeAttackSpeed": 1.2,
+        "axeAttackDamage": 2.8,
+        "axeAttackSpeed": 0.0,
+        "swordAttackDamage": 1.75,
+        "cooldownTicks": 6
+      },
+      "foodData": {
+        "hunger": 29,
+        "saturationModifier": 1.8068346,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 0.33541596,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "METAL",
+        "targetId": "minecraft:netherrack",
+        "oreCount": 13,
+        "minXPAmount": 0,
+        "maxXPAmount": 4,
+        "oreClusterSize": 7
+      },
+      "id": "raa_materials:exite",
+      "name": "exite",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_3",
+          "stick": "raa_materials:item/tools/pickaxe/stick_9"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_9",
+          "stick": "raa_materials:item/tools/axe/axe_stick_4"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_1",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_10"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_1",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_13"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_2",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_2"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_1",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_4",
+        "leggingsTexture": "raa_materials:item/armor/leggings_4",
+        "bootsTexture": "raa_materials:item/armor/boots_3",
+        "overlayTexture": "raa_materials:block/ores/metals/ore_1",
+        "resourceItemTexture": "raa_materials:item/ingots/ingot_12",
+        "dustTexture": "raa_materials:item/dusts/dust_2",
+        "smallDustTexture": "raa_materials:item/small_dusts/small_dust_1",
+        "gearTexture": "raa_materials:item/gears/gear_1",
+        "plateTexture": "raa_materials:item/plates/plate_2",
+        "storageBlockTexture": "raa_materials:block/storage_blocks/metals/metal_1",
+        "nuggetTexture": "raa_materials:item/nuggets/nugget_6",
+        "fruitTexture": "raa_materials:item/fruits/fruit_4"
+      },
+      "specialEffects": {
+        "LIGHTNING": {
+          "chance": 3
+        }
+      },
+      "color": -4058381,
+      "miningLevel": 4,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": false,
+      "toolMaterial": {
+        "durability": 881,
+        "miningSpeed": 4.8,
+        "attackDamage": 2.7,
+        "miningLevel": 4,
+        "enchantability": 25,
+        "hoeAttackSpeed": 0.5,
+        "axeAttackDamage": 1.8,
+        "axeAttackSpeed": 0.8,
+        "swordAttackDamage": 4.45,
+        "cooldownTicks": 5
+      },
+      "foodData": {
+        "hunger": 21,
+        "saturationModifier": 2.3191912,
+        "meat": true,
+        "alwaysEdible": false,
+        "snack": true
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 1.4767334,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:red_sand",
+        "oreCount": 17,
+        "minXPAmount": 0,
+        "maxXPAmount": 3,
+        "oreClusterSize": 5
+      },
+      "id": "raa_materials:adotorix",
+      "name": "adotorix",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_8",
+          "stick": "raa_materials:item/tools/pickaxe/stick_3"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_5",
+          "stick": "raa_materials:item/tools/axe/axe_stick_3"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_10",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_7"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_10",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_3"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_3",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_3"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_2",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_3",
+        "leggingsTexture": "raa_materials:item/armor/leggings_4",
+        "bootsTexture": "raa_materials:item/armor/boots_4",
+        "overlayTexture": "raa_materials:block/ores/generic_ore_1",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_10",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_2",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_10"
+      },
+      "specialEffects": {},
+      "color": -780121,
+      "miningLevel": 2,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": false,
+      "weapons": false,
+      "toolMaterial": null,
+      "foodData": {
+        "hunger": 9,
+        "saturationModifier": 1.6787124,
+        "meat": true,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": true,
+      "food": true,
+      "compostableAmount": 1.12953,
+      "compostable": true,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "METAL",
+        "targetId": "minecraft:netherrack",
+        "oreCount": 21,
+        "minXPAmount": 0,
+        "maxXPAmount": 3,
+        "oreClusterSize": 7
+      },
+      "id": "raa_materials:sinustone",
+      "name": "sinustone",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_1",
+          "stick": "raa_materials:item/tools/pickaxe/stick_3"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_1",
+          "stick": "raa_materials:item/tools/axe/axe_stick_6"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_8",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_7"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_8",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_10"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_2",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_1"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_2",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_1",
+        "leggingsTexture": "raa_materials:item/armor/leggings_2",
+        "bootsTexture": "raa_materials:item/armor/boots_3",
+        "overlayTexture": "raa_materials:block/ores/metals/ore_7",
+        "resourceItemTexture": "raa_materials:item/ingots/ingot_15",
+        "dustTexture": "raa_materials:item/dusts/dust_1",
+        "smallDustTexture": "raa_materials:item/small_dusts/small_dust_1",
+        "gearTexture": "raa_materials:item/gears/gear_1",
+        "plateTexture": "raa_materials:item/plates/plate_1",
+        "storageBlockTexture": "raa_materials:block/storage_blocks/metals/metal_2",
+        "nuggetTexture": "raa_materials:item/nuggets/nugget_3",
+        "fruitTexture": "raa_materials:item/fruits/fruit_1"
+      },
+      "specialEffects": {
+        "EFFECT": {
+          "type": "minecraft:fire_resistance",
+          "duration": 9,
+          "amplifier": 2
+        }
+      },
+      "color": -13939941,
+      "miningLevel": 0,
+      "armor": true,
+      "armorMaterial": {
+        "durabilityMultiplier": 49,
+        "protectionAmounts": [
+          3,
+          3,
+          10,
+          2
+        ],
+        "enchantability": 25,
+        "toughness": 0.0,
+        "horseArmorBonus": 0,
+        "knockbackResistance": 0.21759191
+      },
+      "tools": false,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 405,
+        "miningSpeed": 4.8,
+        "attackDamage": 1.3,
+        "miningLevel": 0,
+        "enchantability": 25,
+        "hoeAttackSpeed": 2.4,
+        "axeAttackDamage": 0.6,
+        "axeAttackSpeed": 0.3,
+        "swordAttackDamage": 1.35,
+        "cooldownTicks": 3
+      },
+      "foodData": {
+        "hunger": 10,
+        "saturationModifier": 2.9287703,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 0.81808597,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "METAL",
+        "targetId": "minecraft:clay",
+        "oreCount": 18,
+        "minXPAmount": 0,
+        "maxXPAmount": 1,
+        "oreClusterSize": 4
+      },
+      "id": "raa_materials:supraethice",
+      "name": "supraethice",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_4",
+          "stick": "raa_materials:item/tools/pickaxe/stick_6"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_7",
+          "stick": "raa_materials:item/tools/axe/axe_stick_6"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_4",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_3"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_9",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_7"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_7",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_1"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_1",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_1",
+        "leggingsTexture": "raa_materials:item/armor/leggings_4",
+        "bootsTexture": "raa_materials:item/armor/boots_1",
+        "overlayTexture": "raa_materials:block/ores/metals/ore_6",
+        "resourceItemTexture": "raa_materials:item/ingots/ingot_3",
+        "dustTexture": "raa_materials:item/dusts/dust_1",
+        "smallDustTexture": "raa_materials:item/small_dusts/small_dust_1",
+        "gearTexture": "raa_materials:item/gears/gear_1",
+        "plateTexture": "raa_materials:item/plates/plate_1",
+        "storageBlockTexture": "raa_materials:block/storage_blocks/metals/metal_1",
+        "nuggetTexture": "raa_materials:item/nuggets/nugget_4",
+        "fruitTexture": "raa_materials:item/fruits/fruit_7"
+      },
+      "specialEffects": {},
+      "color": -9464830,
+      "miningLevel": 1,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": false,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 1813,
+        "miningSpeed": 5.4,
+        "attackDamage": 2.5,
+        "miningLevel": 1,
+        "enchantability": 10,
+        "hoeAttackSpeed": 1.1,
+        "axeAttackDamage": 0.3,
+        "axeAttackSpeed": 0.5,
+        "swordAttackDamage": 4.55,
+        "cooldownTicks": 5
+      },
+      "foodData": {
+        "hunger": 23,
+        "saturationModifier": 2.0434914,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 1.128762,
+      "compostable": true,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "METAL",
+        "targetId": "minecraft:netherrack",
+        "oreCount": 8,
+        "minXPAmount": 0,
+        "maxXPAmount": 2,
+        "oreClusterSize": 4
+      },
+      "id": "raa_materials:abuforise",
+      "name": "abuforise",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_2",
+          "stick": "raa_materials:item/tools/pickaxe/stick_5"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_3",
+          "stick": "raa_materials:item/tools/axe/axe_stick_6"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_4",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_5"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_4",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_7"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_9",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_10"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_1",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_2",
+        "leggingsTexture": "raa_materials:item/armor/leggings_3",
+        "bootsTexture": "raa_materials:item/armor/boots_2",
+        "overlayTexture": "raa_materials:block/ores/metals/ore_1",
+        "resourceItemTexture": "raa_materials:item/ingots/ingot_4",
+        "dustTexture": "raa_materials:item/dusts/dust_2",
+        "smallDustTexture": "raa_materials:item/small_dusts/small_dust_1",
+        "gearTexture": "raa_materials:item/gears/gear_1",
+        "plateTexture": "raa_materials:item/plates/plate_2",
+        "storageBlockTexture": "raa_materials:block/storage_blocks/metals/metal_2",
+        "nuggetTexture": "raa_materials:item/nuggets/nugget_3",
+        "fruitTexture": "raa_materials:item/fruits/fruit_10"
+      },
+      "specialEffects": {
+        "FIREBALL": {
+          "chance": 7
+        }
+      },
+      "color": -10786392,
+      "miningLevel": 3,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": false,
+      "toolMaterial": {
+        "durability": 444,
+        "miningSpeed": 3.8,
+        "attackDamage": 3.8,
+        "miningLevel": 3,
+        "enchantability": 24,
+        "hoeAttackSpeed": 0.4,
+        "axeAttackDamage": 1.8,
+        "axeAttackSpeed": 0.3,
+        "swordAttackDamage": 6.75,
+        "cooldownTicks": 5
+      },
+      "foodData": {
+        "hunger": 17,
+        "saturationModifier": 3.9839573,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": true,
+      "oreFlower": true,
+      "food": false,
+      "compostableAmount": 0.39683136,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "GEM",
+        "targetId": "minecraft:dirt",
+        "oreCount": 9,
+        "minXPAmount": 0,
+        "maxXPAmount": 1,
+        "oreClusterSize": 2
+      },
+      "id": "raa_materials:intraloite",
+      "name": "intraloite",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_7",
+          "stick": "raa_materials:item/tools/pickaxe/stick_8"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_2",
+          "stick": "raa_materials:item/tools/axe/axe_stick_5"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_1",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_8"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_5",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_11"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_1",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_1"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_4",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_4",
+        "leggingsTexture": "raa_materials:item/armor/leggings_2",
+        "bootsTexture": "raa_materials:item/armor/boots_3",
+        "overlayTexture": "raa_materials:block/ores/generic_ore_1",
+        "resourceItemTexture": "raa_materials:item/gems/gem_22",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/gems/gem_4",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_9"
+      },
+      "specialEffects": {
+        "EFFECT": {
+          "type": "minecraft:night_vision",
+          "duration": 8,
+          "amplifier": 1
+        }
+      },
+      "color": -4120578,
+      "miningLevel": 1,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 1867,
+        "miningSpeed": 3.2,
+        "attackDamage": 1.3,
+        "miningLevel": 1,
+        "enchantability": 23,
+        "hoeAttackSpeed": 3.7,
+        "axeAttackDamage": 0.1,
+        "axeAttackSpeed": 0.7,
+        "swordAttackDamage": 3.75,
+        "cooldownTicks": 4
+      },
+      "foodData": {
+        "hunger": 16,
+        "saturationModifier": 3.3694668,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": true,
+      "food": true,
+      "compostableAmount": 2.2346804,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:podzol",
+        "oreCount": 10,
+        "minXPAmount": 0,
+        "maxXPAmount": 3,
+        "oreClusterSize": 5
+      },
+      "id": "raa_materials:inuper",
+      "name": "inuper",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_5",
+          "stick": "raa_materials:item/tools/pickaxe/stick_7"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_2",
+          "stick": "raa_materials:item/tools/axe/axe_stick_3"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_7",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_1"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_1",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_1"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_3",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_3"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_1",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_1",
+        "leggingsTexture": "raa_materials:item/armor/leggings_1",
+        "bootsTexture": "raa_materials:item/armor/boots_1",
+        "overlayTexture": "raa_materials:block/ores/crystals/ore_2",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_9",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_4",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_4"
+      },
+      "specialEffects": {},
+      "color": -8283905,
+      "miningLevel": 2,
+      "armor": true,
+      "armorMaterial": {
+        "durabilityMultiplier": 15,
+        "protectionAmounts": [
+          2,
+          4,
+          11,
+          2
+        ],
+        "enchantability": 14,
+        "toughness": 0.0,
+        "horseArmorBonus": 24,
+        "knockbackResistance": 0.27545092
+      },
+      "tools": false,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 1851,
+        "miningSpeed": 7.5,
+        "attackDamage": 3.0,
+        "miningLevel": 2,
+        "enchantability": 12,
+        "hoeAttackSpeed": 1.4,
+        "axeAttackDamage": 1.1,
+        "axeAttackSpeed": 0.0,
+        "swordAttackDamage": 1.15,
+        "cooldownTicks": 8
+      },
+      "foodData": {
+        "hunger": 22,
+        "saturationModifier": 1.913564,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": true,
+      "food": true,
+      "compostableAmount": 2.0381894,
+      "compostable": false,
+      "beaconBase": true
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:coarse_dirt",
+        "oreCount": 4,
+        "minXPAmount": 0,
+        "maxXPAmount": 4,
+        "oreClusterSize": 8
+      },
+      "id": "raa_materials:intraxite",
+      "name": "intraxite",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_9",
+          "stick": "raa_materials:item/tools/pickaxe/stick_3"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_10",
+          "stick": "raa_materials:item/tools/axe/axe_stick_5"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_7",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_4"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_5",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_4"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_11",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_8"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_3",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_2",
+        "leggingsTexture": "raa_materials:item/armor/leggings_3",
+        "bootsTexture": "raa_materials:item/armor/boots_2",
+        "overlayTexture": "raa_materials:block/ores/crystals/ore_4",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_10",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_4",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_3"
+      },
+      "specialEffects": {
+        "LIGHTNING": {
+          "chance": 7
+        },
+        "FREEZE": {
+          "duration": 10
+        }
+      },
+      "color": -4205382,
+      "miningLevel": 0,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 1341,
+        "miningSpeed": 5.2,
+        "attackDamage": 1.8,
+        "miningLevel": 0,
+        "enchantability": 22,
+        "hoeAttackSpeed": 2.4,
+        "axeAttackDamage": 2.2,
+        "axeAttackSpeed": 0.5,
+        "swordAttackDamage": 4.15,
+        "cooldownTicks": 8
+      },
+      "foodData": {
+        "hunger": 17,
+        "saturationModifier": 3.2384908,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": true,
+      "food": true,
+      "compostableAmount": 2.5277712,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "METAL",
+        "targetId": "minecraft:dirt",
+        "oreCount": 28,
+        "minXPAmount": 0,
+        "maxXPAmount": 0,
+        "oreClusterSize": 2
+      },
+      "id": "raa_materials:sevice",
+      "name": "sevice",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_5",
+          "stick": "raa_materials:item/tools/pickaxe/stick_1"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_6",
+          "stick": "raa_materials:item/tools/axe/axe_stick_5"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_6",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_6"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_7",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_13"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_1",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_10"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_1",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_2",
+        "leggingsTexture": "raa_materials:item/armor/leggings_4",
+        "bootsTexture": "raa_materials:item/armor/boots_1",
+        "overlayTexture": "raa_materials:block/ores/metals/ore_8",
+        "resourceItemTexture": "raa_materials:item/ingots/ingot_11",
+        "dustTexture": "raa_materials:item/dusts/dust_2",
+        "smallDustTexture": "raa_materials:item/small_dusts/small_dust_1",
+        "gearTexture": "raa_materials:item/gears/gear_1",
+        "plateTexture": "raa_materials:item/plates/plate_1",
+        "storageBlockTexture": "raa_materials:block/storage_blocks/metals/metal_4",
+        "nuggetTexture": "raa_materials:item/nuggets/nugget_5",
+        "fruitTexture": "raa_materials:item/fruits/fruit_2"
+      },
+      "specialEffects": {},
+      "color": -15590222,
+      "miningLevel": 2,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": false,
+      "weapons": false,
+      "toolMaterial": null,
+      "foodData": {
+        "hunger": 9,
+        "saturationModifier": 1.2885438,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 2.0292366,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:podzol",
+        "oreCount": 2,
+        "minXPAmount": 0,
+        "maxXPAmount": 4,
+        "oreClusterSize": 6
+      },
+      "id": "raa_materials:subudeix",
+      "name": "subudeix",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_5",
+          "stick": "raa_materials:item/tools/pickaxe/stick_2"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_11",
+          "stick": "raa_materials:item/tools/axe/axe_stick_5"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_2",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_8"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_6",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_5"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_10",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_5"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_2",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_1",
+        "leggingsTexture": "raa_materials:item/armor/leggings_3",
+        "bootsTexture": "raa_materials:item/armor/boots_2",
+        "overlayTexture": "raa_materials:block/ores/generic_ore_2",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_5",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_2",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_1"
+      },
+      "specialEffects": {},
+      "color": -403624,
+      "miningLevel": 2,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": false,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 714,
+        "miningSpeed": 7.0,
+        "attackDamage": 0.9,
+        "miningLevel": 2,
+        "enchantability": 19,
+        "hoeAttackSpeed": 0.2,
+        "axeAttackDamage": 1.9,
+        "axeAttackSpeed": 0.5,
+        "swordAttackDamage": 5.95,
+        "cooldownTicks": 8
+      },
+      "foodData": {
+        "hunger": 16,
+        "saturationModifier": 1.343429,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": true,
+      "compostableAmount": 2.205718,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "GEM",
+        "targetId": "minecraft:does_not_appear",
+        "oreCount": 11,
+        "minXPAmount": 0,
+        "maxXPAmount": 4,
+        "oreClusterSize": 4
+      },
+      "id": "raa_materials:abice",
+      "name": "abice",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_2",
+          "stick": "raa_materials:item/tools/pickaxe/stick_4"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_4",
+          "stick": "raa_materials:item/tools/axe/axe_stick_7"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_5",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_8"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_1",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_13"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_10",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_4"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_4",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_1",
+        "leggingsTexture": "raa_materials:item/armor/leggings_3",
+        "bootsTexture": "raa_materials:item/armor/boots_4",
+        "overlayTexture": "raa_materials:block/ores/generic_ore_3",
+        "resourceItemTexture": "raa_materials:item/gems/gem_21",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/gems/gem_1",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_8"
+      },
+      "specialEffects": {},
+      "color": -590103,
+      "miningLevel": 4,
+      "armor": true,
+      "armorMaterial": {
+        "durabilityMultiplier": 36,
+        "protectionAmounts": [
+          5,
+          5,
+          9,
+          3
+        ],
+        "enchantability": 10,
+        "toughness": 0.0,
+        "horseArmorBonus": 16,
+        "knockbackResistance": 0.34345484
+      },
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 1155,
+        "miningSpeed": 2.4,
+        "attackDamage": 1.2,
+        "miningLevel": 4,
+        "enchantability": 19,
+        "hoeAttackSpeed": 1.9,
+        "axeAttackDamage": 1.4,
+        "axeAttackSpeed": 0.8,
+        "swordAttackDamage": 3.25,
+        "cooldownTicks": 6
+      },
+      "foodData": {
+        "hunger": 17,
+        "saturationModifier": 3.148298,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": true,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 2.0959883,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:coarse_dirt",
+        "oreCount": 29,
+        "minXPAmount": 0,
+        "maxXPAmount": 1,
+        "oreClusterSize": 2
+      },
+      "id": "raa_materials:subteralice",
+      "name": "subteralice",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_2",
+          "stick": "raa_materials:item/tools/pickaxe/stick_1"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_2",
+          "stick": "raa_materials:item/tools/axe/axe_stick_1"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_4",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_1"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_8",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_8"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_9",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_4"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_3",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_3",
+        "leggingsTexture": "raa_materials:item/armor/leggings_1",
+        "bootsTexture": "raa_materials:item/armor/boots_1",
+        "overlayTexture": "raa_materials:block/ores/generic_ore_1",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_9",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_1",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_9"
+      },
+      "specialEffects": {
+        "FIREBALL": {
+          "chance": 5
+        }
+      },
+      "color": -8469672,
+      "miningLevel": 3,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": false,
+      "toolMaterial": {
+        "durability": 1342,
+        "miningSpeed": 5.3,
+        "attackDamage": 0.7,
+        "miningLevel": 3,
+        "enchantability": 13,
+        "hoeAttackSpeed": 0.4,
+        "axeAttackDamage": 3.0,
+        "axeAttackSpeed": 0.3,
+        "swordAttackDamage": 3.45,
+        "cooldownTicks": 8
+      },
+      "foodData": {
+        "hunger": 17,
+        "saturationModifier": 1.027082,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": true
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 2.245809,
+      "compostable": true,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "GEM",
+        "targetId": "minecraft:stone",
+        "oreCount": 24,
+        "minXPAmount": 0,
+        "maxXPAmount": 4,
+        "oreClusterSize": 4
+      },
+      "id": "raa_materials:contraperix",
+      "name": "contraperix",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_2",
+          "stick": "raa_materials:item/tools/pickaxe/stick_8"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_10",
+          "stick": "raa_materials:item/tools/axe/axe_stick_1"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_7",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_1"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_2",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_2"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_8",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_2"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_2",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_2",
+        "leggingsTexture": "raa_materials:item/armor/leggings_1",
+        "bootsTexture": "raa_materials:item/armor/boots_4",
+        "overlayTexture": "raa_materials:block/ores/gems/ore_1",
+        "resourceItemTexture": "raa_materials:item/gems/gem_17",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/gems/gem_2",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_3"
+      },
+      "specialEffects": {},
+      "color": -15839095,
+      "miningLevel": 2,
+      "armor": true,
+      "armorMaterial": {
+        "durabilityMultiplier": 7,
+        "protectionAmounts": [
+          2,
+          8,
+          3,
+          2
+        ],
+        "enchantability": 20,
+        "toughness": 0.0,
+        "horseArmorBonus": 25,
+        "knockbackResistance": 0.34752816
+      },
+      "tools": true,
+      "weapons": false,
+      "toolMaterial": {
+        "durability": 195,
+        "miningSpeed": 4.9,
+        "attackDamage": 2.0,
+        "miningLevel": 2,
+        "enchantability": 29,
+        "hoeAttackSpeed": 1.6,
+        "axeAttackDamage": 1.1,
+        "axeAttackSpeed": 0.8,
+        "swordAttackDamage": 4.35,
+        "cooldownTicks": 8
+      },
+      "foodData": {
+        "hunger": 16,
+        "saturationModifier": 3.9332032,
+        "meat": true,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": true,
+      "compostableAmount": 1.3534443,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "GEM",
+        "targetId": "minecraft:does_not_appear",
+        "oreCount": 23,
+        "minXPAmount": 0,
+        "maxXPAmount": 4,
+        "oreClusterSize": 9
+      },
+      "id": "raa_materials:dirhenite",
+      "name": "dirhenite",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_6",
+          "stick": "raa_materials:item/tools/pickaxe/stick_9"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_4",
+          "stick": "raa_materials:item/tools/axe/axe_stick_7"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_1",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_9"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_1",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_13"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_6",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_1"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_1",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_3",
+        "leggingsTexture": "raa_materials:item/armor/leggings_4",
+        "bootsTexture": "raa_materials:item/armor/boots_1",
+        "overlayTexture": "raa_materials:block/ores/gems/ore_2",
+        "resourceItemTexture": "raa_materials:item/gems/gem_22",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/gems/gem_1",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_7"
+      },
+      "specialEffects": {},
+      "color": -15772661,
+      "miningLevel": 4,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": false,
+      "weapons": false,
+      "toolMaterial": null,
+      "foodData": {
+        "hunger": 18,
+        "saturationModifier": 2.316118,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 1.1160963,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "METAL",
+        "targetId": "minecraft:diorite",
+        "oreCount": 4,
+        "minXPAmount": 0,
+        "maxXPAmount": 0,
+        "oreClusterSize": 9
+      },
+      "id": "raa_materials:sedorite",
+      "name": "sedorite",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_2",
+          "stick": "raa_materials:item/tools/pickaxe/stick_7"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_10",
+          "stick": "raa_materials:item/tools/axe/axe_stick_6"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_1",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_4"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_6",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_5"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_7",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_1"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_3",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_4",
+        "leggingsTexture": "raa_materials:item/armor/leggings_3",
+        "bootsTexture": "raa_materials:item/armor/boots_3",
+        "overlayTexture": "raa_materials:block/ores/generic_ore_2",
+        "resourceItemTexture": "raa_materials:item/ingots/ingot_8",
+        "dustTexture": "raa_materials:item/dusts/dust_2",
+        "smallDustTexture": "raa_materials:item/small_dusts/small_dust_1",
+        "gearTexture": "raa_materials:item/gears/gear_1",
+        "plateTexture": "raa_materials:item/plates/plate_1",
+        "storageBlockTexture": "raa_materials:block/storage_blocks/metals/metal_4",
+        "nuggetTexture": "raa_materials:item/nuggets/nugget_8",
+        "fruitTexture": "raa_materials:item/fruits/fruit_3"
+      },
+      "specialEffects": {},
+      "color": -12019529,
+      "miningLevel": 1,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 1324,
+        "miningSpeed": 3.9,
+        "attackDamage": 3.7,
+        "miningLevel": 1,
+        "enchantability": 30,
+        "hoeAttackSpeed": 4.0,
+        "axeAttackDamage": 2.4,
+        "axeAttackSpeed": 0.7,
+        "swordAttackDamage": 6.15,
+        "cooldownTicks": 10
+      },
+      "foodData": {
+        "hunger": 23,
+        "saturationModifier": 2.404384,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": true,
+      "food": false,
+      "compostableAmount": 1.4793873,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:coarse_dirt",
+        "oreCount": 16,
+        "minXPAmount": 0,
+        "maxXPAmount": 4,
+        "oreClusterSize": 5
+      },
+      "id": "raa_materials:enorice",
+      "name": "enorice",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_7",
+          "stick": "raa_materials:item/tools/pickaxe/stick_6"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_4",
+          "stick": "raa_materials:item/tools/axe/axe_stick_3"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_1",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_2"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_1",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_5"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_9",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_11"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_1",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_2",
+        "leggingsTexture": "raa_materials:item/armor/leggings_3",
+        "bootsTexture": "raa_materials:item/armor/boots_1",
+        "overlayTexture": "raa_materials:block/ores/crystals/ore_8",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_7",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_3",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_5"
+      },
+      "specialEffects": {},
+      "color": -13568515,
+      "miningLevel": 2,
+      "armor": true,
+      "armorMaterial": {
+        "durabilityMultiplier": 3,
+        "protectionAmounts": [
+          1,
+          2,
+          11,
+          4
+        ],
+        "enchantability": 15,
+        "toughness": 0.0,
+        "horseArmorBonus": 27,
+        "knockbackResistance": 0.49741632
+      },
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 295,
+        "miningSpeed": 2.6,
+        "attackDamage": 3.0,
+        "miningLevel": 2,
+        "enchantability": 22,
+        "hoeAttackSpeed": 1.1,
+        "axeAttackDamage": 2.8,
+        "axeAttackSpeed": 0.1,
+        "swordAttackDamage": 6.25,
+        "cooldownTicks": 6
+      },
+      "foodData": {
+        "hunger": 21,
+        "saturationModifier": 1.7205637,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": true
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 2.445392,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "GEM",
+        "targetId": "minecraft:clay",
+        "oreCount": 5,
+        "minXPAmount": 0,
+        "maxXPAmount": 4,
+        "oreClusterSize": 3
+      },
+      "id": "raa_materials:codeix",
+      "name": "codeix",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_7",
+          "stick": "raa_materials:item/tools/pickaxe/stick_8"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_4",
+          "stick": "raa_materials:item/tools/axe/axe_stick_2"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_3",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_8"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_1",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_11"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_2",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_10"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_3",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_1",
+        "leggingsTexture": "raa_materials:item/armor/leggings_3",
+        "bootsTexture": "raa_materials:item/armor/boots_1",
+        "overlayTexture": "raa_materials:block/ores/gems/ore_5",
+        "resourceItemTexture": "raa_materials:item/gems/gem_15",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/gems/gem_3",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_10"
+      },
+      "specialEffects": {},
+      "color": -8562251,
+      "miningLevel": 1,
+      "armor": true,
+      "armorMaterial": {
+        "durabilityMultiplier": 9,
+        "protectionAmounts": [
+          6,
+          5,
+          4,
+          6
+        ],
+        "enchantability": 9,
+        "toughness": 0.0,
+        "horseArmorBonus": 12,
+        "knockbackResistance": 0.43203434
+      },
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 417,
+        "miningSpeed": 4.8,
+        "attackDamage": 0.5,
+        "miningLevel": 1,
+        "enchantability": 34,
+        "hoeAttackSpeed": 3.4,
+        "axeAttackDamage": 2.5,
+        "axeAttackSpeed": 0.5,
+        "swordAttackDamage": 6.05,
+        "cooldownTicks": 10
+      },
+      "foodData": {
+        "hunger": 18,
+        "saturationModifier": 3.0069385,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 0.80220705,
+      "compostable": false,
+      "beaconBase": true
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:podzol",
+        "oreCount": 3,
+        "minXPAmount": 0,
+        "maxXPAmount": 4,
+        "oreClusterSize": 4
+      },
+      "id": "raa_materials:eninix",
+      "name": "eninix",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_3",
+          "stick": "raa_materials:item/tools/pickaxe/stick_6"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_4",
+          "stick": "raa_materials:item/tools/axe/axe_stick_5"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_3",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_5"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_4",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_1"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_9",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_8"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_4",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_1",
+        "leggingsTexture": "raa_materials:item/armor/leggings_4",
+        "bootsTexture": "raa_materials:item/armor/boots_2",
+        "overlayTexture": "raa_materials:block/ores/generic_ore_3",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_1",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_4",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_10"
+      },
+      "specialEffects": {
+        "EFFECT": {
+          "type": "minecraft:slowness",
+          "duration": 12,
+          "amplifier": 0
+        }
+      },
+      "color": -5462748,
+      "miningLevel": 3,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 691,
+        "miningSpeed": 1.6,
+        "attackDamage": 4.3,
+        "miningLevel": 3,
+        "enchantability": 31,
+        "hoeAttackSpeed": 0.3,
+        "axeAttackDamage": 2.0,
+        "axeAttackSpeed": 0.6,
+        "swordAttackDamage": 1.75,
+        "cooldownTicks": 3
+      },
+      "foodData": {
+        "hunger": 22,
+        "saturationModifier": 3.2888474,
+        "meat": false,
+        "alwaysEdible": true,
+        "snack": false
+      },
+      "glowing": true,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 0.7113025,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "GEM",
+        "targetId": "minecraft:diorite",
+        "oreCount": 17,
+        "minXPAmount": 0,
+        "maxXPAmount": 3,
+        "oreClusterSize": 4
+      },
+      "id": "raa_materials:circumium",
+      "name": "circumium",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_4",
+          "stick": "raa_materials:item/tools/pickaxe/stick_9"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_3",
+          "stick": "raa_materials:item/tools/axe/axe_stick_8"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_10",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_2"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_7",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_6"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_4",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_4"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_3",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_4",
+        "leggingsTexture": "raa_materials:item/armor/leggings_4",
+        "bootsTexture": "raa_materials:item/armor/boots_1",
+        "overlayTexture": "raa_materials:block/ores/gems/ore_7",
+        "resourceItemTexture": "raa_materials:item/gems/gem_8",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/gems/gem_1",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_7"
+      },
+      "specialEffects": {
+        "EFFECT": {
+          "type": "minecraft:fire_resistance",
+          "duration": 11,
+          "amplifier": 1
+        },
+        "LIGHTNING": {
+          "chance": 4
+        }
+      },
+      "color": -2394932,
+      "miningLevel": 1,
+      "armor": true,
+      "armorMaterial": {
+        "durabilityMultiplier": 21,
+        "protectionAmounts": [
+          5,
+          7,
+          12,
+          5
+        ],
+        "enchantability": 7,
+        "toughness": 3.2,
+        "horseArmorBonus": 12,
+        "knockbackResistance": 0.163106
+      },
+      "tools": false,
+      "weapons": false,
+      "toolMaterial": null,
+      "foodData": {
+        "hunger": 22,
+        "saturationModifier": 3.165854,
+        "meat": true,
+        "alwaysEdible": false,
+        "snack": true
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 2.011019,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "METAL",
+        "targetId": "minecraft:coarse_dirt",
+        "oreCount": 21,
+        "minXPAmount": 0,
+        "maxXPAmount": 4,
+        "oreClusterSize": 9
+      },
+      "id": "raa_materials:dice",
+      "name": "dice",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_7",
+          "stick": "raa_materials:item/tools/pickaxe/stick_5"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_9",
+          "stick": "raa_materials:item/tools/axe/axe_stick_7"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_3",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_5"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_8",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_2"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_2",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_7"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_2",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_2",
+        "leggingsTexture": "raa_materials:item/armor/leggings_3",
+        "bootsTexture": "raa_materials:item/armor/boots_1",
+        "overlayTexture": "raa_materials:block/ores/metals/ore_4",
+        "resourceItemTexture": "raa_materials:item/ingots/ingot_4",
+        "dustTexture": "raa_materials:item/dusts/dust_1",
+        "smallDustTexture": "raa_materials:item/small_dusts/small_dust_1",
+        "gearTexture": "raa_materials:item/gears/gear_1",
+        "plateTexture": "raa_materials:item/plates/plate_2",
+        "storageBlockTexture": "raa_materials:block/storage_blocks/metals/metal_1",
+        "nuggetTexture": "raa_materials:item/nuggets/nugget_4",
+        "fruitTexture": "raa_materials:item/fruits/fruit_1"
+      },
+      "specialEffects": {
+        "EFFECT": {
+          "type": "minecraft:strength",
+          "duration": 7,
+          "amplifier": 2
+        },
+        "FREEZE": {
+          "duration": 13
+        }
+      },
+      "color": -12248264,
+      "miningLevel": 2,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 254,
+        "miningSpeed": 3.0,
+        "attackDamage": 4.2,
+        "miningLevel": 2,
+        "enchantability": 27,
+        "hoeAttackSpeed": 0.2,
+        "axeAttackDamage": 1.8,
+        "axeAttackSpeed": 0.1,
+        "swordAttackDamage": 1.25,
+        "cooldownTicks": 10
+      },
+      "foodData": {
+        "hunger": 25,
+        "saturationModifier": 2.8282592,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": true,
+      "oreFlower": false,
+      "food": true,
+      "compostableAmount": 2.1077828,
+      "compostable": false,
+      "beaconBase": true
+    },
+    {
+      "oreInformation": {
+        "oreType": "METAL",
+        "targetId": "minecraft:sand",
+        "oreCount": 3,
+        "minXPAmount": 0,
+        "maxXPAmount": 0,
+        "oreClusterSize": 2
+      },
+      "id": "raa_materials:supraite",
+      "name": "supraite",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_2",
+          "stick": "raa_materials:item/tools/pickaxe/stick_5"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_11",
+          "stick": "raa_materials:item/tools/axe/axe_stick_7"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_8",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_6"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_2",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_11"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_6",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_7"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_3",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_3",
+        "leggingsTexture": "raa_materials:item/armor/leggings_3",
+        "bootsTexture": "raa_materials:item/armor/boots_4",
+        "overlayTexture": "raa_materials:block/ores/generic_ore_3",
+        "resourceItemTexture": "raa_materials:item/ingots/ingot_6",
+        "dustTexture": "raa_materials:item/dusts/dust_1",
+        "smallDustTexture": "raa_materials:item/small_dusts/small_dust_1",
+        "gearTexture": "raa_materials:item/gears/gear_1",
+        "plateTexture": "raa_materials:item/plates/plate_2",
+        "storageBlockTexture": "raa_materials:block/storage_blocks/metals/metal_1",
+        "nuggetTexture": "raa_materials:item/nuggets/nugget_1",
+        "fruitTexture": "raa_materials:item/fruits/fruit_6"
+      },
+      "specialEffects": {},
+      "color": -6434746,
+      "miningLevel": 3,
+      "armor": true,
+      "armorMaterial": {
+        "durabilityMultiplier": 8,
+        "protectionAmounts": [
+          6,
+          9,
+          12,
+          5
+        ],
+        "enchantability": 17,
+        "toughness": 0.0,
+        "horseArmorBonus": 9,
+        "knockbackResistance": 0.3455687
+      },
+      "tools": true,
+      "weapons": false,
+      "toolMaterial": {
+        "durability": 1060,
+        "miningSpeed": 4.8,
+        "attackDamage": 2.2,
+        "miningLevel": 3,
+        "enchantability": 14,
+        "hoeAttackSpeed": 0.9,
+        "axeAttackDamage": 0.1,
+        "axeAttackSpeed": 0.2,
+        "swordAttackDamage": 3.35,
+        "cooldownTicks": 3
+      },
+      "foodData": {
+        "hunger": 15,
+        "saturationModifier": 2.261657,
+        "meat": true,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": true,
+      "oreFlower": true,
+      "food": false,
+      "compostableAmount": 0.67836064,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:coarse_dirt",
+        "oreCount": 1,
+        "minXPAmount": 0,
+        "maxXPAmount": 2,
+        "oreClusterSize": 7
+      },
+      "id": "raa_materials:obuxite",
+      "name": "obuxite",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_4",
+          "stick": "raa_materials:item/tools/pickaxe/stick_9"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_9",
+          "stick": "raa_materials:item/tools/axe/axe_stick_3"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_5",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_7"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_4",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_10"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_3",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_11"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_1",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_4",
+        "leggingsTexture": "raa_materials:item/armor/leggings_1",
+        "bootsTexture": "raa_materials:item/armor/boots_3",
+        "overlayTexture": "raa_materials:block/ores/crystals/ore_4",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_1",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_4",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_8"
+      },
+      "specialEffects": {
+        "FIREBALL": {
+          "chance": 2
+        }
+      },
+      "color": -14908096,
+      "miningLevel": 2,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 1211,
+        "miningSpeed": 7.3,
+        "attackDamage": 0.7,
+        "miningLevel": 2,
+        "enchantability": 32,
+        "hoeAttackSpeed": 3.1,
+        "axeAttackDamage": 2.6,
+        "axeAttackSpeed": 0.2,
+        "swordAttackDamage": 1.05,
+        "cooldownTicks": 7
+      },
+      "foodData": {
+        "hunger": 16,
+        "saturationModifier": 1.7722347,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": true,
+      "compostableAmount": 0.56406903,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:gravel",
+        "oreCount": 25,
+        "minXPAmount": 0,
+        "maxXPAmount": 3,
+        "oreClusterSize": 2
+      },
+      "id": "raa_materials:sexice",
+      "name": "sexice",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_3",
+          "stick": "raa_materials:item/tools/pickaxe/stick_6"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_2",
+          "stick": "raa_materials:item/tools/axe/axe_stick_3"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_2",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_1"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_3",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_2"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_6",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_10"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_3",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_3",
+        "leggingsTexture": "raa_materials:item/armor/leggings_1",
+        "bootsTexture": "raa_materials:item/armor/boots_1",
+        "overlayTexture": "raa_materials:block/ores/generic_ore_1",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_1",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_1",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_6"
+      },
+      "specialEffects": {
+        "EFFECT": {
+          "type": "minecraft:haste",
+          "duration": 13,
+          "amplifier": 1
+        }
+      },
+      "color": -6111792,
+      "miningLevel": 2,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": false,
+      "toolMaterial": {
+        "durability": 1384,
+        "miningSpeed": 6.1,
+        "attackDamage": 1.1,
+        "miningLevel": 2,
+        "enchantability": 21,
+        "hoeAttackSpeed": 0.3,
+        "axeAttackDamage": 2.6,
+        "axeAttackSpeed": 0.4,
+        "swordAttackDamage": 1.85,
+        "cooldownTicks": 10
+      },
+      "foodData": {
+        "hunger": 27,
+        "saturationModifier": 1.3301799,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": true,
+      "food": false,
+      "compostableAmount": 1.1159286,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:gravel",
+        "oreCount": 27,
+        "minXPAmount": 0,
+        "maxXPAmount": 0,
+        "oreClusterSize": 4
+      },
+      "id": "raa_materials:inuduoix",
+      "name": "inuduoix",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_3",
+          "stick": "raa_materials:item/tools/pickaxe/stick_2"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_7",
+          "stick": "raa_materials:item/tools/axe/axe_stick_2"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_4",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_2"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_6",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_9"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_2",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_1"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_3",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_1",
+        "leggingsTexture": "raa_materials:item/armor/leggings_4",
+        "bootsTexture": "raa_materials:item/armor/boots_1",
+        "overlayTexture": "raa_materials:block/ores/crystals/ore_7",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_10",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_1",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_6"
+      },
+      "specialEffects": {
+        "FIREBALL": {
+          "chance": 2
+        }
+      },
+      "color": -15112148,
+      "miningLevel": 1,
+      "armor": true,
+      "armorMaterial": {
+        "durabilityMultiplier": 6,
+        "protectionAmounts": [
+          5,
+          1,
+          11,
+          5
+        ],
+        "enchantability": 14,
+        "toughness": 0.0,
+        "horseArmorBonus": 0,
+        "knockbackResistance": 0.22278064
+      },
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 1126,
+        "miningSpeed": 5.8,
+        "attackDamage": 3.0,
+        "miningLevel": 1,
+        "enchantability": 15,
+        "hoeAttackSpeed": 3.0,
+        "axeAttackDamage": 2.0,
+        "axeAttackSpeed": 0.8,
+        "swordAttackDamage": 0.75,
+        "cooldownTicks": 4
+      },
+      "foodData": {
+        "hunger": 5,
+        "saturationModifier": 1.9033777,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": true,
+      "compostableAmount": 1.5122592,
+      "compostable": true,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "CRYSTAL",
+        "targetId": "minecraft:dirt",
+        "oreCount": 11,
+        "minXPAmount": 0,
+        "maxXPAmount": 0,
+        "oreClusterSize": 2
+      },
+      "id": "raa_materials:transudeice",
+      "name": "transudeice",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_9",
+          "stick": "raa_materials:item/tools/pickaxe/stick_1"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_1",
+          "stick": "raa_materials:item/tools/axe/axe_stick_6"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_3",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_6"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_7",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_5"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_7",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_5"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_4",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_3",
+        "leggingsTexture": "raa_materials:item/armor/leggings_3",
+        "bootsTexture": "raa_materials:item/armor/boots_4",
+        "overlayTexture": "raa_materials:block/ores/crystals/ore_5",
+        "resourceItemTexture": "raa_materials:item/crystals/crystal_2",
+        "dustTexture": null,
+        "smallDustTexture": null,
+        "gearTexture": null,
+        "plateTexture": null,
+        "storageBlockTexture": "raa_materials:block/storage_blocks/crystals/crystal_4",
+        "nuggetTexture": null,
+        "fruitTexture": "raa_materials:item/fruits/fruit_2"
+      },
+      "specialEffects": {},
+      "color": -673077,
+      "miningLevel": 4,
+      "armor": true,
+      "armorMaterial": {
+        "durabilityMultiplier": 50,
+        "protectionAmounts": [
+          5,
+          4,
+          4,
+          1
+        ],
+        "enchantability": 25,
+        "toughness": 0.0,
+        "horseArmorBonus": 12,
+        "knockbackResistance": 0.37106156
+      },
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 893,
+        "miningSpeed": 5.0,
+        "attackDamage": 4.2,
+        "miningLevel": 4,
+        "enchantability": 12,
+        "hoeAttackSpeed": 0.4,
+        "axeAttackDamage": 0.8,
+        "axeAttackSpeed": 0.5,
+        "swordAttackDamage": 6.25,
+        "cooldownTicks": 5
+      },
+      "foodData": {
+        "hunger": 15,
+        "saturationModifier": 1.5321157,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": false,
+      "compostableAmount": 0.65504766,
+      "compostable": false,
+      "beaconBase": false
+    },
+    {
+      "oreInformation": {
+        "oreType": "METAL",
+        "targetId": "minecraft:grass_block",
+        "oreCount": 17,
+        "minXPAmount": 0,
+        "maxXPAmount": 2,
+        "oreClusterSize": 4
+      },
+      "id": "raa_materials:inin",
+      "name": "inin",
+      "texturesInformation": {
+        "pickaxeTexture": {
+          "head": "raa_materials:item/tools/pickaxe/pickaxe_6",
+          "stick": "raa_materials:item/tools/pickaxe/stick_1"
+        },
+        "axeTexture": {
+          "head": "raa_materials:item/tools/axe/axe_head_8",
+          "stick": "raa_materials:item/tools/axe/axe_stick_5"
+        },
+        "hoeTexture": {
+          "head": "raa_materials:item/tools/hoe/hoe_head_2",
+          "stick": "raa_materials:item/tools/hoe/hoe_stick_4"
+        },
+        "swordTexture": {
+          "handle": "raa_materials:item/tools/sword/handle_10",
+          "stick": "raa_materials:item/tools/sword/stick",
+          "blade": "raa_materials:item/tools/sword/blade_4"
+        },
+        "shovelTexture": {
+          "head": "raa_materials:item/tools/shovel/shovel_head_7",
+          "stick": "raa_materials:item/tools/shovel/shovel_stick_2"
+        },
+        "helmetTexture": "raa_materials:item/armor/helmet_4",
+        "chestplateTexture": "raa_materials:item/armor/chestplate_2",
+        "leggingsTexture": "raa_materials:item/armor/leggings_2",
+        "bootsTexture": "raa_materials:item/armor/boots_2",
+        "overlayTexture": "raa_materials:block/ores/metals/ore_3",
+        "resourceItemTexture": "raa_materials:item/ingots/ingot_18",
+        "dustTexture": "raa_materials:item/dusts/dust_2",
+        "smallDustTexture": "raa_materials:item/small_dusts/small_dust_1",
+        "gearTexture": "raa_materials:item/gears/gear_1",
+        "plateTexture": "raa_materials:item/plates/plate_1",
+        "storageBlockTexture": "raa_materials:block/storage_blocks/metals/metal_1",
+        "nuggetTexture": "raa_materials:item/nuggets/nugget_7",
+        "fruitTexture": "raa_materials:item/fruits/fruit_1"
+      },
+      "specialEffects": {
+        "FREEZE": {
+          "duration": 16
+        }
+      },
+      "color": -800628,
+      "miningLevel": 2,
+      "armor": false,
+      "armorMaterial": null,
+      "tools": true,
+      "weapons": true,
+      "toolMaterial": {
+        "durability": 1642,
+        "miningSpeed": 2.1,
+        "attackDamage": 0.7,
+        "miningLevel": 2,
+        "enchantability": 31,
+        "hoeAttackSpeed": 0.4,
+        "axeAttackDamage": 0.1,
+        "axeAttackSpeed": 0.8,
+        "swordAttackDamage": 3.15,
+        "cooldownTicks": 4
+      },
+      "foodData": {
+        "hunger": 10,
+        "saturationModifier": 3.362905,
+        "meat": false,
+        "alwaysEdible": false,
+        "snack": false
+      },
+      "glowing": false,
+      "oreFlower": false,
+      "food": true,
+      "compostableAmount": 1.684403,
+      "compostable": false,
+      "beaconBase": false
+    }
+  ],
+  "configVersion": 2
+}

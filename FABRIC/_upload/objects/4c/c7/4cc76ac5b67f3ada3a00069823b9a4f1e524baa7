@@ -1,0 +1,18 @@
+{
+  "entities": {
+    "painting": false,
+    "itemframe": false
+  },
+  "blocks": {
+    "minecraft:example2": {
+      "isTransparent": false,
+      "isTranslucent": false,
+      "isGlass": false
+    },
+    "minecraft:example1": {
+      "isTransparent": false,
+      "isTranslucent": false,
+      "isGlass": false
+    }
+  }
+}

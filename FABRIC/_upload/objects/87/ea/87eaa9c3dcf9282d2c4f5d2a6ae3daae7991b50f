@@ -1,0 +1,21 @@
+{
+  "fillycam": true,
+  "endermen": true,
+  "pigzombies": true,
+  "skeletons": true,
+  "ponylevel": "BOTH",
+  "globalscalefactor": 0.9,
+  "snuzzles": true,
+  "guardians": true,
+  "frustrum": true,
+  "showscale": true,
+  "sizes": true,
+  "inanimates": true,
+  "horsebutton": "ON",
+  "villagers": true,
+  "fpsmagic": true,
+  "ponyskulls": true,
+  "illagers": true,
+  "sizeoverride": "UNSET",
+  "zombies": true
+}
