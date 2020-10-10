@@ -1,0 +1,14 @@
+{ 
+	// Disables all features that spawn in the air, but does not include air structures such as the floating castle.
+	"generateAirFeatures": true,
+	// Generates all structures on the overworld, such as the barnhouse or the floating castle.
+	"generateOverworldStructures": true,
+	// Generates land features in the overworld, which are not structures.
+	"generateLandFeatures": true,
+	// Generates structures in the nether, such as the nether lamppost or the Piglin Outpost.
+	"generateNetherStructures": true,
+	// Generates all ocean features
+	"generateOceanFeatures": true,
+	// Generates all beach features
+	"generateBeachFeatures": true
+}
