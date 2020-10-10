@@ -1,0 +1,22 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "mechanized:mechanized_guide": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "history": [],
+      "completedManualQuests": []
+    },
+    "azuma:guidebook": {
+      "viewedEntries": [
+        "azuma:getting_started/mana_beginnings"
+      ],
+      "bookmarks": [],
+      "history": [
+        "azuma:getting_started/mana_beginnings"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
