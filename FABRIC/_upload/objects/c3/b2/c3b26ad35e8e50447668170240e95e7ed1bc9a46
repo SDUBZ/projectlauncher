@@ -1,9 +1,0 @@
-{ 
-	"DoorChance": 0.05,
-	"NormalRoomChance": 0.7,
-	"PickHallwayChance": 0.2,
-	"EastHallwayChance": 0.5,
-	"MoldyCarpetChance": 0.01,
-	"ForceBackrooms": false,
-	"ForceNormal": false
-}

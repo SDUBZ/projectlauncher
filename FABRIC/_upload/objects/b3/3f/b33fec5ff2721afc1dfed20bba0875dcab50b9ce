@@ -1,7 +1,0 @@
-{
-  "failureChance": 0.3,
-  "limitCastingTable": {
-    "creative": false,
-    "survival": true
-  }
-}

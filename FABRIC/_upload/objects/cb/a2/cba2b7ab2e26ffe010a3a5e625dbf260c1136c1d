@@ -1,6 +1,0 @@
-{ 
-	"bAllowRefills": false,
-	"bEnableSpeedIncrease": true,
-	"sRateOfSpeedIncrease": "0.02",
-	"sModIdBlacklist": ""
-}

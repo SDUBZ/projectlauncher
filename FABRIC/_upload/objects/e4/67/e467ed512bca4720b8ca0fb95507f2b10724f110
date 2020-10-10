@@ -1,4 +1,0 @@
-#Fluidity properties file
-#Fri May 22 22:28:18 AEST 2020
-per_tick_budget_milliseconds=10
-trace_device_connections=false

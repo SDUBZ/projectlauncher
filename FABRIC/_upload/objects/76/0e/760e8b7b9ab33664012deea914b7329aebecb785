@@ -1,6 +1,0 @@
-{
-	// The array of texture IDs which will replace the dirt background, one will be picked.
-	"textureIds": [
-		"minecraft:textures/gui/options_background.png"
-	]
-}

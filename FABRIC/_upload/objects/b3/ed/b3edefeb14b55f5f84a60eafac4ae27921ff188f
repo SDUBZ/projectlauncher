@@ -1,9 +1,0 @@
-{
-  "configVersion": 2,
-  "targets": [
-    {
-      "name": "minecraft:red_sand",
-      "topOnly": false
-    }
-  ]
-}

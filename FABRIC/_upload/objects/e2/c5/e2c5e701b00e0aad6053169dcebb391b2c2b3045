@@ -1,6 +1,0 @@
-{
-  "options": {
-    "itemDamagePerBlock[def: true]": true,
-    "slowerChopping[def: true]": true
-  }
-}
